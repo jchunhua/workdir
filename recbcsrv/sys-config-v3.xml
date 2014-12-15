@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://www.genvision.cn/xmlns/visionone/1.0">
+  <module name="System">
+    <group name="Default">
+      <configValue key="AutoReboot">true</configValue>
+      <configValue key="PolicyFile">trace-policy5.xml</configValue>
+      <configValue key="SetRecordMode">Auto</configValue>
+      <!--VGA静止的时间，缺省20秒-->
+      <configValue key="VGADuration">20</configValue>
+    </group>
+    <RBS host="127.0.0.1" port="3000" liveUrl="rtmp://192.168.1.250/live/mux" />
+    <listen host="192.168.1.250" port="7777" />
+  </module>
+  <!--CaptureBoard 代表 T/V BOX-->
+  <module name="CaptureBoard">
+  	<!--CaptureBoard1 代表 TI8168的VIN0 外围接口：SDI HDMI-->
+    <group name="CaptureBoard1">
+      <configValue key="Interface">HDSDI</configValue>
+      <configValue key="Bind">Teacher_Special</configValue>
+      <configValue key="IsControlPTZ">true</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+    </group>
+    <!--CaptureBoard1 代表 TI8168的VIN1 外围接口：SDI CVBS VGA-->
+    <group name="CaptureBoard2">
+      <configValue key="Interface">HDSDI</configValue>
+      <configValue key="Bind">Student_Special</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+    </group>
+    <!-- Peter Delete 2014-11-21 -->
+    <!--
+    <group name="CaptureBoard4">
+      <configValue key="Interface">HDSDI</configValue>
+      <configValue key="Bind">Teacher_Full</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+    </group>
+    <group name="CaptureBoard5">
+      <configValue key="Interface">HDSDI</configValue>
+      <configValue key="Bind">Student_Full</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+    </group>
+    -->
+  </module>
+  <module name="Codec">
+    <group name="BitRate">
+    	<!--
+      <configValue key="LiveBitRate">1024</configValue>
+      -->
+      <configValue key="FileBitRate">2048</configValue>
+      <configValue key="FrameRate">30</configValue>
+      <configValue key="resolutions">1080p</configValue>
+      <configValue key="AudioBitRate">192</configValue>
+      <!--Peter Add For Audio config-->
+      <configValue key="AudioChannel">2</configValue>
+      <!--SND_PCM_FORMAT_S16_BE is an enumeration values & Infomation ：AudioSampleFormat.h-->
+      <configValue key="AudioSampleFormat">SND_PCM_FORMAT_S16_BE</configValue> 
+      <configValue key="AudioSampleRate">44100</configValue>
+      <configValue key="RecordMode">SingleStream</configValue>
+      <configValue key="VideoStreamToSend">0,1</configValue>
+    </group>
+    <group name="VideoTitle">
+      <configValue key="CourseName">高等数学</configValue>
+      <configValue key="Teacher">王林</configValue>
+      <configValue key="Unit">XXXX大学</configValue>
+      <configValue key="TitleBackgroundPicPath" />
+    </group>
+    <group name="VideoTailer">
+      <configValue key="CopyRight">XXX</configValue>
+      <configValue key="MadeBy">现代教育技术中心</configValue>
+      <configValue key="MadeDate">2014年5月29日</configValue>
+      <configValue key="Memo"></configValue>
+      <configValue key="TailerBackgroundPicPath" />
+    </group>
+  </module>
+  <module name="Analyze">
+    <group name="StudentTrace">
+      <configValue key="Camera1PosX">0</configValue>
+      <configValue key="Camera1PosY">0</configValue>
+      <configValue key="Camera1PosZ">0</configValue>
+      <configValue key="Camera2PosX">480</configValue>
+      <configValue key="Camera2PosY">172</configValue>
+      <configValue key="Camera2PosZ">0</configValue>
+      <configValue key="StudentSpecialPosX">388</configValue>
+      <configValue key="StudentSpecialPosY">-160</configValue>
+      <configValue key="StudentSpecialPosZ">63</configValue>
+      <configValue key="Camera1PitchAngle">0</configValue>
+      <configValue key="Camera2PitchAngle">0</configValue>
+      <configValue key="StudentSpecPitchAngle">0</configValue>
+      <configValue key="Camera1AzimuthalAngle">48</configValue>
+      <configValue key="Camera2AzimuthalAngle">133</configValue>
+      <configValue key="StudentSpecAzimuthalAngle">90</configValue>
+      <configValue key="Camera1ViewAngle">86</configValue>
+      <configValue key="Camera2ViewAngle">86</configValue>
+      <configValue key="Threshold">540</configValue>
+      <configValue key="PTZSpeedLevel">10</configValue>
+    </group>
+    <group name="TeacherTrace">
+      <configValue key="LeftPos">1</configValue>
+      <configValue key="RightPos">2</configValue>
+      <configValue key="UpPos">3</configValue>
+      <configValue key="DownPos">4</configValue>
+      <configValue key="ZoomInPos">5</configValue>
+      <configValue key="ZoomOutPos">6</configValue>
+      <configValue key="PTZSpeedLevel">5</configValue>
+      <configValue key="ExcludeArea">100</configValue>
+      <!--是否包含屏蔽区域，1=yes 0=No, 屏蔽区域用两个预置位表示，缺省5号和6号预置位 -->
+      <configValue key="IsExclude">0</configValue>
+      <configValue key="ExcludePos1">5</configValue>
+      <configValue key="ExcludePos2">6</configValue>
+      <!--是否包含初始屏幕屏蔽区域，1=yes 0=No, 屏蔽区域用两个物理坐标(老师摄像机是原点，黑板方向是X轴)和老师特写摄像机0号预置位的方位角表示 -->
+      <configValue key="IsExcludeFeatureDetect">0</configValue>
+      <configValue key="ExcludeFDLeftX">-115</configValue>
+      <configValue key="ExcludeFDRightX">100</configValue>
+      <configValue key="ExcludeFDY">836</configValue>
+      <configValue key="TeacherSpecAzimuthalAngle">90</configValue>
+    </group>
+  </module>
+  <!--TLV320AIC3254 config，Peter Add 2014-11-21-->
+  <module name="AudioSampleSocConfig">
+  	<group name="Custom">
+      <configValue key="1">48</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">48</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">48</configValue>
+      <configValue key="14">48</configValue>
+      <configValue key="15">48</configValue>
+    </group>   
+    <group name="Float">
+      <configValue key="1">48</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">48</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">48</configValue>
+      <configValue key="14">48</configValue>
+      <configValue key="15">48</configValue>
+    </group>
+    <group name="Rap">
+      <configValue key="1">44</configValue>
+      <configValue key="2">50</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">54</configValue>
+      <configValue key="5">56</configValue>
+      <configValue key="6">56</configValue>
+      <configValue key="7">47</configValue>
+      <configValue key="8">44</configValue>
+      <configValue key="9">44</configValue>
+      <configValue key="10">46</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">52</configValue>
+      <configValue key="13">58</configValue>
+      <configValue key="14">63</configValue>
+      <configValue key="15">68</configValue>
+    </group>
+    <group name="Hip-Hop">
+      <configValue key="1">54</configValue>
+      <configValue key="2">60</configValue>
+      <configValue key="3">66</configValue>
+      <configValue key="4">64</configValue>
+      <configValue key="5">57</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">45</configValue>
+      <configValue key="8">42</configValue>
+      <configValue key="9">42</configValue>
+      <configValue key="10">42</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">54</configValue>
+      <configValue key="13">54</configValue>
+      <configValue key="14">54</configValue>
+      <configValue key="15">54</configValue>
+    </group>
+    <group name="Reggeaaton">
+      <configValue key="1">52</configValue>
+      <configValue key="2">67</configValue>
+      <configValue key="3">74</configValue>
+      <configValue key="4">58</configValue>
+      <configValue key="5">52</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">51</configValue>
+      <configValue key="9">44</configValue>
+      <configValue key="10">46</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">54</configValue>
+      <configValue key="14">58</configValue>
+      <configValue key="15">57</configValue>
+    </group>
+    <group name="Reggae">
+      <configValue key="1">45</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">47</configValue>
+      <configValue key="6">40</configValue>
+      <configValue key="7">45</configValue>
+      <configValue key="8">54</configValue>
+      <configValue key="9">60</configValue>
+      <configValue key="10">64</configValue>
+      <configValue key="11">60</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">57</configValue>
+      <configValue key="14">60</configValue>
+      <configValue key="15">55</configValue>
+    </group>
+    <group name="Classical">
+      <configValue key="1">48</configValue>
+      <configValue key="2">60</configValue>
+      <configValue key="3">72</configValue>
+      <configValue key="4">72</configValue>
+      <configValue key="5">69</configValue>
+      <configValue key="6">60</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">51</configValue>
+      <configValue key="14">54</configValue>
+      <configValue key="15">54</configValue>
+    </group>
+    <group name="Bules">
+      <configValue key="1">42</configValue>
+      <configValue key="2">45</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">57</configValue>
+      <configValue key="5">59</configValue>
+      <configValue key="6">54</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">54</configValue>
+      <configValue key="13">50</configValue>
+      <configValue key="14">42</configValue>
+      <configValue key="15">42</configValue>
+    </group>
+    <group name="Jazz">
+      <configValue key="1">48</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">53</configValue>
+      <configValue key="6">60</configValue>
+      <configValue key="7">60</configValue>
+      <configValue key="8">60</configValue>
+      <configValue key="9">60</configValue>
+      <configValue key="10">54</configValue>
+      <configValue key="11">51</configValue>
+      <configValue key="12">54</configValue>
+      <configValue key="13">54</configValue>
+      <configValue key="14">64</configValue>
+      <configValue key="15">66</configValue>
+    </group>
+    <group name="Pop">
+      <configValue key="1">60</configValue>
+      <configValue key="2">72</configValue>
+      <configValue key="3">66</configValue>
+      <configValue key="4">62</configValue>
+      <configValue key="5">54</configValue>
+      <configValue key="6">42</configValue>
+      <configValue key="7">36</configValue>
+      <configValue key="8">33</configValue>
+      <configValue key="9">33</configValue>
+      <configValue key="10">53</configValue>
+      <configValue key="11">54</configValue>
+      <configValue key="12">60</configValue>
+      <configValue key="13">58</configValue>
+      <configValue key="14">85</configValue>
+      <configValue key="15">66</configValue>
+    </group>
+    <group name="Rock">
+      <configValue key="1">40</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">56</configValue>
+      <configValue key="4">62</configValue>
+      <configValue key="5">68</configValue>
+      <configValue key="6">72</configValue>
+      <configValue key="7">50</configValue>
+      <configValue key="8">40</configValue>
+      <configValue key="9">40</configValue>
+      <configValue key="10">40</configValue>
+      <configValue key="11">40</configValue>
+      <configValue key="12">40</configValue>
+      <configValue key="13">46</configValue>
+      <configValue key="14">48</configValue>
+      <configValue key="15">56</configValue>
+    </group> 
+  </module>
+</application>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://www.genvision.cn/xmlns/visionone/1.0">
+ <module name="System">
+    <group name="Default">
+      <!--Auto\HalfAuto\Manual 自动模式完全按照策略自动切换，半自动模式和手工模式都由管理员手工切换画面-->
+      <configValue key="SetRecordMode">Auto</configValue>
+             
+      <!--画面生成模式：电影模式和分屏模式,缺省为分屏模式，取值范围： FILM/SPLIT_SCREEN -->
+      <configValue key="PicMode">SPLIT_SCREEN</configValue>
+      <!--
+        分屏的画面格式：
+      	Left2Right(左右结构：左边是主画面，右边是小画面)
+      	Up2Bottom（上下结构：上面是主画面，下面是小画面）
+        LModel（正L型：左边和下边是小画面，右上是主画面）/
+        LFlipped(反L模式：右边和下边是小画面，左上角是主画面：) -->
+      <configValue key="SplitStyle">Left2Right</configValue>
+      
+      <!--RBS推送RTMP码流的目标地址与端口号-->
+      <configValue key="RTMPServer">192.168.1.2</configValue>
+      <configValue key="RTMPServerPort">1935</configValue>      
+      
+      <!--VGA静止的时间，缺省20秒-->
+      <configValue key="VGADuration">20</configValue>
+    </group>
+   
+  </module>
+  <!--视频源定义，每个教室一个文件，保存后分别抽取每个T盒与V盒的内容，发送给盒子，-->
+  <module name="TBOX" IP="192.168.1.200">
+    <!--CaptureBoard1 代表 TI8168的VIN0 外围接口：VGA(SDI CVBS，硬件支持，但尚未在盒子外壳暴露接口) -->
+    <group name="CaptureBoard1">    	
+      <configValue key="Interface">VGA</configValue>      
+      <!--是否需要分析电脑画面（只有VBOX可以做分析）-->
+      <configValue key="NeedAnalyse">false</configValue>     
+      
+      <!--表示视频源的功能：Teacher_Special/Teacher_Full/Student_Special/Student_Full/Blackboard  / VGA/Custom1/Custom2/Custom3/Custom4 
+      （Custom为自定义信号，用于视频源比较多时扩展用） -->
+      <configValue key="Bind">Custom1</configValue>
+      <configValue key="IsControlPTZ">true</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">H264</configValue>
+      <configValue key="URL">192.168.1.200</configValue>      
+    </group>    
+    <!--CaptureBoard2 代表 TI8168的VIN1 外围接口： HDSDI/HDMI-->
+    <group name="CaptureBoard2">
+      <configValue key="Interface">HDSDI</configValue>
+      <configValue key="Bind">Teacher_Special</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">H264</configValue>
+      <configValue key="URL">192.168.1.200</configValue>
+    </group>
+   </module>
+   <module name="VBOX" IP="192.168.1.201">
+    <!--CaptureBoard1 代表 TI8168的VIN0 外围接口：VGA(SDI CVBS，硬件支持，但尚未在盒子外壳暴露接口) -->
+    <group name="CaptureBoard1">    	
+      <configValue key="Interface">VGA</configValue>      
+      <!--是否需要分析电脑画面（只有VBOX可以做分析）-->
+      <configValue key="NeedAnalyse">true</configValue>      
+      
+      <!--表示视频源的功能：Teacher_Special/Teacher_Full/Student_Special/Student_Full/Blackboard  / VGA/Custom1/Custom2 /Custom3/Custom4
+      （Custom为自定义信号，用于视频源比较多时扩展用） -->
+      <configValue key="Bind">VGA</configValue>
+      <configValue key="IsControlPTZ">true</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">H264</configValue>
+      <configValue key="URL">192.168.1.201</configValue>      
+    </group>
+  	<!--CaptureBoard2 代表 TI8168的VIN1 外围接口： HDSDI/HDMI-->
+    <group name="CaptureBoard2">
+      <configValue key="Interface">HDSDI</configValue>
+      <configValue key="Bind">Teacher_Full</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">H264</configValue>
+      <configValue key="URL">192.168.1.201</configValue>
+    </group>   
+   </module>
+   
+   <!-- 最多允许三个IP Cam-->
+   <module name="IPCam" >
+    <group name="IPCam1" >
+     
+      <configValue key="Bind">Student_Full</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">RTMP</configValue>
+      <configValue key="URL">rtmp://192.168.1.203/live/mux</configValue>
+    </group>
+    <group name="IPCam2">
+      <configValue key="Bind">Custom2</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">RTSP</configValue>
+      <configValue key="URL">rtsp://192.168.1.204/live/mux</configValue>
+    </group>
+    <group name="IPCam3">
+      <configValue key="Bind">Custom3</configValue>
+      <configValue key="Vendor">INFORTRANS</configValue>
+      <configValue key="CamModel">VHD-V100N</configValue>
+      <configValue key="FrameRate">30</configValue>
+      
+      <!--视频源协议：RTSP、RTMP、H264 (H264表示裸流，包含音频)-->
+      <configValue key="StreamType">RTSP</configValue>
+      <configValue key="URL">rtsp://192.168.1.205/live/mux</configValue>
+    </group>
+  </module>
+  <module name="Codec">
+    <group name="BitRate">
+    	
+    	<!-- 码率，单位为K -->
+      <configValue key="FileBitRate">2048</configValue>
+      
+      <!-- 0:25帧     1:30帧    2:50帧  3:60帧 -->
+      <configValue key="FrameRate">1</configValue>
+      <!--分辨率 0:1080p    1:720p    2：D1 -->
+      <configValue key="resolutions">0</configValue>
+      
+      <!--音频码率，单位：K -->
+      <configValue key="AudioBitRate">96</configValue>
+      <!--声道数-->
+      <configValue key="AudioChannel">2</configValue>
+      <!--SND_PCM_FORMAT_S16_BE is an enumeration values & Infomation ：AudioSampleFormat.h-->
+      <configValue key="AudioSampleFormat">SND_PCM_FORMAT_S16_BE</configValue> 
+      <configValue key="AudioSampleRate">44100</configValue>
+      
+      <!--SingleStream,MultiStream, 单流模式只保存直播流文件，多流模式每一路视频源都要保存MP4文件-->
+      <configValue key="RecordMode">SingleStream</configValue>
+      
+      <!--需要推送到流媒体服务器的视频通道号0:Live,1:老师特写，2：学生特写，3:老师全景,4：学生全景，5:板书，6：VGA-->
+      <configValue key="VideoStreamToSend">0,1</configValue>
+    </group>
+    <group name="VideoTitle">
+      <configValue key="CourseName">高等数学</configValue>
+      <configValue key="Teacher">王林</configValue>
+      <configValue key="Unit">XXXX大学</configValue>
+      <configValue key="TitleBackgroundPicPath" />
+    </group>
+    <group name="VideoTailer">
+      <configValue key="CopyRight">XXX</configValue>
+      <configValue key="MadeBy">现代教育技术中心</configValue>
+      <configValue key="MadeDate">2014年5月29日</configValue>
+      <configValue key="Memo"></configValue>
+      <configValue key="TailerBackgroundPicPath" />
+    </group>
+    
+      
+  </module>
+  <!--TLV320AIC3254 config，Peter Add 2014-11-21-->
+  <module name="AudioSampleSocConfig">
+  	<group name="config">
+      <configValue key="Default">Classical</configValue>
+    </group>  
+ 
+  	<group name="Custom">
+      <configValue key="1">48</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">48</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">48</configValue>
+      <configValue key="14">48</configValue>
+      <configValue key="15">48</configValue>
+    </group>   
+    <group name="Flat">
+      <configValue key="1">48</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">48</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">48</configValue>
+      <configValue key="14">48</configValue>
+      <configValue key="15">48</configValue>
+    </group>
+    <group name="Rap">
+      <configValue key="1">44</configValue>
+      <configValue key="2">50</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">54</configValue>
+      <configValue key="5">56</configValue>
+      <configValue key="6">56</configValue>
+      <configValue key="7">47</configValue>
+      <configValue key="8">44</configValue>
+      <configValue key="9">44</configValue>
+      <configValue key="10">46</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">52</configValue>
+      <configValue key="13">58</configValue>
+      <configValue key="14">63</configValue>
+      <configValue key="15">68</configValue>
+    </group>
+    <group name="Hip-Hop">
+      <configValue key="1">54</configValue>
+      <configValue key="2">60</configValue>
+      <configValue key="3">66</configValue>
+      <configValue key="4">64</configValue>
+      <configValue key="5">57</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">45</configValue>
+      <configValue key="8">42</configValue>
+      <configValue key="9">42</configValue>
+      <configValue key="10">42</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">54</configValue>
+      <configValue key="13">54</configValue>
+      <configValue key="14">54</configValue>
+      <configValue key="15">54</configValue>
+    </group>
+    <group name="Reggeaaton">
+      <configValue key="1">52</configValue>
+      <configValue key="2">67</configValue>
+      <configValue key="3">74</configValue>
+      <configValue key="4">58</configValue>
+      <configValue key="5">52</configValue>
+      <configValue key="6">48</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">51</configValue>
+      <configValue key="9">44</configValue>
+      <configValue key="10">46</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">54</configValue>
+      <configValue key="14">58</configValue>
+      <configValue key="15">57</configValue>
+    </group>
+    <group name="Reggae">
+      <configValue key="1">45</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">47</configValue>
+      <configValue key="6">40</configValue>
+      <configValue key="7">45</configValue>
+      <configValue key="8">54</configValue>
+      <configValue key="9">60</configValue>
+      <configValue key="10">64</configValue>
+      <configValue key="11">60</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">57</configValue>
+      <configValue key="14">60</configValue>
+      <configValue key="15">55</configValue>
+    </group>
+    <group name="Classical">
+      <configValue key="1">48</configValue>
+      <configValue key="2">60</configValue>
+      <configValue key="3">72</configValue>
+      <configValue key="4">72</configValue>
+      <configValue key="5">69</configValue>
+      <configValue key="6">60</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">48</configValue>
+      <configValue key="13">51</configValue>
+      <configValue key="14">54</configValue>
+      <configValue key="15">54</configValue>
+    </group>
+    <group name="Bules">
+      <configValue key="1">42</configValue>
+      <configValue key="2">45</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">57</configValue>
+      <configValue key="5">59</configValue>
+      <configValue key="6">54</configValue>
+      <configValue key="7">48</configValue>
+      <configValue key="8">48</configValue>
+      <configValue key="9">48</configValue>
+      <configValue key="10">48</configValue>
+      <configValue key="11">48</configValue>
+      <configValue key="12">54</configValue>
+      <configValue key="13">50</configValue>
+      <configValue key="14">42</configValue>
+      <configValue key="15">42</configValue>
+    </group>
+    <group name="Jazz">
+      <configValue key="1">48</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">48</configValue>
+      <configValue key="4">48</configValue>
+      <configValue key="5">53</configValue>
+      <configValue key="6">60</configValue>
+      <configValue key="7">60</configValue>
+      <configValue key="8">60</configValue>
+      <configValue key="9">60</configValue>
+      <configValue key="10">54</configValue>
+      <configValue key="11">51</configValue>
+      <configValue key="12">54</configValue>
+      <configValue key="13">54</configValue>
+      <configValue key="14">64</configValue>
+      <configValue key="15">66</configValue>
+    </group>
+    <group name="Pop">
+      <configValue key="1">60</configValue>
+      <configValue key="2">72</configValue>
+      <configValue key="3">66</configValue>
+      <configValue key="4">62</configValue>
+      <configValue key="5">54</configValue>
+      <configValue key="6">42</configValue>
+      <configValue key="7">36</configValue>
+      <configValue key="8">33</configValue>
+      <configValue key="9">33</configValue>
+      <configValue key="10">53</configValue>
+      <configValue key="11">54</configValue>
+      <configValue key="12">60</configValue>
+      <configValue key="13">58</configValue>
+      <configValue key="14">85</configValue>
+      <configValue key="15">66</configValue>
+    </group>
+    <group name="Rock">
+      <configValue key="1">40</configValue>
+      <configValue key="2">48</configValue>
+      <configValue key="3">56</configValue>
+      <configValue key="4">62</configValue>
+      <configValue key="5">68</configValue>
+      <configValue key="6">72</configValue>
+      <configValue key="7">50</configValue>
+      <configValue key="8">40</configValue>
+      <configValue key="9">40</configValue>
+      <configValue key="10">40</configValue>
+      <configValue key="11">40</configValue>
+      <configValue key="12">40</configValue>
+      <configValue key="13">46</configValue>
+      <configValue key="14">48</configValue>
+      <configValue key="15">56</configValue>
+    </group> 
+  </module>
+  <!--  配置T/V盒与服务器同步的周期（单位：s） jiangch -->
+  <module name="NTP">
+  	<group name="Param">
+  		<configValue key="cycle">6</configValue>
+  	</group>
+  </module>
+</application>

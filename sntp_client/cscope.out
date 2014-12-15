@@ -1,0 +1,1778 @@
+cscope 15 $HOME/workdir/sntp_client -q 0000000198 0000010040
+	@sntp_client.c
+
+20 
+	~"Sockë.h
+"
+
+21 
+	~"S¡p_˛õ¡.h
+"
+
+29 #i‡
+SNTP_IPV6_SUPPORT
+
+
+30 
+ö6_addr
+ 
+	gg_ùv6BrﬂdCa°Addr
+ = {{{0xff, 0xff, 0xff, 0xff, \
+
+34 
+ö6_addr
+ 
+	gg_S¡pIn6AnyAddr
+ = {{{0x00, 0x00, 0x00, 0x00, \
+
+44 
+	$Ipv4OrIpv6
+(c⁄° * 
+pcAddr
+)
+
+48 if(*
+pcAddr
+ == '.')
+
+49  
+SNTP_V4
+;
+
+50 if(*
+pcAddr
+ == ':')
+
+51  
+SNTP_V6
+;
+
+52 }*
+pcAddr
+++ != '\0');
+
+54  
+SNTP_ERR
+;
+
+55 
+	}
+}
+
+58 
+SNTP_STATUS
+ 
+	$S¡pClõ¡
+(*
+pcSîvîAddr
+, 
+u_öt
+ 
+dwTimeout
+, 
+TTimeS≥c
+ *
+±Now
+)
+
+60 
+SNTP_SockAddr
+ 
+tLoˇlAddr
+;
+
+61 
+SNTP_SockAddr
+ 
+tSîvîAddr
+;
+
+63 
+WORD32
+ 
+dwI¡îvÆ
+;
+
+64 
+SOCKET
+ 
+iSockëID
+;
+
+65 
+BOOL
+ 
+bIsNìdSídNçReq
+ = 
+TURE
+;
+
+66 
+BYTE
+ 
+bIpTpye
+ = 
+SNTP_ERR
+;
+
+67 
+cRëSètus
+;
+
+68 
+iResu…
+;
+
+69 
+fd_£t
+ 
+tRódFds
+;
+
+70 
+TNTP_Packë
+ 
+tNçMsg
+;
+
+71 
+timevÆ
+ 
+tWaôTime
+;
+
+73 if(
+NULL
+ =
+pcSîvîAddr
+)
+
+75  
+SNTP_ERROR_INVALID_PARAMETER
+;
+
+78 
+bIpTpye
+ = 
+	`Ipv4OrIpv6
+(
+pcSîvîAddr
+);
+
+82 i‡(
+SNTP_V4
+ =
+bIpTpye
+)
+
+84 
+iSockëID
+ = 
+	`sockë
+(
+AF_INET
+, 
+SOCK_DGRAM
+, 0);
+
+85 i‡(
+INVALID_SOCKET
+ =
+iSockëID
+)
+
+87 
+	`¥ötf
+("Failed To Create Client Socket For Ipv4!\r\n");
+
+88 
+cRëSètus
+ = 
+SNTP_ERROR_CREATESOCKET
+;
+
+89 
+LEAVE
+;
+
+91 i‡(0 >
+	`öë_±⁄
+(
+AF_INET
+, \
+
+92 
+pcSîvîAddr
+, \
+
+93 (
+VOID
+ *)&(
+tSîvîAddr
+.
+sö_addr
+.
+s_addr
+)))
+
+95 
+bIsNìdSídNçReq
+ = 
+FALSE
+;
+
+98 #ifde‡
+SNTP_IPV6_SUPPORT
+
+
+99 i‡(
+SNTP_V6
+ =
+bIpTpye
+)
+
+101 
+iSockëID
+ = 
+	`sockë
+(
+PF_INET6
+, 
+SOCK_DGRAM
+, 0);
+
+102 i‡(
+iSockëID
+ =
+INVALID_SOCKET
+)
+
+104 
+	`¥ötf
+("Failed To Create Client Socket For Ipv6!\r\n");
+
+105 
+cRëSètus
+ = 
+SNTP_ERROR_CREATESOCKET
+;
+
+106 
+LEAVE
+;
+
+108 i‡(0 >
+	`öë_±⁄
+(
+AF_INET6
+, \
+
+109 
+pcSîvîAddr
+, \
+
+110 (
+VOID
+ *)&(
+tSîvîAddr6
+.
+sö6_addr
+.
+s6_addr
+)))
+
+112 
+bIsNìdSídNçReq
+ = 
+FALSE
+;
+
+118 
+bIsNìdSídNçReq
+ = 
+FALSE
+;
+
+123 if(
+bIsNìdSídNçReq
+)
+
+126 if(
+SNTP_V4
+ =
+bIpTpye
+)
+
+128 
+	`mem£t
+(&
+tLoˇlAddr
+, 0,(tLocalAddr));
+
+129 
+tLoˇlAddr
+.
+sö_Ámûy
+ = 
+AF_INET
+;
+
+130 
+tLoˇlAddr
+.
+sö_addr
+.
+s_addr
+ = 
+INADDR_ANY
+;
+
+131 
+tLoˇlAddr
+.
+sö_p‹t
+ = 
+	`ht⁄s
+(()123);
+
+133 
+	`mem£t
+(&
+tSîvîAddr
+, 0, (tServerAddr));
+
+134 
+tSîvîAddr
+.
+sö_Ámûy
+ = 
+AF_INET
+;
+
+135 
+tSîvîAddr
+.
+sö_p‹t
+ = 
+	`ht⁄s
+(()123);
+
+137 #ifde‡
+SNTP_IPV6_SUPPORT
+
+
+138 if(
+SNTP_V6
+ =
+bIpTpye
+)
+
+140 
+	`mem£t
+(&
+tLoˇlAddr6
+, 0,(tLocalAddr6));
+
+141 
+tLoˇlAddr6
+.
+sö6_Ámûy
+ = 
+AF_INET6
+;
+
+142 
+tLoˇlAddr6
+.
+sö6_p‹t
+ = 
+	`ht⁄s
+(()123);
+
+143 
+tLoˇlAddr6
+.
+sö6_Êowöfo
+ = 0;
+
+144 
+tLoˇlAddr6
+.
+sö6_addr
+ = 
+g_S¡pIn6AnyAddr
+;
+
+146 
+	`mem£t
+(&
+tSîvîAddr6
+, 0, (tServerAddr6));
+
+147 
+tSîvîAddr6
+.
+sö6_Ámûy
+ = 
+AF_INET6
+;
+
+148 
+tSîvîAddr6
+.
+sö6_p‹t
+ = 
+	`ht⁄s
+(()123);
+
+153 
+	`¥ötf
+("SNTP:fatal ERR! OR Ipv6 isÇot Supported\r\n");
+
+156 if(
+SOCKET_ERROR
+ =
+	`böd
+(
+iSockëID
+, \
+
+157 (
+sockaddr
+ *)&
+tLoˇlAddr
+, \
+
+158 (
+tLoˇlAddr
+)))
+
+160 
+	`¥ötf
+("SNTP:bindáddressÉrr!");
+
+161 
+cRëSètus
+ = 
+SNTP_ERROR_BINDSOCKET
+;
+
+162 
+LEAVE
+;
+
+166 
+	`mem£t
+(&
+tNçMsg
+, 0, (tNtpMsg));
+
+167 
+tNçMsg
+.
+C⁄åﬁ_W‹d
+ = 
+	`ht⁄l
+(0x1B000000);
+
+171 if(-1 =
+	`£ndto
+(
+iSockëId
+, (*)&
+tNçMsg
+, 0, \
+
+172 (*)&
+tSîvîAddr
+, (tServerAddr)));
+
+174 
+	`¥ötf
+("Failed To send SNTP Massage!\r\n");
+
+175 
+cRëSètus
+ = 
+SNTP_ERROR_SENDTO
+;
+
+176 
+LEAVE
+;
+
+182 #ifde‡
+SNTP_IPV6_SUPPORT
+
+
+183 
+tLoˇlAddr6
+.
+sö6_Ámûy
+ = 
+AF_INET6
+;
+
+184 
+tLoˇlAddr6
+.
+sö6_addr
+ = 
+g_ùv6BrﬂdCa°Addr
+;
+
+185 
+tLoˇlAddr6
+.
+sö6_Êowöfo
+ = 0;
+
+186 
+tLoˇlAddr6
+.
+sö6_p‹t
+ = 
+	`ht⁄s
+(()123);
+
+188 
+tLoˇlAddr
+.
+sö_Ámûy
+ = 
+AF_INET
+;
+
+189 
+tLoˇlAddr
+.
+sö_addr
+.
+s_addr
+ = 
+INADDR_BROADCAST
+;
+
+190 
+tLoˇlAddr
+.
+sö_p‹t
+ = 
+	`ht⁄s
+(()123);
+
+193 if(
+SOCKET_ERROR
+ =
+	`böd
+(
+iSockëID
+, \
+
+194 (
+sockaddr
+ *)&
+tLoˇlAddr
+, \
+
+195 (
+tLoˇlAddr
+))
+
+197 
+	`¥ötf
+("FailedÅo Bind Socket!\r\n");
+
+198 
+cRëSètus
+ = 
+SNTP_ERROR_BINDSOCKET
+;
+
+199 
+LEAVE
+;
+
+204 
+tWaôTime
+.
+tv_£c
+ = 
+dwTimeout
+/1000;
+
+205 
+tWaôTime
+.
+tv_u£c
+ = (
+dwTimeout
+%1000)*1000;
+
+206 
+	`FD_ZERO
+(&
+tRódFds
+);
+
+207 
+	`FD_SET
+(((
+WORD32
+)(
+iSockëID
+)), &
+tRódFds
+);
+
+209 
+iResu…
+ = 
+	`£À˘
+(
+FD_SETSIZE
+, &
+tRódFds
+, 
+NULL
+, NULL, &
+tWaôTime
+)
+
+210 i‡(
+SOCKET_ERROR
+ =
+iResu…
+)
+
+212 
+	`¥ötf
+("Select ERROR!\r\n");
+
+213 
+cRëSètus
+ = 
+SNTP_ERROR_SELECT
+;
+
+214 
+LEAVE
+;
+
+216 i‡(0 =
+iResu…
+)
+
+218 
+	`¥ötf
+("Select ERROR:Timeout!\r\n");
+
+219 
+cRëSètus
+ = 
+SNTP_ERROR_TIMEOUT
+;
+
+220 
+LEAVE
+;
+
+222 i‡(!
+	`FD_ISSET
+(((
+WORD32
+)(
+iSockëId
+)), &
+tRódFds
+))
+
+224 
+	`¥ötf
+("FD_ISSET ERROR!\r\n");
+
+225 
+cRëSètus
+ = 
+SNTP_ERROR_FDISSET
+;
+
+226 
+LEAVE
+;
+
+230 
+WORD32
+ 
+dwSîvîAddrLí
+ = 0;
+
+231 
+dwSîvîAddrLí
+ = (
+tSîvîAddr
+);
+
+232 
+	`mem£t
+(&
+tNçMsg
+, 0, (tNtpMsg));
+
+233 i‡((
+tNçMsg
+Ë!
+	`ªcv‰om
+(
+iSockëID
+, \
+
+234 (*)&
+tNçMsg
+, \
+
+235 (
+tNçMsg
+), 0, \
+
+236 (
+sockaddr
+*)&
+tSîvîAddr
+, \
+
+237 (
+INT
+*)&
+dwSîvAddrLí
+))
+
+239 
+	`¥ötf
+("SNTP:recvfromÉrr!°\n");
+
+240 
+cRëSètus
+ = 
+SNTP_ERROR_RECVFROM
+;
+
+241 
+LEAVE
+;
+
+244 
+	`˛o£sockë
+(
+iSockëID
+);
+
+247 if(0 =
+tNçMsg
+.
+m_TønsTS
+.
+m_dwI¡egî
+)
+
+249 
+cRëSètus
+ = 
+SNTP_ERROR_INVALID_ADDRESS
+
+
+250 
+LEAVE
+;
+
+253 
+±Now
+->
+dwSec
+ = 
+	`¡ohl
+(
+tNçMsg
+.
+m_TønsTS
+.
+m_dwI¡egî
+);
+
+254 
+±Now
+->
+dwN™oSec
+ = (
+WORD32
+)((WORD32)
+	`¡ohl
+(
+tNçMsg
+.
+m_TønsTS
+.
+m_dwFø˘i⁄l
+) \
+
+255 * (
+SWORD64
+)1000000000/0xffffffff);
+
+258 
+dwI¡îvÆ
+ = ((
+WORD32
+)(2000-1900)*365+25-1)*24*3600;
+
+259 
+±Now
+->
+dwSec
+ -
+dwI¡îvÆ
+;
+
+272  
+SNTP_SUCCESS
+;
+
+275 
+LEAVE
+:
+
+277  
+cRëSètus
+;
+
+279 
+	}
+}
+
+	@sntp_client.h
+
+19 #i‚de‡
+__SNTP_H__
+
+
+20 
+	#__SNTP_H__
+
+
+	)
+
+23 
+	#SNTP_VERSION
+ (()4Ë
+
+	)
+
+24 
+	#SNTP_OLD_VERSION
+ (()1Ë
+
+	)
+
+25 
+	#SNTP_MCAST_ADDR
+ "224.0.1.1"
+
+	)
+
+26 
+	#SNTP_DEF_PORT
+ 5123
+
+	)
+
+29 
+	#LI_NO_WARNING
+ 0
+
+	)
+
+30 
+	#LI_ADD_SECOND
+ 1
+
+	)
+
+31 
+	#LI_DEL_SECOND
+ 2
+
+	)
+
+32 
+	#LI_NOT_SYNC
+ 3
+
+	)
+
+36 
+	#MODE_RESERV
+ 0
+
+	)
+
+37 
+	#MODE_ACTIVE
+ 1
+
+	)
+
+38 
+	#MODE_PASSIVE
+ 2
+
+	)
+
+39 
+	#MODE_CLIENT
+ 3
+
+	)
+
+40 
+	#MODE_SERVER
+ 4
+
+	)
+
+41 
+	#MODE_BROADCAST
+ 5
+
+	)
+
+44 
+	#SNTP_STRATUM
+ 2
+
+	)
+
+47 
+	#SNTP_TIME_1900
+ 0x014F373BFDE04000
+
+	)
+
+48 
+	#SNTP_HECTO_NANOSECONDS
+ 10000000
+
+	)
+
+49 
+	#SNTP_TS_FRAC
+ 4294967296.
+
+	)
+
+52 
+	#MSG_MODE
+(
+vi_vn_md
+Ë(()((vi_vn_mdË& 0x7))
+
+	)
+
+53 
+	#MSG_VERSION
+(
+vi_vn_md
+Ë(()(((vi_vn_mdË>> 3Ë& 0x7))
+
+	)
+
+56 
+	#MSG_LI_VN_MODE
+(
+li
+, 
+vn
+, 
+md
+Ë\
+
+	)
+
+57 (()((((
+	gli
+Ë<< 6Ë& 0xc0Ë| (((
+	gvn
+Ë<< 3Ë& 0x38Ë| ((
+	gmd
+) & 0x7)))
+
+59 
+	#HTONL_FP
+(
+h
+, 
+n
+Ëdÿ{ (n)->
+Â_ui
+ = 
+	`ht⁄l
+((h)->Â_ui); \
+
+	)
+
+60 (
+	gn
+)->
+	gÂ_uf
+ = 
+ht⁄l
+((
+h
+)->
+Â_uf
+); } 0)
+
+62 
+	#NTOHL_FP
+(
+n
+, 
+h
+Ëdÿ{ (h)->
+Â_ui
+ = 
+	`¡ohl
+(“)->Â_ui); \
+
+	)
+
+63 (
+h
+)->
+Â_uf
+ = 
+	`¡ohl
+((
+n
+)->Â_uf); 
+	}
+} 0)
+
+65 
+	#FP_NEG
+(
+v_i
+, 
+v_f
+Ë \
+
+	)
+
+67 i‡((
+v_f
+) == 0) \
+
+68 (
+v_i
+) = -(()(v_i)); \
+
+70 (
+v_f
+) = -(()(v_f)); \
+
+71 (
+v_i
+) = ~(v_i); \
+
+73 
+	}
+} 0)
+
+75 
+	#FP_ADD
+(
+r_i
+, 
+r_f
+, 
+a_i
+, 
+a_f
+Ë \
+
+	)
+
+77 
+lo_hÆf
+; \
+
+78 
+hi_hÆf
+; \
+
+80 
+lo_hÆf
+ = ((
+r_f
+Ë& 0xffffË+ ((
+a_f
+) & 0xffff); \
+
+81 
+hi_hÆf
+ = (((
+r_f
+Ë>> 16Ë& 0xffffË+ (((
+a_f
+) >> 16) & 0xffff); \
+
+82 i‡(
+lo_hÆf
+ & 0x10000) \
+
+83 
+hi_hÆf
+++; \
+
+84 (
+r_f
+Ë((
+hi_hÆf
+ & 0xffffË<< 16Ë| (
+lo_hÆf
+ & 0xffff); \
+
+86 (
+r_i
+Ë+(
+a_i
+); \
+
+87 i‡(
+hi_hÆf
+ & 0x10000) \
+
+88 (
+r_i
+)++; \
+
+89 
+	}
+} 0)
+
+91 
+	#FP_SUB
+(
+r_i
+, 
+r_f
+, 
+a_i
+, 
+a_f
+Ë \
+
+	)
+
+93 
+lo_hÆf
+; \
+
+94 
+hi_hÆf
+; \
+
+96 i‡((
+a_f
+) == 0) { \
+
+97 (
+r_i
+Ë-(
+a_i
+); \
+
+99 
+lo_hÆf
+ = ((
+r_f
+Ë& 0xffffË+ ((-(()(
+a_f
+))) & 0xffff); \
+
+100 
+hi_hÆf
+ = (((
+r_f
+) >> 16) & 0xffff) \
+
+101 + (((-(()(
+a_f
+))) >> 16) & 0xffff); \
+
+102 i‡(
+lo_hÆf
+ & 0x10000) \
+
+103 
+hi_hÆf
+++; \
+
+104 (
+r_f
+Ë((
+hi_hÆf
+ & 0xffffË<< 16Ë| (
+lo_hÆf
+ & 0xffff); \
+
+106 (
+r_i
+Ë+~(
+a_i
+); \
+
+107 i‡(
+hi_hÆf
+ & 0x10000) \
+
+108 (
+r_i
+)++; \
+
+110 
+	}
+} 0)
+
+112 
+	#FP_RSHIFT
+(
+v_i
+, 
+v_f
+Ë \
+
+	)
+
+114 (
+v_f
+) = ()(v_f) >> 1; \
+
+115 i‡((
+v_i
+) & 01) \
+
+116 (
+v_f
+) |= 0x80000000; \
+
+117 i‡((
+v_i
+) & 0x80000000) \
+
+118 (
+v_i
+) = ((v_i) >> 1) | 0x80000000; \
+
+120 (
+v_i
+) = (v_i) >> 1; \
+
+121 
+	}
+} 0)
+
+123 
+	#FP_TOD
+(
+r_i
+, 
+r_uf
+, 
+d
+Ë \
+
+	)
+
+125 
+time_Â
+ 
+l_tmp
+; \
+
+127 
+l_tmp
+.
+Â_si
+ = (
+r_i
+); \
+
+128 
+l_tmp
+.
+Â_sf
+ = (
+r_uf
+); \
+
+129 i‡(
+l_tmp
+.
+Â_si
+ < 0) { \
+
+130 
+	`FP_NEG
+(
+l_tmp
+.
+Â_si
+,Ü_tmp.
+Â_uf
+); \
+
+131 (
+d
+Ë-(()
+l_tmp
+.
+Â_si
++((Ó_tmp.
+Â_uf
+)/
+SNTP_TS_FRAC
+);\
+
+133 (
+d
+Ë()
+l_tmp
+.
+Â_si
++((Ó_tmp.
+Â_uf
+)/
+SNTP_TS_FRAC
+;\
+
+135 
+	}
+} 0)
+
+138 
+	#TS_ADD
+(
+r
+, 
+a
+Ë
+	`FP_ADD
+(‘)->
+Â_ui
+, (r)->
+Â_uf
+, (a)->Â_ui, (a)->Â_uf)
+
+	)
+
+139 
+	#TS_SUB
+(
+r
+, 
+a
+Ë
+	`FP_SUB
+(‘)->
+Â_ui
+, (r)->
+Â_uf
+, (a)->Â_ui, (a)->Â_uf)
+
+	)
+
+140 
+	#TS_RSHIFT
+(
+v
+Ë
+	`FP_RSHIFT
+((v)->
+Â_si
+, (v)->
+Â_uf
+)
+
+	)
+
+141 
+	#TS_FPTOD
+(
+v
+, 
+d
+Ë
+	`FP_TOD
+((v)->
+Â_ui
+, (v)->
+Â_uf
+, (d))
+
+	)
+
+148 
+ui
+;
+
+149 
+si
+;
+
+150 } 
+ötg
+;
+
+154 
+uf
+;
+
+155 
+sf
+;
+
+156 } 
+‰ag
+;
+
+157 } 
+	ttime_Â
+;
+
+159 
+	#Â_ui
+ 
+ötg
+.
+ui
+
+
+	)
+
+160 
+	#Â_si
+ 
+ötg
+.
+si
+
+
+	)
+
+161 
+	#Â_uf
+ 
+‰ag
+.
+uf
+
+
+	)
+
+162 
+	#Â_sf
+ 
+‰ag
+.
+sf
+
+
+	)
+
+167 
+li_vn_md
+;
+
+168 
+°øtum
+;
+
+169 
+pﬁl
+;
+
+170 
+≥rcisi⁄
+;
+
+171 
+roŸ_dñay
+;
+
+172 
+roŸ_di•
+;
+
+173 
+ªf_id
+;
+
+174 
+time_Â
+ 
+ªf_time
+;
+
+175 
+time_Â
+ 
+‹ig
+;
+
+176 
+time_Â
+ 
+ªcv
+;
+
+177 
+time_Â
+ 
+xmt
+;
+
+178 
+key_id
+[32];
+
+179 
+dige°
+[128];
+
+180 }
+	t¢ç_s
+;
+
+182 
+	`¢ç_gë_sys_time
+(
+time_Â
+ *
+cuºít
+);
+
+205 #i‚de‡
+__SNTP_CLIENT_H__
+
+
+206 
+	#__SNTP_CLIENT_H__
+
+
+	)
+
+210 #i‚de‡
+SNTP_V4
+
+
+211 
+	#SNTP_V4
+ 1
+
+	)
+
+214 #i‚de‡
+SNTP_ERR
+
+
+215 
+	#SNTP_ERR
+ -1
+
+	)
+
+218 #ifde‡
+SNTP_IPV6_SUPPORT
+
+
+219 #i‚de‡
+SNTP_V6
+
+
+220 
+	#SNTP_V6
+ 2
+
+	)
+
+225 #i‚de‡
+SNTP_STATUS
+
+
+226 
+	#SNTP_STATUS
+
+
+	)
+
+227 
+	#SNTP_SUCCESS
+ 0
+
+	)
+
+228 
+	#SNTP_ERROR_INVALID_PARAMETER
+ 1
+
+	)
+
+229 
+	#SNTP_ERROR_CREATESOCKET
+ 2
+
+	)
+
+230 
+	#SNTP_ERROR_BINDSOCKET
+ 3
+
+	)
+
+231 
+	#SNTP_ERROR_SENDTO
+ 4
+
+	)
+
+232 
+	#SNTP_ERROR_SELECT
+ 5
+
+	)
+
+233 
+	#SNTP_ERROR_TIMEOUT
+ 6
+
+	)
+
+234 
+	#SNTP_ERROR_FDISSET
+ 7
+
+	)
+
+235 
+	#SNTP_ERROR_RECVFROM
+ 8
+
+	)
+
+236 
+	#SNTP_ERROR_INVALID_ADDRESS
+ 9
+
+	)
+
+245 
+	s°NçTimePackë
+
+
+247 
+m_dwI¡egî
+;
+
+248 
+m_dwFø˘i⁄l
+;
+
+249 }
+	tNçTimePackë
+;
+
+253 
+	s°NTP_Packë
+ {
+
+254 
+m_LiVnMode
+;
+
+255 
+m_Så©um
+;
+
+256 
+m_Pﬁl
+;
+
+257 
+m_Pªcisi⁄
+;
+
+258 
+m_RDñay
+;
+
+259 
+m_RDi•îsi⁄
+;
+
+260 
+m_Re„rID
+;
+
+261 
+NçTimePackë
+ 
+m_Re„rTS
+;
+
+262 
+NçTimePackë
+ 
+m_OrigiTS
+;
+
+263 
+NçTimePackë
+ 
+m_RecvTS
+;
+
+264 
+NçTimePackë
+ 
+m_TønsTS
+;
+
+265 }
+	tTNTP_Packë
+;
+
+270 
+sockaddr_ö
+ 
+	tSNTP_SockAddr
+;
+
+271 #ifde‡
+SNTP_IPV6_SUPPORT
+
+
+272 
+sockaddr_ö6
+ 
+	tSNTP_SockAddr6
+;
+
+	@
+1
+.
+1
+/usr/include
+2
+28
+sntp_client.c
+sntp_client.h

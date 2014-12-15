@@ -1,0 +1,39 @@
+Script started on Mon 01 Dec 2014 03:45:33 PM CST
+]0;work@work-desktop: ~/workdir/recbcsrvwork@work-desktop:~/workdir/recbcsrv$ j[Klls
+No command 'lls' found, did you mean:
+ Command 'llt' from package 'storebackup' (universe)
+ Command 'lli' from package 'llvm' (main)
+ Command 'llc' from package 'llvm' (main)
+ Command 'als' from package 'atool' (universe)
+ Command 'ls' from package 'coreutils' (main)
+ Command 'lrs' from package 'lrslib' (universe)
+ Command 'jls' from package 'sleuthkit' (universe)
+ Command 'hls' from package 'hfsutils' (main)
+ Command 'ols' from package 'speech-tools' (universe)
+ Command 'bls' from package 'bacula-sd' (main)
+ Command 'les' from package 'atm-tools' (universe)
+ Command 'ils' from package 'sleuthkit' (universe)
+ Command 'ils' from package 'tct' (universe)
+ Command 'lvs' from package 'lvm2' (main)
+ Command 'fls' from package 'sleuthkit' (universe)
+lls: command not found
+]0;work@work-desktop: ~/workdir/recbcsrvwork@work-desktop:~/workdir/recbcsrv$ l
+[0m[01;32mclient_emulator[0m*              libmxml.a
+client_emulator_autobuild.sh  mxml.h
+client_emulator.c             [01;34mPC_CENTRIST[0m/
+cscope.in.out                 recbc_srv_autobuild.sh
+cscope.out                    recbc_srv.c
+cscope.po.out                 recbc_srv.h
+datafifo.c                    rt_generic.h
+datafifo.h                    screen.log
+[01;32mdb[0m*                           [01;32mserver_emulator[0m*
+–f                            server_emulator_autobuild.sh
+hhhhh                         server_emulator.c
+jconfig.h                     streaming_srv.h
+jmorecfg.h                    tags
+jpeglib.h                     xmlparser.c
+libjpeg.a                     xmlparser.h
+[m]0;work@work-desktop: ~/workdir/recbcsrvwork@work-desktop:~/workdir/recbcsrv$ exit
+exit
+
+Script done on Mon 01 Dec 2014 03:45:39 PM CST

@@ -1,0 +1,24 @@
+Script started on Mon 01 Dec 2014 03:47:27 PM CST
+]0;work@work-desktop: ~/workdir/recbcsrvwork@work-desktop:~/workdir/recbcsrv$ jjjjj
+jjjjj: command not found
+]0;work@work-desktop: ~/workdir/recbcsrvwork@work-desktop:~/workdir/recbcsrv$ l
+[0m[01;32mclient_emulator[0m*              mxml.h
+client_emulator_autobuild.sh  [01;34mPC_CENTRIST[0m/
+client_emulator.c             recbc_srv_autobuild.sh
+cscope.in.out                 recbc_srv.c
+cscope.out                    recbc_srv.h
+cscope.po.out                 rt_generic.h
+datafifo.c                    screen.log
+datafifo.h                    [01;32mserver_emulator[0m*
+[01;32mdb[0m*                           server_emulator_autobuild.sh
+–f                            server_emulator.c
+hhhhh                         streaming_srv.h
+jconfig.h                     tags
+jmorecfg.h                    typescript
+jpeglib.h                     xmlparser.c
+libjpeg.a                     xmlparser.h
+libmxml.a
+[m]0;work@work-desktop: ~/workdir/recbcsrvwork@work-desktop:~/workdir/recbcsrv$ exit
+exit
+
+Script done on Mon 01 Dec 2014 03:47:37 PM CST

@@ -1,0 +1,1466 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AINBUF_CNT	recbc_srv.h	262;"	d
+AINBUF_SIZE	recbc_srv.h	261;"	d
+ANALYZING_MODE_AUX	recbc_srv.h	/^	ANALYZING_MODE_AUX,$/;"	e	enum:e_AnalyzingMode
+ANALYZING_MODE_NONE	recbc_srv.h	/^	ANALYZING_MODE_NONE = -1,$/;"	e	enum:e_AnalyzingMode
+ANALYZING_MODE_VGA	recbc_srv.h	/^	ANALYZING_MODE_VGA,$/;"	e	enum:e_AnalyzingMode
+ANALYZING_MODE_VIDEO	recbc_srv.h	/^	ANALYZING_MODE_VIDEO,$/;"	e	enum:e_AnalyzingMode
+ANGLE_H0	recbc_srv.c	5434;"	d	file:
+ANGLE_H1	recbc_srv.c	5437;"	d	file:
+ANGLE_H2	recbc_srv.c	5441;"	d	file:
+ARG_LEN_SIZE	recbc_srv.h	93;"	d
+ARG_NAME_LEN_SIZE	recbc_srv.h	92;"	d
+AbsPos	recbc_srv.c	/^void AbsPos(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder, int panpos, int tiltpos)$/;"	f
+Adobe_transform	jpeglib.h	/^  UINT8 Adobe_transform;	\/* Color transform code from Adobe marker *\/$/;"	m	struct:jpeg_decompress_struct
+Ah	jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon6
+Ah	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Ah	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+Al	jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon6
+Al	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Al	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+AppDeinit	recbc_srv.c	/^void AppDeinit()$/;"	f
+AppInit	recbc_srv.c	/^void AppInit()$/;"	f
+AttrName	recbc_srv.h	/^	char AttrName[8];$/;"	m	struct:s_hello_attr
+AttrValue	recbc_srv.h	/^	char AttrValue[64];$/;"	m	struct:s_hello_attr
+Audio_producer_fifo	recbc_srv.h	/^	t_datafifo *Audio_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+BHEIGHT	PC_CENTRIST/CtImage.c	/^const int BHEIGHT = PHEIGHT\/9;$/;"	v
+BIT31	datafifo.h	21;"	d
+BITS_IN_JSAMPLE	jmorecfg.h	24;"	d
+BLOCK_SMOOTHING_SUPPORTED	jmorecfg.h	319;"	d
+BMP_SUPPORTED	jconfig.h	41;"	d
+BWIDTH	PC_CENTRIST/CtImage.c	/^const int BWIDTH = PWIDTH\/4;$/;"	v
+BYPBUF_CNT	recbc_srv.h	268;"	d
+BYPBUF_SIZE	recbc_srv.h	267;"	d
+BrdId	recbc_srv.h	/^	char BrdId[13];$/;"	m	struct:s_idx_id_map
+BrdId	recbc_srv.h	/^	char BrdId[13];$/;"	m	struct:s_sock_id_map
+BrdIdx	recbc_srv.h	/^	int BrdIdx;$/;"	m	struct:s_idx_id_map
+BrdTbl	recbc_srv.h	/^	t_sock_id_map BrdTbl[4];$/;"	m	struct:s_dev_cfg
+CAPTURE_IF_CVBS	recbc_srv.h	/^	CAPTURE_IF_CVBS,$/;"	e	enum:e_CaptureIf
+CAPTURE_IF_HDMI	recbc_srv.h	/^	CAPTURE_IF_HDMI,$/;"	e	enum:e_CaptureIf
+CAPTURE_IF_HDSDI	recbc_srv.h	/^	CAPTURE_IF_HDSDI,$/;"	e	enum:e_CaptureIf
+CAPTURE_IF_NONE	recbc_srv.h	/^	CAPTURE_IF_NONE = -1,$/;"	e	enum:e_CaptureIf
+CAPTURE_IF_VGA	recbc_srv.h	/^	CAPTURE_IF_VGA,$/;"	e	enum:e_CaptureIf
+CCIR601_sampling	jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_compress_struct
+CCIR601_sampling	jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_decompress_struct
+CENTERJSAMPLE	jmorecfg.h	75;"	d
+CENTERJSAMPLE	jmorecfg.h	89;"	d
+CH_COMPLETION_PENDING	recbc_srv.h	397;"	d
+CH_ERROR	recbc_srv.h	400;"	d
+CH_PTINQ_PENDING	recbc_srv.h	398;"	d
+CH_ZOOMINQ_PENDING	recbc_srv.h	399;"	d
+CMD_BUFSIZE	recbc_srv.h	88;"	d
+CMD_SIZE	recbc_srv.h	90;"	d
+COMMAND_BYP_RSP	client_emulator.c	31;"	d	file:
+COMMAND_BYP_RSP	recbc_srv.c	44;"	d	file:
+COMMAND_BYP_RSP	server_emulator.c	32;"	d	file:
+COMMAND_CAMHLD_BYPASS	client_emulator.c	30;"	d	file:
+COMMAND_CAMHLD_BYPASS	recbc_srv.c	43;"	d	file:
+COMMAND_CAMHLD_BYPASS	server_emulator.c	31;"	d	file:
+COMMAND_CONFIG	client_emulator.c	23;"	d	file:
+COMMAND_CONFIG	recbc_srv.c	36;"	d	file:
+COMMAND_CONFIG	server_emulator.c	24;"	d	file:
+COMMAND_EVENT_AUX	client_emulator.c	29;"	d	file:
+COMMAND_EVENT_AUX	recbc_srv.c	42;"	d	file:
+COMMAND_EVENT_AUX	server_emulator.c	30;"	d	file:
+COMMAND_EVENT_JPEG	client_emulator.c	33;"	d	file:
+COMMAND_EVENT_JPEG	recbc_srv.c	46;"	d	file:
+COMMAND_EVENT_JPEG	server_emulator.c	34;"	d	file:
+COMMAND_EVENT_PIP	client_emulator.c	34;"	d	file:
+COMMAND_EVENT_PIP	recbc_srv.c	47;"	d	file:
+COMMAND_EVENT_PIP	server_emulator.c	35;"	d	file:
+COMMAND_EVENT_UCI	client_emulator.c	32;"	d	file:
+COMMAND_EVENT_UCI	recbc_srv.c	45;"	d	file:
+COMMAND_EVENT_UCI	server_emulator.c	33;"	d	file:
+COMMAND_EVENT_VGA	client_emulator.c	28;"	d	file:
+COMMAND_EVENT_VGA	recbc_srv.c	41;"	d	file:
+COMMAND_EVENT_VGA	server_emulator.c	29;"	d	file:
+COMMAND_EVENT_VID	client_emulator.c	27;"	d	file:
+COMMAND_EVENT_VID	recbc_srv.c	40;"	d	file:
+COMMAND_EVENT_VID	server_emulator.c	28;"	d	file:
+COMMAND_GETDATA	client_emulator.c	25;"	d	file:
+COMMAND_GETDATA	recbc_srv.c	38;"	d	file:
+COMMAND_GETDATA	server_emulator.c	26;"	d	file:
+COMMAND_GETDATA_ACK	client_emulator.c	26;"	d	file:
+COMMAND_GETDATA_ACK	recbc_srv.c	39;"	d	file:
+COMMAND_GETDATA_ACK	server_emulator.c	27;"	d	file:
+COMMAND_HELLO	client_emulator.c	21;"	d	file:
+COMMAND_HELLO	recbc_srv.c	34;"	d	file:
+COMMAND_HELLO	server_emulator.c	22;"	d	file:
+COMMAND_INTERNAL	client_emulator.c	35;"	d	file:
+COMMAND_INTERNAL	recbc_srv.c	48;"	d	file:
+COMMAND_INTERNAL	server_emulator.c	36;"	d	file:
+COMMAND_SERVER	client_emulator.c	22;"	d	file:
+COMMAND_SERVER	recbc_srv.c	35;"	d	file:
+COMMAND_SERVER	server_emulator.c	21;"	d	file:
+COMMAND_SET_LED	recbc_srv.c	49;"	d	file:
+COMMAND_SWITCHCTRL	client_emulator.c	24;"	d	file:
+COMMAND_SWITCHCTRL	recbc_srv.c	37;"	d	file:
+COMMAND_SWITCHCTRL	server_emulator.c	25;"	d	file:
+COMMAND_VERSION	recbc_srv.h	95;"	d
+COND_BOARD_NOTWRITE	recbc_srv.h	/^	COND_BOARD_NOTWRITE,$/;"	e	enum:__anon17
+COND_BOARD_WRITE	recbc_srv.h	/^	COND_BOARD_WRITE,$/;"	e	enum:__anon17
+COND_COMBINATION_1	recbc_srv.h	/^	COND_COMBINATION_1,$/;"	e	enum:__anon17
+COND_COMBINATION_10	recbc_srv.h	/^	COND_COMBINATION_10,$/;"	e	enum:__anon17
+COND_COMBINATION_11	recbc_srv.h	/^	COND_COMBINATION_11,$/;"	e	enum:__anon17
+COND_COMBINATION_12	recbc_srv.h	/^	COND_COMBINATION_12,$/;"	e	enum:__anon17
+COND_COMBINATION_13	recbc_srv.h	/^	COND_COMBINATION_13,$/;"	e	enum:__anon17
+COND_COMBINATION_14	recbc_srv.h	/^	COND_COMBINATION_14,$/;"	e	enum:__anon17
+COND_COMBINATION_15	recbc_srv.h	/^	COND_COMBINATION_15,$/;"	e	enum:__anon17
+COND_COMBINATION_16	recbc_srv.h	/^	COND_COMBINATION_16,$/;"	e	enum:__anon17
+COND_COMBINATION_17	recbc_srv.h	/^	COND_COMBINATION_17,$/;"	e	enum:__anon17
+COND_COMBINATION_18	recbc_srv.h	/^	COND_COMBINATION_18,$/;"	e	enum:__anon17
+COND_COMBINATION_19	recbc_srv.h	/^	COND_COMBINATION_19,$/;"	e	enum:__anon17
+COND_COMBINATION_2	recbc_srv.h	/^	COND_COMBINATION_2,$/;"	e	enum:__anon17
+COND_COMBINATION_20	recbc_srv.h	/^	COND_COMBINATION_20,$/;"	e	enum:__anon17
+COND_COMBINATION_21	recbc_srv.h	/^	COND_COMBINATION_21,$/;"	e	enum:__anon17
+COND_COMBINATION_22	recbc_srv.h	/^	COND_COMBINATION_22,$/;"	e	enum:__anon17
+COND_COMBINATION_23	recbc_srv.h	/^	COND_COMBINATION_23,$/;"	e	enum:__anon17
+COND_COMBINATION_24	recbc_srv.h	/^	COND_COMBINATION_24,$/;"	e	enum:__anon17
+COND_COMBINATION_25	recbc_srv.h	/^	COND_COMBINATION_25,$/;"	e	enum:__anon17
+COND_COMBINATION_26	recbc_srv.h	/^	COND_COMBINATION_26,$/;"	e	enum:__anon17
+COND_COMBINATION_27	recbc_srv.h	/^	COND_COMBINATION_27,$/;"	e	enum:__anon17
+COND_COMBINATION_28	recbc_srv.h	/^	COND_COMBINATION_28,$/;"	e	enum:__anon17
+COND_COMBINATION_29	recbc_srv.h	/^	COND_COMBINATION_29,$/;"	e	enum:__anon17
+COND_COMBINATION_3	recbc_srv.h	/^	COND_COMBINATION_3,$/;"	e	enum:__anon17
+COND_COMBINATION_30	recbc_srv.h	/^	COND_COMBINATION_30,$/;"	e	enum:__anon17
+COND_COMBINATION_31	recbc_srv.h	/^	COND_COMBINATION_31,$/;"	e	enum:__anon17
+COND_COMBINATION_32	recbc_srv.h	/^	COND_COMBINATION_32,$/;"	e	enum:__anon17
+COND_COMBINATION_33	recbc_srv.h	/^	COND_COMBINATION_33,$/;"	e	enum:__anon17
+COND_COMBINATION_34	recbc_srv.h	/^	COND_COMBINATION_34,$/;"	e	enum:__anon17
+COND_COMBINATION_35	recbc_srv.h	/^	COND_COMBINATION_35,$/;"	e	enum:__anon17
+COND_COMBINATION_36	recbc_srv.h	/^	COND_COMBINATION_36,$/;"	e	enum:__anon17
+COND_COMBINATION_4	recbc_srv.h	/^	COND_COMBINATION_4,$/;"	e	enum:__anon17
+COND_COMBINATION_5	recbc_srv.h	/^	COND_COMBINATION_5,$/;"	e	enum:__anon17
+COND_COMBINATION_6	recbc_srv.h	/^	COND_COMBINATION_6,$/;"	e	enum:__anon17
+COND_COMBINATION_7	recbc_srv.h	/^	COND_COMBINATION_7,$/;"	e	enum:__anon17
+COND_COMBINATION_8	recbc_srv.h	/^	COND_COMBINATION_8,$/;"	e	enum:__anon17
+COND_COMBINATION_9	recbc_srv.h	/^	COND_COMBINATION_9,$/;"	e	enum:__anon17
+COND_MAX	recbc_srv.h	/^	COND_MAX,$/;"	e	enum:__anon17
+COND_STUDENT_STAND_MULTIPLE	recbc_srv.h	/^	COND_STUDENT_STAND_MULTIPLE,$/;"	e	enum:__anon17
+COND_STUDENT_STAND_NONE	recbc_srv.h	/^	COND_STUDENT_STAND_NONE,$/;"	e	enum:__anon17
+COND_STUDENT_STAND_ONE	recbc_srv.h	/^	COND_STUDENT_STAND_ONE,$/;"	e	enum:__anon17
+COND_TEACHER_DETECTED_MULTIPLE	recbc_srv.h	/^	COND_TEACHER_DETECTED_MULTIPLE,$/;"	e	enum:__anon17
+COND_TEACHER_DETECTED_NONE	recbc_srv.h	/^	COND_TEACHER_DETECTED_NONE,$/;"	e	enum:__anon17
+COND_TEACHER_DETECTED_ONE	recbc_srv.h	/^	COND_TEACHER_DETECTED_ONE,$/;"	e	enum:__anon17
+COND_VGA_CHG	recbc_srv.h	/^	COND_VGA_CHG,$/;"	e	enum:__anon17
+COND_VGA_UNCHG	recbc_srv.h	/^	COND_VGA_UNCHG = 0,$/;"	e	enum:__anon17
+COOR_SIZE	PC_CENTRIST/param.h	17;"	d
+C_ARITH_CODING_SUPPORTED	jmorecfg.h	297;"	d
+C_MAX_BLOCKS_IN_MCU	jpeglib.h	64;"	d
+C_MULTISCAN_FILES_SUPPORTED	jmorecfg.h	298;"	d
+C_PROGRESSIVE_SUPPORTED	jmorecfg.h	299;"	d
+CamMemoryInq	server_emulator.c	/^void CamMemoryInq(int number, int who, int sock)$/;"	f
+CamMemoryInq2internal	recbc_srv.c	/^void CamMemoryInq2internal(char *Msg, t_cmd *outmsg)$/;"	f
+CamMemorySave	server_emulator.c	/^void CamMemorySave(int number, int who, int sock)$/;"	f
+CamMemorySave2internal	recbc_srv.c	/^void CamMemorySave2internal(char *Msg, t_cmd *outmsg)$/;"	f
+CamPanTilt	server_emulator.c	/^void CamPanTilt(int direction, int who, int sock)$/;"	f
+CamPanTilt2internal	recbc_srv.c	/^void CamPanTilt2internal(char *Msg, t_cmd *outmsg)$/;"	f
+CamZoom	server_emulator.c	/^void CamZoom(int direction, int who, int sock)$/;"	f
+CamZoom2internal	recbc_srv.c	/^void CamZoom2internal(char *Msg, t_cmd *outmsg)$/;"	f
+CamhldAck	client_emulator.c	/^void CamhldAck(int sock)$/;"	f
+CamhldCmdSend	recbc_srv.c	/^void CamhldCmdSend(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder, char* cwbuf, unsigned int cmdlen)$/;"	f
+CamhldCpl	client_emulator.c	/^void CamhldCpl(int sock)$/;"	f
+CamhldRsp	client_emulator.c	/^void CamhldRsp(char *byte, unsigned int len, int sock)$/;"	f
+CaptureId	recbc_srv.h	/^	int CaptureId;$/;"	m	struct:s_videoconfig
+CfgDir	recbc_srv.c	/^char CfgDir[256]= "";$/;"	v
+ComputeCt	PC_CENTRIST/CtImage.c	/^void ComputeCt(uchar* image, uchar* ctImage, int height, int width)$/;"	f
+ComputeSobel	PC_CENTRIST/CtImage.c	/^void ComputeSobel(uchar* image, uchar* sobelImage, int height, int width)$/;"	f
+CoreId	recbc_srv.h	/^	int CoreId;$/;"	m	struct:s_videoconfig
+Ctrl_consumer_fifo	recbc_srv.h	/^	t_datafifo *Ctrl_consumer_fifo;$/;"	m	struct:s_SwitchTracking_thread_param
+Ctrl_consumer_fifo	recbc_srv.h	/^	t_datafifo *Ctrl_consumer_fifo;$/;"	m	struct:s_coreA_thread_param
+Ctrl_consumer_fifo	recbc_srv.h	/^	t_datafifo *Ctrl_consumer_fifo;$/;"	m	struct:s_coreBC_thread_param
+Ctrl_consumer_fifo	recbc_srv.h	/^	t_datafifo *Ctrl_consumer_fifo;$/;"	m	struct:s_coreD_thread_param
+Ctrl_consumer_fifo	recbc_srv.h	/^	t_datafifo *Ctrl_consumer_fifo;$/;"	m	struct:s_localsave_thread_param
+DATAFIFO_H_	datafifo.h	8;"	d
+DATAFIFO_ITEM_STATUS_DOING	datafifo.h	13;"	d
+DATAFIFO_ITEM_STATUS_FILLING	datafifo.h	11;"	d
+DATAFIFO_ITEM_STATUS_INIT	datafifo.h	10;"	d
+DATAFIFO_ITEM_STATUS_READY	datafifo.h	12;"	d
+DATA_LEN_SIZE	recbc_srv.h	91;"	d
+DCTSIZE	jpeglib.h	50;"	d
+DCTSIZE2	jpeglib.h	51;"	d
+DCT_FLOAT_SUPPORTED	jmorecfg.h	293;"	d
+DCT_IFAST_SUPPORTED	jmorecfg.h	292;"	d
+DCT_ISLOW_SUPPORTED	jmorecfg.h	291;"	d
+DCT_SCALING_SUPPORTED	jmorecfg.h	300;"	d
+DCT_h_scaled_size	jpeglib.h	/^  int DCT_h_scaled_size;$/;"	m	struct:__anon5
+DCT_v_scaled_size	jpeglib.h	/^  int DCT_v_scaled_size;$/;"	m	struct:__anon5
+DETECT_GAP	PC_CENTRIST/FrameDiff.c	/^const int  DETECT_GAP = PWIDTH*2\/3;$/;"	v
+DIM	PC_CENTRIST/param.h	7;"	d
+D_ARITH_CODING_SUPPORTED	jmorecfg.h	314;"	d
+D_MAX_BLOCKS_IN_MCU	jpeglib.h	66;"	d
+D_MULTISCAN_FILES_SUPPORTED	jmorecfg.h	315;"	d
+D_PROGRESSIVE_SUPPORTED	jmorecfg.h	316;"	d
+DetectFrame	PC_CENTRIST/DetectFrame.c	/^void DetectFrame(unsigned char* buffer, int frame_num)$/;"	f
+DevAMsgHandle	recbc_srv.c	/^void DevAMsgHandle(t_coreA_thread_param *thread_param, char *Msg)$/;"	f
+DevBCMsgHandle	recbc_srv.c	/^void DevBCMsgHandle(t_coreBC_thread_param *thread_param, char *Msg)$/;"	f
+DevDMsgHandle	recbc_srv.c	/^void DevDMsgHandle(t_coreD_thread_param *thread_param, char *Msg)$/;"	f
+EINBUF_CNT	recbc_srv.h	265;"	d
+EINBUF_SIZE	recbc_srv.h	264;"	d
+ENTROPY_OPT_SUPPORTED	jmorecfg.h	301;"	d
+EXTERN	jmorecfg.h	197;"	d
+EventAux	client_emulator.c	/^void EventAux(int number, int sock)$/;"	f
+EventVGA	client_emulator.c	/^void EventVGA(int change, int sock)$/;"	f
+EventVID2df	recbc_srv.c	/^void EventVID2df(t_datafifo* df, int *PtrInt)$/;"	f
+EventVid	client_emulator.c	/^void EventVid(int number, int sock)$/;"	f
+Event_consumer_fifo	recbc_srv.h	/^	t_datafifo *Event_consumer_fifo;$/;"	m	struct:s_SwitchTracking_thread_param
+Event_producer_fifo	recbc_srv.h	/^	t_datafifo *Event_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+Event_producer_fifo	recbc_srv.h	/^	t_datafifo *Event_producer_fifo;$/;"	m	struct:s_coreBC_thread_param
+Event_producer_fifo	recbc_srv.h	/^	t_datafifo *Event_producer_fifo;$/;"	m	struct:s_coreD_thread_param
+FALSE	jmorecfg.h	/^typedef enum { FALSE = 0, TRUE = 1 } boolean;$/;"	e	enum:__anon2
+FALSE	jmorecfg.h	257;"	d
+FAR	jmorecfg.h	241;"	d
+FAR	jmorecfg.h	243;"	d
+FAST_FLOAT	jmorecfg.h	384;"	d
+FAST_FLOAT	jmorecfg.h	386;"	d
+FEATURE_FILE	recbc_srv.c	/^const char *FEATURE_FILE = "PC_CENTRIST\/FeatureRange";$/;"	v
+FRAME_FLAG_AUDIOFRM	datafifo.h	19;"	d
+FRAME_FLAG_FIRSTFRAME	datafifo.h	17;"	d
+FRAME_FLAG_FRAMEEND	datafifo.h	16;"	d
+FRAME_FLAG_KEYFRAME	datafifo.h	18;"	d
+FRAME_FLAG_NEWFRAME	datafifo.h	15;"	d
+FRAME_FLAG_USERDATA	datafifo.h	20;"	d
+FRAME_HEIGHT	PC_CENTRIST/param.h	16;"	d
+FRAME_WIDTH	PC_CENTRIST/param.h	15;"	d
+FRMTYPE_AUDIO	recbc_srv.h	/^	FRMTYPE_AUDIO$/;"	e	enum:__anon13
+FRMTYPE_VIDEO_I	recbc_srv.h	/^	FRMTYPE_VIDEO_I,$/;"	e	enum:__anon13
+FRMTYPE_VIDEO_IDR	recbc_srv.h	/^	FRMTYPE_VIDEO_IDR,$/;"	e	enum:__anon13
+FRMTYPE_VIDEO_P	recbc_srv.h	/^	FRMTYPE_VIDEO_P,$/;"	e	enum:__anon13
+FSM_BLACKBOARD_PIP_STUDENT_CLOSEUP	recbc_srv.h	/^	FSM_BLACKBOARD_PIP_STUDENT_CLOSEUP,$/;"	e	enum:__anon18
+FSM_BOARD_CLOSEUP	recbc_srv.h	/^	FSM_BOARD_CLOSEUP,$/;"	e	enum:__anon18
+FSM_NOTRANSITION	recbc_srv.h	/^	FSM_NOTRANSITION = -1,$/;"	e	enum:__anon18
+FSM_STATE_MAX	recbc_srv.h	/^	FSM_STATE_MAX,$/;"	e	enum:__anon18
+FSM_STUDENT_CLOSEUP	recbc_srv.h	/^	FSM_STUDENT_CLOSEUP,$/;"	e	enum:__anon18
+FSM_STUDENT_PANORAMA	recbc_srv.h	/^	FSM_STUDENT_PANORAMA,$/;"	e	enum:__anon18
+FSM_TEACHER_CLOSEUP	recbc_srv.h	/^	FSM_TEACHER_CLOSEUP,$/;"	e	enum:__anon18
+FSM_TEACHER_CLOSEUP_PIP_STUDENT_CLOSEUP	recbc_srv.h	/^	FSM_TEACHER_CLOSEUP_PIP_STUDENT_CLOSEUP,$/;"	e	enum:__anon18
+FSM_TEACHER_PANORAMA	recbc_srv.h	/^	FSM_TEACHER_PANORAMA,$/;"	e	enum:__anon18
+FSM_VGA	recbc_srv.h	/^	FSM_VGA,$/;"	e	enum:__anon18
+FSM_VGA_PIP_TEACHER_CLOSEUP	recbc_srv.h	/^	FSM_VGA_PIP_TEACHER_CLOSEUP,$/;"	e	enum:__anon18
+Feature_Max	recbc_srv.c	/^int *Feature_Max = NULL;$/;"	v
+Feature_Min	recbc_srv.c	/^int *Feature_Min = NULL;$/;"	v
+FrameCentrist	PC_CENTRIST/CtImage.c	/^void FrameCentrist(unsigned char *nBuffer, IMAGE *object)$/;"	f
+FrameDiff	PC_CENTRIST/FrameDiff.c	/^void FrameDiff(unsigned char *Y_value, IMAGE* object)$/;"	f
+GETJOCTET	jmorecfg.h	112;"	d
+GETJOCTET	jmorecfg.h	118;"	d
+GETJOCTET	jmorecfg.h	120;"	d
+GETJSAMPLE	jmorecfg.h	61;"	d
+GETJSAMPLE	jmorecfg.h	67;"	d
+GETJSAMPLE	jmorecfg.h	69;"	d
+GETJSAMPLE	jmorecfg.h	86;"	d
+GIF_SUPPORTED	jconfig.h	42;"	d
+GLOBAL	jmorecfg.h	195;"	d
+GetAuxResult	recbc_srv.c	/^void GetAuxResult(t_aux_result *result, char *Msg)$/;"	f
+GetDetectResult	recbc_srv.c	/^void GetDetectResult(t_DetectResult *result, char *Msg)$/;"	f
+GetFeatureVector	PC_CENTRIST/CtImage.c	/^void GetFeatureVector(uchar* ctImage, int t, int l, int width)$/;"	f
+GetPos	recbc_srv.c	/^void GetPos(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder)$/;"	f
+GetVGAResult	recbc_srv.c	/^void GetVGAResult(t_VGA_result *result, char *Msg)$/;"	f
+GetZoom	recbc_srv.c	/^void GetZoom(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder)$/;"	f
+HAVE_BOOLEAN	jconfig.h	26;"	d
+HAVE_LOCALE_H	jconfig.h	13;"	d
+HAVE_PROTOTYPES	jconfig.h	5;"	d
+HAVE_STDDEF_H	jconfig.h	11;"	d
+HAVE_STDLIB_H	jconfig.h	12;"	d
+HAVE_UNSIGNED_CHAR	jconfig.h	6;"	d
+HAVE_UNSIGNED_SHORT	jconfig.h	7;"	d
+IDCT_SCALING_SUPPORTED	jmorecfg.h	317;"	d
+IMAGE	PC_CENTRIST/CtImage.h	/^} IMAGE;$/;"	t	typeref:struct:__anon12
+IMGBUF_CNT	recbc_srv.h	271;"	d
+IMGBUF_SIZE	recbc_srv.h	270;"	d
+INLINE	jconfig.h	32;"	d
+INLINE	jmorecfg.h	356;"	d
+INLINE	jmorecfg.h	359;"	d
+INPUT_SMOOTHING_SUPPORTED	jmorecfg.h	310;"	d
+INT16	jmorecfg.h	/^typedef short INT16;$/;"	t
+INT32	jmorecfg.h	/^typedef long INT32;$/;"	t
+Img1_producer_fifo	recbc_srv.h	/^	t_datafifo *Img1_producer_fifo;$/;"	m	struct:s_coreBC_thread_param
+Img1_producer_fifo	recbc_srv.h	/^	t_datafifo *Img1_producer_fifo;$/;"	m	struct:s_coreD_thread_param
+Img2_producer_fifo	recbc_srv.h	/^	t_datafifo *Img2_producer_fifo;$/;"	m	struct:s_coreBC_thread_param
+Img2_producer_fifo	recbc_srv.h	/^	t_datafifo *Img2_producer_fifo;$/;"	m	struct:s_coreD_thread_param
+ImgM_producer_fifo	recbc_srv.h	/^	t_datafifo *ImgM_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+ImgV_producer_fifo	recbc_srv.h	/^	t_datafifo *ImgV_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+InitImage	PC_CENTRIST/FrameDiff.c	/^void InitImage(IMAGE *object)$/;"	f
+InstructorMsgHandle	recbc_srv.c	/^void InstructorMsgHandle(t_instructor_thread_param *instructor_thread_param, char *Msg)$/;"	f
+IsAutoInstuct	recbc_srv.h	/^	int IsAutoInstuct;$/;"	m	struct:s_recbc_cfg
+IsResouceMode	recbc_srv.h	/^	int IsResouceMode;$/;"	m	struct:s_recbc_cfg
+JBLOCK	jpeglib.h	/^typedef JCOEF JBLOCK[DCTSIZE2];	\/* one block of coefficients *\/$/;"	t
+JBLOCKARRAY	jpeglib.h	/^typedef JBLOCKROW *JBLOCKARRAY;		\/* a 2-D array of coefficient blocks *\/$/;"	t
+JBLOCKIMAGE	jpeglib.h	/^typedef JBLOCKARRAY *JBLOCKIMAGE;	\/* a 3-D array of coefficient blocks *\/$/;"	t
+JBLOCKROW	jpeglib.h	/^typedef JBLOCK FAR *JBLOCKROW;	\/* pointer to one row of coefficient blocks *\/$/;"	t
+JCOEF	jmorecfg.h	/^typedef short JCOEF;$/;"	t
+JCOEFPTR	jpeglib.h	/^typedef JCOEF FAR *JCOEFPTR;	\/* useful in a couple of places *\/$/;"	t
+JCS_CMYK	jpeglib.h	/^	JCS_CMYK,		\/* C\/M\/Y\/K *\/$/;"	e	enum:__anon7
+JCS_GRAYSCALE	jpeglib.h	/^	JCS_GRAYSCALE,		\/* monochrome *\/$/;"	e	enum:__anon7
+JCS_RGB	jpeglib.h	/^	JCS_RGB,		\/* red\/green\/blue *\/$/;"	e	enum:__anon7
+JCS_UNKNOWN	jpeglib.h	/^	JCS_UNKNOWN,		\/* error\/unspecified *\/$/;"	e	enum:__anon7
+JCS_YCCK	jpeglib.h	/^	JCS_YCCK		\/* Y\/Cb\/Cr\/K *\/$/;"	e	enum:__anon7
+JCS_YCbCr	jpeglib.h	/^	JCS_YCbCr,		\/* Y\/Cb\/Cr (also known as YUV) *\/$/;"	e	enum:__anon7
+JCT_NONE	jpeglib.h	/^	JCT_NONE           = 0,$/;"	e	enum:__anon8
+JCT_SUBTRACT_GREEN	jpeglib.h	/^	JCT_SUBTRACT_GREEN = 1$/;"	e	enum:__anon8
+JDCT_DEFAULT	jpeglib.h	240;"	d
+JDCT_FASTEST	jpeglib.h	243;"	d
+JDCT_FLOAT	jpeglib.h	/^	JDCT_FLOAT		\/* floating-point: accurate, fast on fast HW *\/$/;"	e	enum:__anon9
+JDCT_IFAST	jpeglib.h	/^	JDCT_IFAST,		\/* faster, less accurate integer method *\/$/;"	e	enum:__anon9
+JDCT_ISLOW	jpeglib.h	/^	JDCT_ISLOW,		\/* slow but accurate integer algorithm *\/$/;"	e	enum:__anon9
+JDIMENSION	jmorecfg.h	/^typedef unsigned int JDIMENSION;$/;"	t
+JDITHER_FS	jpeglib.h	/^	JDITHER_FS		\/* Floyd-Steinberg error diffusion dither *\/$/;"	e	enum:__anon10
+JDITHER_NONE	jpeglib.h	/^	JDITHER_NONE,		\/* no dithering *\/$/;"	e	enum:__anon10
+JDITHER_ORDERED	jpeglib.h	/^	JDITHER_ORDERED,	\/* simple ordered dither *\/$/;"	e	enum:__anon10
+JFIF_major_version	jpeglib.h	/^  UINT8 JFIF_major_version;	\/* JFIF version number *\/$/;"	m	struct:jpeg_decompress_struct
+JFIF_major_version	jpeglib.h	/^  UINT8 JFIF_major_version;	\/* What to write for the JFIF version number *\/$/;"	m	struct:jpeg_compress_struct
+JFIF_minor_version	jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_compress_struct
+JFIF_minor_version	jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_decompress_struct
+JHUFF_TBL	jpeglib.h	/^} JHUFF_TBL;$/;"	t	typeref:struct:__anon4
+JMETHOD	jmorecfg.h	207;"	d
+JMETHOD	jmorecfg.h	209;"	d
+JMETHOD	jpeglib.h	/^typedef JMETHOD(boolean, jpeg_marker_parser_method, (j_decompress_ptr cinfo));$/;"	t
+JMSG_LENGTH_MAX	jpeglib.h	704;"	d
+JMSG_STR_PARM_MAX	jpeglib.h	712;"	d
+JOCTET	jmorecfg.h	/^typedef char JOCTET;$/;"	t
+JOCTET	jmorecfg.h	/^typedef unsigned char JOCTET;$/;"	t
+JPEGLIB_H	jpeglib.h	15;"	d
+JPEGPacknSend2df	recbc_srv.c	/^void JPEGPacknSend2df(unsigned char *buf, int len, int frame_num, int timestamp, int channel, t_datafifo *df)$/;"	f
+JPEG_APP0	jpeglib.h	1118;"	d
+JPEG_COM	jpeglib.h	1119;"	d
+JPEG_EOI	jpeglib.h	1117;"	d
+JPEG_HEADER_OK	jpeglib.h	1036;"	d
+JPEG_HEADER_TABLES_ONLY	jpeglib.h	1037;"	d
+JPEG_INTERNAL_OPTIONS	jmorecfg.h	275;"	d
+JPEG_LIB_VERSION	jpeglib.h	40;"	d
+JPEG_LIB_VERSION_MAJOR	jpeglib.h	41;"	d
+JPEG_LIB_VERSION_MINOR	jpeglib.h	42;"	d
+JPEG_MAX_DIMENSION	jmorecfg.h	180;"	d
+JPEG_REACHED_EOI	jpeglib.h	1067;"	d
+JPEG_REACHED_SOS	jpeglib.h	1066;"	d
+JPEG_ROW_COMPLETED	jpeglib.h	1068;"	d
+JPEG_RST0	jpeglib.h	1116;"	d
+JPEG_SCAN_COMPLETED	jpeglib.h	1069;"	d
+JPEG_SUSPENDED	jpeglib.h	1035;"	d
+JPEG_producer_fifo	recbc_srv.h	/^	t_datafifo *JPEG_producer_fifo;$/;"	m	struct:s_img_thread_param
+JPOOL_IMAGE	jpeglib.h	801;"	d
+JPOOL_NUMPOOLS	jpeglib.h	802;"	d
+JPOOL_PERMANENT	jpeglib.h	800;"	d
+JPP	jpeglib.h	870;"	d
+JPP	jpeglib.h	872;"	d
+JQUANT_TBL	jpeglib.h	/^} JQUANT_TBL;$/;"	t	typeref:struct:__anon3
+JSAMPARRAY	jpeglib.h	/^typedef JSAMPROW *JSAMPARRAY;	\/* ptr to some rows (a 2-D sample array) *\/$/;"	t
+JSAMPIMAGE	jpeglib.h	/^typedef JSAMPARRAY *JSAMPIMAGE;	\/* a 3-D sample array: top index is color *\/$/;"	t
+JSAMPLE	jmorecfg.h	/^typedef char JSAMPLE;$/;"	t
+JSAMPLE	jmorecfg.h	/^typedef short JSAMPLE;$/;"	t
+JSAMPLE	jmorecfg.h	/^typedef unsigned char JSAMPLE;$/;"	t
+JSAMPROW	jpeglib.h	/^typedef JSAMPLE FAR *JSAMPROW;	\/* ptr to one image row of pixel samples. *\/$/;"	t
+J_COLOR_SPACE	jpeglib.h	/^} J_COLOR_SPACE;$/;"	t	typeref:enum:__anon7
+J_COLOR_TRANSFORM	jpeglib.h	/^} J_COLOR_TRANSFORM;$/;"	t	typeref:enum:__anon8
+J_DCT_METHOD	jpeglib.h	/^} J_DCT_METHOD;$/;"	t	typeref:enum:__anon9
+J_DITHER_MODE	jpeglib.h	/^} J_DITHER_MODE;$/;"	t	typeref:enum:__anon10
+LIBSVM_VERSION	PC_CENTRIST/svm.h	4;"	d
+LINK_NOTREADY	recbc_srv.h	403;"	d
+LINK_READY	recbc_srv.h	402;"	d
+LOCAL	jmorecfg.h	193;"	d
+LOCALSAVE_IDLE	recbc_srv.h	/^	LOCALSAVE_IDLE = 0,$/;"	e	enum:__anon14
+LOCALSAVE_PAUSE	recbc_srv.h	/^	LOCALSAVE_PAUSE,$/;"	e	enum:__anon14
+LOCALSAVE_RESUME	recbc_srv.h	/^	LOCALSAVE_RESUME,$/;"	e	enum:__anon14
+LOCALSAVE_START	recbc_srv.h	/^	LOCALSAVE_START,$/;"	e	enum:__anon14
+LOCALSAVE_STOP	recbc_srv.h	/^	LOCALSAVE_STOP,$/;"	e	enum:__anon14
+LOCALSAVE_WORKING	recbc_srv.h	/^	LOCALSAVE_WORKING,$/;"	e	enum:__anon14
+LoadVideoCfg	recbc_srv.c	/^void LoadVideoCfg()$/;"	f
+MAXDEVNUM	recbc_srv.h	12;"	d
+MAXJSAMPLE	jmorecfg.h	74;"	d
+MAXJSAMPLE	jmorecfg.h	88;"	d
+MAX_AVPKT_SIZE	recbc_srv.h	292;"	d
+MAX_CLIENT_NUM	streaming_srv.h	14;"	d
+MAX_COMPONENTS	jmorecfg.h	36;"	d
+MAX_COMPS_IN_SCAN	jpeglib.h	55;"	d
+MAX_COND_NAME_LENGTH	recbc_srv.h	457;"	d
+MAX_DATA_SRC_NUM	streaming_srv.h	13;"	d
+MAX_ELEMENT_NUM	recbc_srv.h	458;"	d
+MAX_FRAME_BUFFERED	streaming_srv.h	15;"	d
+MAX_SAMP_FACTOR	jpeglib.h	56;"	d
+MCU_blocks	jpeglib.h	/^  int MCU_blocks;		\/* MCU_width * MCU_height *\/$/;"	m	struct:__anon5
+MCU_height	jpeglib.h	/^  int MCU_height;		\/* number of blocks per MCU, vertically *\/$/;"	m	struct:__anon5
+MCU_membership	jpeglib.h	/^  int MCU_membership[C_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_compress_struct
+MCU_membership	jpeglib.h	/^  int MCU_membership[D_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_decompress_struct
+MCU_rows_in_scan	jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_compress_struct
+MCU_rows_in_scan	jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_decompress_struct
+MCU_sample_width	jpeglib.h	/^  int MCU_sample_width;	\/* MCU width in samples: MCU_width * DCT_h_scaled_size *\/$/;"	m	struct:__anon5
+MCU_width	jpeglib.h	/^  int MCU_width;		\/* number of blocks per MCU, horizontally *\/$/;"	m	struct:__anon5
+MCUs_per_row	jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_compress_struct
+MCUs_per_row	jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_decompress_struct
+METHODDEF	jmorecfg.h	191;"	d
+MODEL_FILE	recbc_srv.c	/^const char *MODEL_FILE = "PC_CENTRIST\/model_int_s";$/;"	v
+MULTIPLIER	jmorecfg.h	370;"	d
+MXML_ADD_AFTER	mxml.h	64;"	d
+MXML_ADD_BEFORE	mxml.h	63;"	d
+MXML_ADD_TO_PARENT	mxml.h	65;"	d
+MXML_CUSTOM	mxml.h	/^  MXML_CUSTOM				\/* Custom data @since Mini-XML 2.1@ *\/$/;"	e	enum:mxml_type_e
+MXML_DESCEND	mxml.h	54;"	d
+MXML_DESCEND_FIRST	mxml.h	56;"	d
+MXML_ELEMENT	mxml.h	/^  MXML_ELEMENT,				\/* XML element with attributes *\/$/;"	e	enum:mxml_type_e
+MXML_IGNORE	mxml.h	/^  MXML_IGNORE = -1,			\/* Ignore\/throw away node @since Mini-XML 2.3@ *\/$/;"	e	enum:mxml_type_e
+MXML_IGNORE_CALLBACK	mxml.h	49;"	d
+MXML_INTEGER	mxml.h	/^  MXML_INTEGER,				\/* Integer value *\/$/;"	e	enum:mxml_type_e
+MXML_INTEGER_CALLBACK	mxml.h	42;"	d
+MXML_NO_CALLBACK	mxml.h	41;"	d
+MXML_NO_DESCEND	mxml.h	55;"	d
+MXML_NO_PARENT	mxml.h	52;"	d
+MXML_OPAQUE	mxml.h	/^  MXML_OPAQUE,				\/* Opaque string *\/$/;"	e	enum:mxml_type_e
+MXML_OPAQUE_CALLBACK	mxml.h	44;"	d
+MXML_REAL	mxml.h	/^  MXML_REAL,				\/* Real value *\/$/;"	e	enum:mxml_type_e
+MXML_REAL_CALLBACK	mxml.h	46;"	d
+MXML_SAX_CDATA	mxml.h	/^  MXML_SAX_CDATA,			\/* CDATA node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_COMMENT	mxml.h	/^  MXML_SAX_COMMENT,			\/* Comment node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_DATA	mxml.h	/^  MXML_SAX_DATA,			\/* Data node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_DIRECTIVE	mxml.h	/^  MXML_SAX_DIRECTIVE,			\/* Processing directive node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_ELEMENT_CLOSE	mxml.h	/^  MXML_SAX_ELEMENT_CLOSE,		\/* Element closed *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_ELEMENT_OPEN	mxml.h	/^  MXML_SAX_ELEMENT_OPEN			\/* Element opened *\/$/;"	e	enum:mxml_sax_event_e
+MXML_TAB	mxml.h	39;"	d
+MXML_TEXT	mxml.h	/^  MXML_TEXT,				\/* Text fragment *\/$/;"	e	enum:mxml_type_e
+MXML_TEXT_CALLBACK	mxml.h	48;"	d
+MXML_WS_AFTER_CLOSE	mxml.h	61;"	d
+MXML_WS_AFTER_OPEN	mxml.h	59;"	d
+MXML_WS_BEFORE_CLOSE	mxml.h	60;"	d
+MXML_WS_BEFORE_OPEN	mxml.h	58;"	d
+Malloc	PC_CENTRIST/svm.c	11;"	d	file:
+MemSet	recbc_srv.c	/^void MemSet(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder, unsigned char num)$/;"	f
+MsgDump	client_emulator.c	/^void MsgDump(char *msg)$/;"	f
+MsgDump	recbc_srv.c	/^void MsgDump(char *msg)$/;"	f
+MsgDump	server_emulator.c	/^void MsgDump(char *msg)$/;"	f
+MsgHandle	server_emulator.c	/^void MsgHandle(char *Msg)$/;"	f
+NUM_ARITH_TBLS	jpeglib.h	54;"	d
+NUM_HUFF_TBLS	jpeglib.h	53;"	d
+NUM_QUANT_TBLS	jpeglib.h	52;"	d
+NumofAttr	recbc_srv.h	/^	int NumofAttr;$/;"	m	struct:s_hello_attrs
+OBJECT_SIZE	PC_CENTRIST/FrameDiff.c	/^const int  OBJECT_SIZE = 5;$/;"	v
+Object	PC_CENTRIST/DetectFrame.c	/^IMAGE Object;$/;"	v
+PACKET_HEADER_SIZE	recbc_srv.h	94;"	d
+PACKET_TYPE_AUDIO	streaming_srv.h	/^	PACKET_TYPE_AUDIO,$/;"	e	enum:__anon19
+PACKET_TYPE_ID	streaming_srv.h	/^	PACKET_TYPE_ID,$/;"	e	enum:__anon19
+PACKET_TYPE_VIDEO	streaming_srv.h	/^	PACKET_TYPE_VIDEO,$/;"	e	enum:__anon19
+PHEIGHT	PC_CENTRIST/param.h	12;"	d
+PIPPacknSend2df	recbc_srv.c	/^void PIPPacknSend2df(unsigned char *buf, int len, int frame_num, int timestamp, int channel, t_datafifo *df)$/;"	f
+PIP_producer_fifo	recbc_srv.h	/^	t_datafifo *PIP_producer_fifo;$/;"	m	struct:s_img_thread_param
+PIXEL_DIFF_THRESH	PC_CENTRIST/FrameDiff.c	/^const int  PIXEL_DIFF_THRESH = 20;$/;"	v
+POLICY_FILE_NAME	recbc_srv.c	68;"	d	file:
+PPM_SUPPORTED	jconfig.h	43;"	d
+PTZ_CONFIG_FILE_NAME	recbc_srv.c	67;"	d	file:
+PWIDTH	PC_CENTRIST/param.h	13;"	d
+PanPos	recbc_srv.h	/^	int PanPos;$/;"	m	struct:s_camera_holder
+ParseVideoCfg	recbc_srv.c	/^void ParseVideoCfg()$/;"	f
+PolicyFileName	recbc_srv.h	/^	char PolicyFileName[64];$/;"	m	struct:s_recbc_cfg
+PortId	recbc_srv.h	/^	int PortId;$/;"	m	struct:s_videoconfig
+Present	recbc_srv.h	/^	int Present;$/;"	m	struct:s_videoconfig
+QUANT_1PASS_SUPPORTED	jmorecfg.h	322;"	d
+QUANT_2PASS_SUPPORTED	jmorecfg.h	323;"	d
+RECBC_IDLE	recbc_srv.h	/^	RECBC_IDLE = 0,$/;"	e	enum:__anon15
+RECBC_SRV_H_	recbc_srv.h	9;"	d
+RECBC_WORKING	recbc_srv.h	/^	RECBC_WORKING,$/;"	e	enum:__anon15
+RGB_BLUE	jmorecfg.h	343;"	d
+RGB_GREEN	jmorecfg.h	342;"	d
+RGB_PIXELSIZE	jmorecfg.h	344;"	d
+RGB_RED	jmorecfg.h	341;"	d
+RT_GENERIC_H_	rt_generic.h	9;"	d
+RX_consumer_fifo_A1	recbc_srv.h	/^	t_datafifo *RX_consumer_fifo_A1;$/;"	m	struct:s_SwitchTracking_thread_param
+RX_consumer_fifo_A2	recbc_srv.h	/^	t_datafifo *RX_consumer_fifo_A2;$/;"	m	struct:s_SwitchTracking_thread_param
+RX_consumer_fifo_B1	recbc_srv.h	/^	t_datafifo *RX_consumer_fifo_B1;$/;"	m	struct:s_SwitchTracking_thread_param
+RX_consumer_fifo_B2	recbc_srv.h	/^	t_datafifo *RX_consumer_fifo_B2;$/;"	m	struct:s_SwitchTracking_thread_param
+RX_consumer_fifo_C1	recbc_srv.h	/^	t_datafifo *RX_consumer_fifo_C1;$/;"	m	struct:s_SwitchTracking_thread_param
+RX_consumer_fifo_C2	recbc_srv.h	/^	t_datafifo *RX_consumer_fifo_C2;$/;"	m	struct:s_SwitchTracking_thread_param
+Recall	recbc_srv.c	/^void Recall(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder, unsigned char num)$/;"	f
+RspLen	recbc_srv.h	/^	unsigned int RspLen;$/;"	m	struct:s_camera_holder
+Rx_buf	recbc_srv.h	/^	char Rx_buf[16];$/;"	m	struct:s_camera_holder
+Rx_buf_p	recbc_srv.h	/^	char *Rx_buf_p;$/;"	m	struct:s_camera_holder
+SAVE_MARKERS_SUPPORTED	jmorecfg.h	318;"	d
+SBNUM_H	PC_CENTRIST/CtImage.c	/^const int SBNUM_H = 8;$/;"	v
+SBNUM_W	PC_CENTRIST/CtImage.c	/^const int SBNUM_W = 3;$/;"	v
+SCALE	PC_CENTRIST/param.h	8;"	d
+SCREEN_ON	recbc_srv.c	7617;"	d	file:
+SKIP_STEP	recbc_srv.c	4868;"	d	file:
+STREAMING_PACKET_HEADER_LENGTH	streaming_srv.h	16;"	d
+STREAMING_SRV_H_	streaming_srv.h	11;"	d
+SV	PC_CENTRIST/svm.h	/^	svm_node **SV;		\/\/ SVs (SV[l])$/;"	m	struct:svm_model
+SYS_CONFIG_FILE_NAME	recbc_srv.c	66;"	d	file:
+Se	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Se	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+Se	jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon6
+SetRecordMode	server_emulator.c	/^void SetRecordMode(int mode, int sock)$/;"	f
+Ss	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Ss	jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+Ss	jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon6
+Switch_producer_fifo	recbc_srv.h	/^	t_datafifo *Switch_producer_fifo;$/;"	m	struct:s_SwitchTracking_thread_param
+TARGA_SUPPORTED	jconfig.h	45;"	d
+THRESH	PC_CENTRIST/param.h	10;"	d
+TRUE	jmorecfg.h	/^typedef enum { FALSE = 0, TRUE = 1 } boolean;$/;"	e	enum:__anon2
+TRUE	jmorecfg.h	260;"	d
+TX_producer_fifo_A	recbc_srv.h	/^	t_datafifo *TX_producer_fifo_A;$/;"	m	struct:s_SwitchTracking_thread_param
+TX_producer_fifo_B	recbc_srv.h	/^	t_datafifo *TX_producer_fifo_B;$/;"	m	struct:s_SwitchTracking_thread_param
+TX_producer_fifo_C	recbc_srv.h	/^	t_datafifo *TX_producer_fifo_C;$/;"	m	struct:s_SwitchTracking_thread_param
+TYPE_AUDIO	client_emulator.c	38;"	d	file:
+TYPE_VIDEO	client_emulator.c	37;"	d	file:
+TiltPos	recbc_srv.h	/^	int TiltPos;$/;"	m	struct:s_camera_holder
+UART_RX_producer_fifo_1	recbc_srv.h	/^	t_datafifo *UART_RX_producer_fifo_1;$/;"	m	struct:s_coreA_thread_param
+UART_RX_producer_fifo_1	recbc_srv.h	/^	t_datafifo *UART_RX_producer_fifo_1;$/;"	m	struct:s_coreBC_thread_param
+UART_RX_producer_fifo_2	recbc_srv.h	/^	t_datafifo *UART_RX_producer_fifo_2;$/;"	m	struct:s_coreA_thread_param
+UART_RX_producer_fifo_2	recbc_srv.h	/^	t_datafifo *UART_RX_producer_fifo_2;$/;"	m	struct:s_coreBC_thread_param
+UART_TX_consumer_fifo	recbc_srv.h	/^	t_datafifo *UART_TX_consumer_fifo;$/;"	m	struct:s_coreA_thread_param
+UART_TX_consumer_fifo	recbc_srv.h	/^	t_datafifo *UART_TX_consumer_fifo;$/;"	m	struct:s_coreBC_thread_param
+UINT16	jmorecfg.h	/^typedef unsigned int UINT16;$/;"	t
+UINT16	jmorecfg.h	/^typedef unsigned short UINT16;$/;"	t
+UINT8	jmorecfg.h	/^typedef char UINT8;$/;"	t
+UINT8	jmorecfg.h	/^typedef short UINT8;$/;"	t
+UINT8	jmorecfg.h	/^typedef unsigned char UINT8;$/;"	t
+UPSAMPLE_MERGING_SUPPORTED	jmorecfg.h	321;"	d
+UPSAMPLE_SCALING_SUPPORTED	jmorecfg.h	320;"	d
+UartId	recbc_srv.h	/^	int UartId;$/;"	m	struct:s_videoconfig
+V1	recbc_srv.h	/^	t_datafifo *V1;$/;"	m	struct:s_localsave_thread_param
+V1_producer_fifo	recbc_srv.h	/^	t_datafifo *V1_producer_fifo;$/;"	m	struct:s_coreBC_thread_param
+V1_producer_fifo	recbc_srv.h	/^	t_datafifo *V1_producer_fifo;$/;"	m	struct:s_coreD_thread_param
+V1_status	recbc_srv.h	/^	int V1_status;$/;"	m	struct:s_localsave_thread_param
+V2	recbc_srv.h	/^	t_datafifo *V2;$/;"	m	struct:s_localsave_thread_param
+V2_producer_fifo	recbc_srv.h	/^	t_datafifo *V2_producer_fifo;$/;"	m	struct:s_coreBC_thread_param
+V2_producer_fifo	recbc_srv.h	/^	t_datafifo *V2_producer_fifo;$/;"	m	struct:s_coreD_thread_param
+V2_status	recbc_srv.h	/^	int V2_status;$/;"	m	struct:s_localsave_thread_param
+V3	recbc_srv.h	/^	t_datafifo *V3;$/;"	m	struct:s_localsave_thread_param
+V3_status	recbc_srv.h	/^	int V3_status;$/;"	m	struct:s_localsave_thread_param
+V4	recbc_srv.h	/^	t_datafifo *V4;$/;"	m	struct:s_localsave_thread_param
+V4_status	recbc_srv.h	/^	int V4_status;$/;"	m	struct:s_localsave_thread_param
+V5	recbc_srv.h	/^	t_datafifo *V5;$/;"	m	struct:s_localsave_thread_param
+V5_status	recbc_srv.h	/^	int V5_status;$/;"	m	struct:s_localsave_thread_param
+V6	recbc_srv.h	/^	t_datafifo *V6;$/;"	m	struct:s_localsave_thread_param
+V6_status	recbc_srv.h	/^	int V6_status;$/;"	m	struct:s_localsave_thread_param
+VERSION_SIZE	recbc_srv.h	89;"	d
+VGA	recbc_srv.h	/^	t_datafifo *VGA;$/;"	m	struct:s_localsave_thread_param
+VGADuration	recbc_srv.h	/^	int VGADuration;$/;"	m	struct:s_recbc_cfg
+VGA_producer_fifo	recbc_srv.h	/^	t_datafifo *VGA_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+VGA_status	recbc_srv.h	/^	int VGA_status;$/;"	m	struct:s_localsave_thread_param
+VIDEO_FUNCTION_BOARD_CLOSEUP	recbc_srv.h	/^	VIDEO_FUNCTION_BOARD_CLOSEUP,$/;"	e	enum:__anon16
+VIDEO_FUNCTION_STUDENT_CLOSEUP	recbc_srv.h	/^	VIDEO_FUNCTION_STUDENT_CLOSEUP,$/;"	e	enum:__anon16
+VIDEO_FUNCTION_STUDENT_PANORAMA	recbc_srv.h	/^	VIDEO_FUNCTION_STUDENT_PANORAMA,$/;"	e	enum:__anon16
+VIDEO_FUNCTION_TEACHER_CLOSEUP	recbc_srv.h	/^	VIDEO_FUNCTION_TEACHER_CLOSEUP,$/;"	e	enum:__anon16
+VIDEO_FUNCTION_TEACHER_PANORAMA	recbc_srv.h	/^	VIDEO_FUNCTION_TEACHER_PANORAMA,$/;"	e	enum:__anon16
+VIDEO_FUNCTION_VGA	recbc_srv.h	/^	VIDEO_FUNCTION_VGA = 0,$/;"	e	enum:__anon16
+VIDEO_SRC_MUX	recbc_srv.h	/^	VIDEO_SRC_MUX,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_NONE	recbc_srv.h	/^	VIDEO_SRC_NONE = -1,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_V1	recbc_srv.h	/^	VIDEO_SRC_V1,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_V2	recbc_srv.h	/^	VIDEO_SRC_V2,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_V3	recbc_srv.h	/^	VIDEO_SRC_V3,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_V4	recbc_srv.h	/^	VIDEO_SRC_V4,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_V5	recbc_srv.h	/^	VIDEO_SRC_V5,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_VAUX1	recbc_srv.h	/^	VIDEO_SRC_VAUX1,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_VAUX2	recbc_srv.h	/^	VIDEO_SRC_VAUX2,$/;"	e	enum:e_VideoSrc
+VIDEO_SRC_VGA	recbc_srv.h	/^	VIDEO_SRC_VGA,$/;"	e	enum:e_VideoSrc
+VIEW_ANGLE_A	recbc_srv.c	5442;"	d	file:
+VINBUF_CNT	recbc_srv.h	259;"	d
+VINBUF_SIZE	recbc_srv.h	258;"	d
+Vlive_producer_fifo	recbc_srv.h	/^	t_datafifo *Vlive_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+Vlive_status	recbc_srv.h	/^	int Vlive_status;$/;"	m	struct:s_localsave_thread_param
+Vmux_live	recbc_srv.h	/^	t_datafifo *Vmux_live;$/;"	m	struct:s_localsave_thread_param
+Vmux_store	recbc_srv.h	/^	t_datafifo *Vmux_store;$/;"	m	struct:s_localsave_thread_param
+Vstore_producer_fifo	recbc_srv.h	/^	t_datafifo *Vstore_producer_fifo;$/;"	m	struct:s_coreA_thread_param
+Vstore_status	recbc_srv.h	/^	int Vstore_status;$/;"	m	struct:s_localsave_thread_param
+X1	recbc_srv.c	5435;"	d	file:
+X2	recbc_srv.c	5438;"	d	file:
+XMLPARSER_H_	xmlparser.h	9;"	d
+X_density	jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_compress_struct
+X_density	jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_decompress_struct
+Y1	recbc_srv.c	5436;"	d	file:
+Y2	recbc_srv.c	5439;"	d	file:
+Y_density	jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_compress_struct
+Y_density	jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_decompress_struct
+Z2	recbc_srv.c	5440;"	d	file:
+ZoomDirect	recbc_srv.c	/^void ZoomDirect(t_SwitchTracking_thread_param *p_camhldctrl, t_camera_holder *camera_holder, int zoompos)$/;"	f
+ZoomPos	recbc_srv.h	/^	int ZoomPos;$/;"	m	struct:s_camera_holder
+_CTIMAGE_H_	PC_CENTRIST/CtImage.h	2;"	d
+_LIBSVM_H	PC_CENTRIST/svm.h	2;"	d
+_PARAM_H_	PC_CENTRIST/param.h	2;"	d
+_mxml_h_	mxml.h	22;"	d
+ac_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct
+ac_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct
+ac_tbl_no	jpeglib.h	/^  int ac_tbl_no;		\/* AC entropy table selector (0..3) *\/$/;"	m	struct:__anon5
+actual_number_of_colors	jpeglib.h	/^  int actual_number_of_colors;	\/* number of entries in use *\/$/;"	m	struct:jpeg_decompress_struct
+add_attr_bin	client_emulator.c	/^static void add_attr_bin(t_cmd *cmd, char *name, char *value, unsigned int valuelen)$/;"	f	file:
+add_attr_bin	recbc_srv.c	/^static void add_attr_bin(t_cmd *cmd, char *name, char *value, unsigned int valuelen)$/;"	f	file:
+add_attr_char	client_emulator.c	/^static void add_attr_char(t_cmd *cmd, char *name, char *value)$/;"	f	file:
+add_attr_char	recbc_srv.c	/^static void add_attr_char(t_cmd *cmd, char *name, char *value)$/;"	f	file:
+add_attr_char	server_emulator.c	/^static void add_attr_char(t_cmd *cmd, char *name, char *value)$/;"	f	file:
+add_attr_int	client_emulator.c	/^static void add_attr_int(t_cmd *cmd,  char *name, unsigned int value)$/;"	f	file:
+add_attr_int	recbc_srv.c	/^static void add_attr_int(t_cmd *cmd,  char *name, unsigned int value)$/;"	f	file:
+add_attr_int	server_emulator.c	/^static void add_attr_int(t_cmd *cmd,  char *name, unsigned int value)$/;"	f	file:
+addon_message_table	jpeglib.h	/^  const char * const * addon_message_table; \/* Non-library errors *\/$/;"	m	struct:jpeg_error_mgr
+alloc_nodes	mxml.h	/^  int			alloc_nodes;	\/* Allocated nodes in index *\/$/;"	m	struct:mxml_index_s
+allocated	streaming_srv.h	/^	int allocated;$/;"	m	struct:s_dfpool_item
+analymode	recbc_srv.h	/^	enum e_AnalyzingMode analymode;$/;"	m	struct:s_videoconfig	typeref:enum:s_videoconfig::e_AnalyzingMode
+angle_h	recbc_srv.h	/^	float angle_h;$/;"	m	struct:s_camera_geometry
+angle_v	recbc_srv.h	/^	float angle_v;$/;"	m	struct:s_camera_geometry
+arg	datafifo.h	/^	}arg;$/;"	m	struct:s_datafifo_item	typeref:struct:s_datafifo_item::__anon1
+arith_ac_K	jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct
+arith_ac_K	jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct
+arith_code	jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_compress_struct
+arith_code	jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_decompress_struct
+arith_dc_L	jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct
+arith_dc_L	jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct
+arith_dc_U	jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct
+arith_dc_U	jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct
+attr	mxml.h	/^  char			*attr;		\/* Attribute used for indexing or NULL *\/$/;"	m	struct:mxml_index_s
+attrs	mxml.h	/^  mxml_attr_t		*attrs;		\/* Attributes *\/$/;"	m	struct:mxml_element_s
+attrs	recbc_srv.h	/^	t_hello_attr attrs[3];$/;"	m	struct:s_hello_attrs
+audio	recbc_srv.h	/^	t_datafifo *audio;$/;"	m	struct:s_localsave_thread_param
+aux	recbc_srv.h	/^	t_aux_camera_param aux[2];$/;"	m	struct:s_aux_result
+av_consumer_fifo	recbc_srv.h	/^	t_datafifo *av_consumer_fifo;$/;"	m	struct:s_localsave_thread_param
+avg_bottom	recbc_srv.h	/^	unsigned int avg_bottom;$/;"	m	struct:s_DetectResult
+avg_left	recbc_srv.h	/^	unsigned int avg_left;$/;"	m	struct:s_DetectResult
+avg_right	recbc_srv.h	/^	unsigned int avg_right;$/;"	m	struct:s_DetectResult
+avg_top	recbc_srv.h	/^	unsigned int avg_top;$/;"	m	struct:s_DetectResult
+bitrate	recbc_srv.h	/^	int bitrate;$/;"	m	struct:s_recbc_cfg
+bits	jpeglib.h	/^  UINT8 bits[17];		\/* bits[k] = # of symbols with codes of *\/$/;"	m	struct:__anon4
+blackboard	recbc_srv.h	/^	int blackboard;$/;"	m	struct:s_forward_table
+block_size	jpeglib.h	/^  int block_size;		\/* the basic DCT block size: 1..16 *\/$/;"	m	struct:jpeg_compress_struct
+block_size	jpeglib.h	/^  int block_size;		\/* the basic DCT block size: 1..16 *\/$/;"	m	struct:jpeg_decompress_struct
+blocks_in_MCU	jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_compress_struct
+blocks_in_MCU	jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_decompress_struct
+boolean	jconfig.h	/^typedef unsigned char boolean;$/;"	t
+boolean	jmorecfg.h	/^typedef enum { FALSE = 0, TRUE = 1 } boolean;$/;"	t	typeref:enum:__anon2
+buffered_image	jpeglib.h	/^  boolean buffered_image;	\/* TRUE=multiple output passes *\/$/;"	m	struct:jpeg_decompress_struct
+byte2int	recbc_srv.c	/^int byte2int(char *buf)$/;"	f
+bytes_in_buffer	jpeglib.h	/^  size_t bytes_in_buffer;	\/* # of bytes remaining in buffer *\/$/;"	m	struct:jpeg_source_mgr
+cam_model	recbc_srv.h	/^	char cam_model[32];$/;"	m	struct:s_video_map
+cam_param_load	xmlparser.c	/^int cam_param_load(char *filename, char *vendor, char *model, t_camera_holder *camera_holder)$/;"	f
+cam_vendor	recbc_srv.h	/^	char cam_vendor[32];$/;"	m	struct:s_video_map
+camera_geometry	recbc_srv.h	/^	t_camera_geometry camera_geometry[3];$/;"	m	struct:s_student_tracking_geometry
+camera_holder_init	recbc_srv.c	/^void camera_holder_init(t_camera_holder *camera_holder)$/;"	f
+camera_initial_angle	recbc_srv.h	/^	float camera_initial_angle;$/;"	m	struct:s_screen_geometry
+camholder_command_timeout	recbc_srv.c	/^int camholder_command_timeout(t_camera_holder *camera_holder, int timeout)$/;"	f
+camholder_reset_pending_state	recbc_srv.c	/^void camholder_reset_pending_state(t_camera_holder *camera_holder)$/;"	f
+cap_id	recbc_srv.h	/^	int cap_id; \/\/1~5:SDI1~5; 6~10:HDMI1~5; 11~15:CVBS1~5$/;"	m	struct:s_video_map
+capif	recbc_srv.h	/^	enum e_CaptureIf capif;$/;"	m	struct:s_videoconfig	typeref:enum:s_videoconfig::e_CaptureIf
+cconvert	jpeglib.h	/^  struct jpeg_color_converter * cconvert;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_color_converter
+cconvert	jpeglib.h	/^  struct jpeg_color_deconverter * cconvert;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_deconverter
+cenCoord	PC_CENTRIST/CtImage.h	/^	rect cenCoord[COOR_SIZE];$/;"	m	struct:__anon12
+cenRecNum	PC_CENTRIST/CtImage.h	/^	int cenRecNum;$/;"	m	struct:__anon12
+changed	recbc_srv.h	/^	int changed;$/;"	m	struct:s_VGA_result
+char2hex	client_emulator.c	/^static int char2hex(char *src, unsigned int *hex, int len)$/;"	f	file:
+char2hex	recbc_srv.c	/^static int char2hex(char *src, unsigned int *hex, int len)$/;"	f	file:
+char2hex	server_emulator.c	/^static int char2hex(char *src, unsigned int *hex, int len)$/;"	f	file:
+child	mxml.h	/^  struct mxml_node_s	*child;		\/* First child node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+client_fifo_item	streaming_srv.h	/^	t_fifopool_item client_fifo_item[MAX_CLIENT_NUM];$/;"	m	struct:s_fifopool
+client_fifo_pool	streaming_srv.h	/^	t_fifopool client_fifo_pool;$/;"	m	struct:s_mainstreaming_ctx
+cmd	recbc_srv.h	/^	char *cmd;$/;"	m	struct:w_cmd
+cmd	recbc_srv.h	/^	char cmd[8];$/;"	m	struct:s_internal_abbr_cmd
+cmd_p	recbc_srv.h	/^	char *cmd_p;$/;"	m	struct:w_cmd
+coef	jpeglib.h	/^  struct jpeg_c_coef_controller * coef;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_coef_controller
+coef	jpeglib.h	/^  struct jpeg_d_coef_controller * coef;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_coef_controller
+coef_bits	jpeglib.h	/^  int (*coef_bits)[DCTSIZE2];	\/* -1 or current Al value for each coef *\/$/;"	m	struct:jpeg_decompress_struct
+color_transform	jpeglib.h	/^  J_COLOR_TRANSFORM color_transform;$/;"	m	struct:jpeg_compress_struct
+color_transform	jpeglib.h	/^  J_COLOR_TRANSFORM color_transform;$/;"	m	struct:jpeg_decompress_struct
+colormap	jpeglib.h	/^  JSAMPARRAY colormap;		\/* The color map as a 2-D pixel array *\/$/;"	m	struct:jpeg_decompress_struct
+command_pending	recbc_srv.h	/^	int command_pending;$/;"	m	struct:s_camera_holder
+comp_info	jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_compress_struct
+comp_info	jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_decompress_struct
+completed_passes	jpeglib.h	/^  int completed_passes;		\/* passes completed so far *\/$/;"	m	struct:jpeg_progress_mgr
+component_id	jpeglib.h	/^  int component_id;		\/* identifier for this component (0..255) *\/$/;"	m	struct:__anon5
+component_index	jpeglib.h	/^  int component_index;		\/* its index in SOF or cinfo->comp_info[] *\/$/;"	m	struct:__anon5
+component_index	jpeglib.h	/^  int component_index[MAX_COMPS_IN_SCAN]; \/* their SOF\/comp_info[] indexes *\/$/;"	m	struct:__anon6
+component_needed	jpeglib.h	/^  boolean component_needed;	\/* do we need the value of this component? *\/$/;"	m	struct:__anon5
+comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_compress_struct
+comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_decompress_struct
+comps_in_scan	jpeglib.h	/^  int comps_in_scan;		\/* number of components encoded in this scan *\/$/;"	m	struct:__anon6
+cond	datafifo.h	/^	pthread_cond_t cond;$/;"	m	struct:s_datafifo
+cond	recbc_srv.h	/^	t_cond_item cond[COND_MAX];$/;"	m	struct:s_truth_table
+cond_idx	recbc_srv.h	/^	int cond_idx;$/;"	m	struct:s_cond_item
+cond_type	recbc_srv.h	/^	int cond_type; \/\/0:element; 1:combined$/;"	m	struct:s_cond_item
+config_init	recbc_srv.c	/^int config_init(char *config_file)$/;"	f
+config_load	xmlparser.c	/^int config_load(char * filename, t_recbc_cfg *cfg)$/;"	f
+consumer_fifo	recbc_srv.h	/^	t_datafifo *consumer_fifo;$/;"	m	struct:s_instructor_tread_param
+consumer_fifo	recbc_srv.h	/^	t_datafifo *consumer_fifo;$/;"	m	struct:s_videoanalyze_thread_param
+consumer_fifo	streaming_srv.h	/^	t_datafifo consumer_fifo;$/;"	m	struct:s_datasink
+consumers	datafifo.h	/^	struct s_datafifo_con * consumers; \/\/consumers list$/;"	m	struct:s_datafifo	typeref:struct:s_datafifo::s_datafifo_con
+coordinate	PC_CENTRIST/CtImage.h	/^	rect coordinate[COOR_SIZE];$/;"	m	struct:__anon12
+coreA_thread_param	recbc_srv.h	/^	t_coreA_thread_param *coreA_thread_param;$/;"	m	struct:s_instructor_tread_param
+coreB_thread_param	recbc_srv.h	/^	t_coreBC_thread_param *coreB_thread_param;$/;"	m	struct:s_instructor_tread_param
+coreC_thread_param	recbc_srv.h	/^	t_coreBC_thread_param *coreC_thread_param;$/;"	m	struct:s_instructor_tread_param
+coreD_thread_param	recbc_srv.h	/^	t_coreD_thread_param *coreD_thread_param;$/;"	m	struct:s_instructor_tread_param
+cquantize	jpeglib.h	/^  struct jpeg_color_quantizer * cquantize;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_quantizer
+cur_comp_info	jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_compress_struct
+cur_comp_info	jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_decompress_struct
+cur_node	mxml.h	/^  int			cur_node;	\/* Current node *\/$/;"	m	struct:mxml_index_s
+current_state	recbc_srv.h	/^	char current_state;$/;"	m	struct:s_finite_state_machine
+custom	mxml.h	/^  mxml_custom_t		custom;		\/* Custom data @since Mini-XML 2.1@ *\/$/;"	m	union:mxml_value_u
+data	datafifo.h	/^		unsigned char * data;$/;"	m	struct:s_datafifo_item::__anon1
+data	jpeglib.h	/^  JOCTET FAR * data;		\/* the data contained in the marker *\/$/;"	m	struct:jpeg_marker_struct
+data	mxml.h	/^  void			*data;		\/* Pointer to (allocated) custom data *\/$/;"	m	struct:mxml_custom_s
+data	recbc_srv.h	/^	char *data;$/;"	m	struct:w_cmd
+data_len	recbc_srv.h	/^	char *data_len;$/;"	m	struct:w_cmd
+data_length	jpeglib.h	/^  unsigned int data_length;	\/* # bytes of data saved at data[] *\/$/;"	m	struct:jpeg_marker_struct
+data_maxlen	datafifo.h	/^	unsigned int data_maxlen;$/;"	m	struct:s_datafifo
+data_p	streaming_srv.h	/^	char *data_p;$/;"	m	struct:s_datasrc_ctx
+data_precision	jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_compress_struct
+data_precision	jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_decompress_struct
+databuf	streaming_srv.h	/^	char *databuf;$/;"	m	struct:s_datasrc_ctx
+datafifo	datafifo.h	/^	struct s_datafifo * datafifo; \/\/pointer to which datafifo this item belongs to.$/;"	m	struct:s_datafifo_item	typeref:struct:s_datafifo_item::s_datafifo
+datafifo	datafifo.h	/^	struct s_datafifo * datafifo;$/;"	m	struct:s_datafifo_con	typeref:struct:s_datafifo_con::s_datafifo
+datafifo_addto_consumers	datafifo.c	/^static int datafifo_addto_consumers(t_datafifo * df, t_datafifo_item *item)$/;"	f	file:
+datafifo_alloc	datafifo.c	/^static t_datafifo_item * datafifo_alloc(t_datafifo *df)$/;"	f	file:
+datafifo_connect	datafifo.c	/^int datafifo_connect(t_datafifo * producer, t_datafifo * consumer)$/;"	f
+datafifo_consumer_clear	datafifo.c	/^void datafifo_consumer_clear(t_datafifo *df)$/;"	f
+datafifo_consumer_remove_head	datafifo.c	/^int datafifo_consumer_remove_head(t_datafifo *df)$/;"	f
+datafifo_disconnect	datafifo.c	/^int datafifo_disconnect(t_datafifo * producer, t_datafifo * consumer)$/;"	f
+datafifo_head	datafifo.h	94;"	d
+datafifo_init	datafifo.c	/^int datafifo_init(t_datafifo *df, int size, int cnt)$/;"	f
+datafifo_list_addtail	datafifo.c	/^static void datafifo_list_addtail(t_datafifo *df, t_datafifo_item * f)$/;"	f	file:
+datafifo_lock	datafifo.h	79;"	d
+datafifo_print	datafifo.c	/^void datafifo_print(t_datafifo *df)$/;"	f
+datafifo_producer_data_add	datafifo.c	/^int datafifo_producer_data_add(t_datafifo * df, unsigned char *data, int len, int flags, int timestamp)$/;"	f
+datafifo_producer_remove_check	datafifo.c	/^static int datafifo_producer_remove_check(t_datafifo * df)$/;"	f	file:
+datafifo_remove_head_internal_reqlock	datafifo.c	/^static void datafifo_remove_head_internal_reqlock(struct s_datafifo *df)$/;"	f	file:
+datafifo_signal	datafifo.h	81;"	d
+datafifo_unlock	datafifo.h	80;"	d
+datafifo_wait	datafifo.h	83;"	d
+datasink	streaming_srv.h	/^	t_datasink datasink;$/;"	m	struct:s_datasrc_ctx
+datasrc_ctx	streaming_srv.h	/^	t_datasrc_ctx datasrc_ctx[MAX_DATA_SRC_NUM];$/;"	m	struct:s_datasrc_ctx_pool
+datasrc_ctx_pool	streaming_srv.h	/^	t_datasrc_ctx_pool datasrc_ctx_pool;$/;"	m	struct:s_mainstreaming_ctx
+datasrc_ctx_pool_lock	streaming_srv.h	87;"	d
+datasrc_ctx_pool_unlock	streaming_srv.h	88;"	d
+dc_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct
+dc_huff_tbl_ptrs	jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct
+dc_tbl_no	jpeglib.h	/^  int dc_tbl_no;		\/* DC entropy table selector (0..3) *\/$/;"	m	struct:__anon5
+dct_method	jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* DCT algorithm selector *\/$/;"	m	struct:jpeg_compress_struct
+dct_method	jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* IDCT algorithm selector *\/$/;"	m	struct:jpeg_decompress_struct
+dct_table	jpeglib.h	/^  void * dct_table;$/;"	m	struct:__anon5
+debug_printf	client_emulator.c	19;"	d	file:
+debug_printf	recbc_srv.c	54;"	d	file:
+debug_printf	server_emulator.c	20;"	d	file:
+density_unit	jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_compress_struct
+density_unit	jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_decompress_struct
+desired_number_of_colors	jpeglib.h	/^  int desired_number_of_colors;	\/* max # colors to use in created colormap *\/$/;"	m	struct:jpeg_decompress_struct
+dest	jpeglib.h	/^  struct jpeg_destination_mgr * dest;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_destination_mgr
+destroy	mxml.h	/^  mxml_custom_destroy_cb_t destroy;	\/* Pointer to destructor function *\/$/;"	m	struct:mxml_custom_s
+detected	recbc_srv.h	/^	unsigned int detected;$/;"	m	struct:s_DetectResult
+df	streaming_srv.h	/^	t_datafifo df;$/;"	m	struct:s_dfpool_item
+diffImage	PC_CENTRIST/CtImage.h	/^	unsigned char diffImage[FRAME_WIDTH*FRAME_HEIGHT];$/;"	m	struct:__anon12
+dither_mode	jpeglib.h	/^  J_DITHER_MODE dither_mode;	\/* type of color dithering to use *\/$/;"	m	struct:jpeg_decompress_struct
+do_block_smoothing	jpeglib.h	/^  boolean do_block_smoothing;	\/* TRUE=apply interblock smoothing *\/$/;"	m	struct:jpeg_decompress_struct
+do_fancy_downsampling	jpeglib.h	/^  boolean do_fancy_downsampling; \/* TRUE=apply fancy downsampling *\/$/;"	m	struct:jpeg_compress_struct
+do_fancy_upsampling	jpeglib.h	/^  boolean do_fancy_upsampling;	\/* TRUE=apply fancy upsampling *\/$/;"	m	struct:jpeg_decompress_struct
+dotracking	recbc_srv.h	/^	int dotracking;$/;"	m	struct:s_student_tracking_geometry
+downsample	jpeglib.h	/^  struct jpeg_downsampler * downsample;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_downsampler
+downsampled_height	jpeglib.h	/^  JDIMENSION downsampled_height; \/* actual height in samples *\/$/;"	m	struct:__anon5
+downsampled_width	jpeglib.h	/^  JDIMENSION downsampled_width;	 \/* actual width in samples *\/$/;"	m	struct:__anon5
+dummy	jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	m	struct:jpeg_c_coef_controller
+dummy	jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	m	struct:jpeg_c_main_controller
+dummy	jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	m	struct:jpeg_c_prep_controller
+dummy	jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	m	struct:jpeg_color_converter
+dummy	jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	m	struct:jpeg_color_deconverter
+dummy	jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	m	struct:jpeg_color_quantizer
+dummy	jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	m	struct:jpeg_comp_master
+dummy	jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	m	struct:jpeg_d_coef_controller
+dummy	jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	m	struct:jpeg_d_main_controller
+dummy	jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	m	struct:jpeg_d_post_controller
+dummy	jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	m	struct:jpeg_decomp_master
+dummy	jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	m	struct:jpeg_downsampler
+dummy	jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	m	struct:jpeg_entropy_decoder
+dummy	jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	m	struct:jpeg_entropy_encoder
+dummy	jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	m	struct:jpeg_forward_dct
+dummy	jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	m	struct:jpeg_input_controller
+dummy	jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	m	struct:jpeg_inverse_dct
+dummy	jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	m	struct:jpeg_marker_reader
+dummy	jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	m	struct:jpeg_marker_writer
+dummy	jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	m	struct:jpeg_upsampler
+dummy	jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	m	struct:jvirt_barray_control
+dummy	jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	m	struct:jvirt_sarray_control
+e_AnalyzingMode	recbc_srv.h	/^enum e_AnalyzingMode$/;"	g
+e_CaptureIf	recbc_srv.h	/^enum e_CaptureIf$/;"	g
+e_VideoSrc	recbc_srv.h	/^enum e_VideoSrc$/;"	g
+e_cond_idx	recbc_srv.h	/^}e_cond_idx;$/;"	t	typeref:enum:__anon17
+e_frame_type	recbc_srv.h	/^}e_frame_type;$/;"	t	typeref:enum:__anon13
+e_fsm_state	recbc_srv.h	/^}e_fsm_state;$/;"	t	typeref:enum:__anon18
+e_localsave_status	recbc_srv.h	/^}e_localsave_status;$/;"	t	typeref:enum:__anon14
+e_packet_type	streaming_srv.h	/^}e_packet_type;$/;"	t	typeref:enum:__anon19
+e_recbc_status	recbc_srv.h	/^}e_recbc_status;$/;"	t	typeref:enum:__anon15
+e_video_function	recbc_srv.h	/^}e_video_function;$/;"	t	typeref:enum:__anon16
+element	mxml.h	/^  mxml_element_t	element;	\/* Element *\/$/;"	m	union:mxml_value_u
+element	recbc_srv.h	/^	struct s_cond_item *element[MAX_ELEMENT_NUM]; \/\/only for combined type conditions$/;"	m	struct:s_cond_item	typeref:struct:s_cond_item::s_cond_item
+enable_1pass_quant	jpeglib.h	/^  boolean enable_1pass_quant;	\/* enable future use of 1-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct
+enable_2pass_quant	jpeglib.h	/^  boolean enable_2pass_quant;	\/* enable future use of 2-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct
+enable_external_quant	jpeglib.h	/^  boolean enable_external_quant;\/* enable future use of external colormap *\/$/;"	m	struct:jpeg_decompress_struct
+entropy	jpeglib.h	/^  struct jpeg_entropy_decoder * entropy;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_entropy_decoder
+entropy	jpeglib.h	/^  struct jpeg_entropy_encoder * entropy;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_entropy_encoder
+false	PC_CENTRIST/param.h	20;"	d
+fdct	jpeglib.h	/^  struct jpeg_forward_dct * fdct;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_forward_dct
+feature	PC_CENTRIST/CtImage.c	/^int* feature;$/;"	v
+filename	recbc_srv.h	/^	char filename[256];$/;"	m	struct:s_mp4format
+fill_cmd_header	client_emulator.c	/^static void fill_cmd_header(t_cmd *cmd, char *cmd_p)$/;"	f	file:
+fill_cmd_header	recbc_srv.c	/^static void fill_cmd_header(t_cmd *cmd, char *cmd_p)$/;"	f	file:
+fill_cmd_header	server_emulator.c	/^static void fill_cmd_header(t_cmd *cmd, char *cmd_p)$/;"	f	file:
+fill_transition_table	xmlparser.c	/^void fill_transition_table(const char *nodeAttr, int fsm_state, mxml_node_t *node0, t_finite_state_machine *fsm)$/;"	f
+filterImage	PC_CENTRIST/CtImage.h	/^	unsigned char filterImage[FRAME_WIDTH*FRAME_HEIGHT];$/;"	m	struct:__anon12
+filtered_img_producer_fifo	recbc_srv.h	/^	t_datafifo *filtered_img_producer_fifo;$/;"	m	struct:s_img_thread_param
+firstImage	PC_CENTRIST/CtImage.h	/^	unsigned char firstImage[FRAME_WIDTH*FRAME_HEIGHT];$/;"	m	struct:__anon12
+first_addon_message	jpeglib.h	/^  int first_addon_message;	\/* code for first string in addon table *\/$/;"	m	struct:jpeg_error_mgr
+flag	streaming_srv.h	/^	unsigned int flag;$/;"	m	struct:s_streaming_packet_header
+flags	datafifo.h	/^		int flags;$/;"	m	struct:s_datafifo_item::__anon1
+forward_table_load	xmlparser.c	/^int forward_table_load(char *filename, t_forward_table *forward_table)$/;"	f
+fps	recbc_srv.h	/^	char fps[16];$/;"	m	struct:s_mp4format
+frame_height	recbc_srv.h	/^	int frame_height;$/;"	m	struct:s_recbc_cfg
+frame_length	recbc_srv.h	/^	unsigned int frame_length;$/;"	m	struct:s_frame_info
+frame_num	PC_CENTRIST/CtImage.h	/^	int frame_num;$/;"	m	struct:__anon12
+frame_num	recbc_srv.h	/^	unsigned int frame_num;$/;"	m	struct:s_frame_info
+frame_rate	recbc_srv.h	/^	float frame_rate;$/;"	m	struct:s_recbc_cfg
+frame_rate	recbc_srv.h	/^	unsigned int frame_rate;$/;"	m	struct:s_frame_info
+frame_type	recbc_srv.h	/^	unsigned int frame_type;$/;"	m	struct:s_frame_info
+frame_width	recbc_srv.h	/^	int frame_width;$/;"	m	struct:s_recbc_cfg
+free_in_buffer	jpeglib.h	/^  size_t free_in_buffer;	\/* # of byte spaces remaining in buffer *\/$/;"	m	struct:jpeg_destination_mgr
+front	recbc_srv.h	/^	int front;$/;"	m	struct:s_area
+fsm_get_state	recbc_srv.c	/^char fsm_get_state(t_finite_state_machine *fsm)$/;"	f
+fsm_init	recbc_srv.c	/^void fsm_init(t_finite_state_machine *fsm, t_truth_table *truth_table, t_transition_table *transition_table)$/;"	f
+fsm_set_state	recbc_srv.c	/^void fsm_set_state(t_finite_state_machine *fsm, char state)$/;"	f
+fsm_state_update	recbc_srv.c	/^char fsm_state_update(t_finite_state_machine *fsm)$/;"	f
+full_cond	datafifo.h	/^	pthread_cond_t full_cond;$/;"	m	struct:s_datafifo
+fullbuf	recbc_srv.h	/^	char fullbuf[CMD_BUFSIZE];$/;"	m	struct:w_cmd
+function	recbc_srv.h	/^	int function; \/\/1:teacher_closeup; 2:student_closeup; 3:teacher_panorama; 4:student_panorama; 5:board_closeup; 6:cvbs$/;"	m	struct:s_video_map
+g_analyze_frame_num	recbc_srv.c	/^int g_analyze_frame_num = 0;$/;"	v
+g_camholder_still	recbc_srv.c	/^int g_camholder_still = 1;$/;"	v
+g_capture_sync_mutex	recbc_srv.c	/^pthread_mutex_t g_capture_sync_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+g_cfg	recbc_srv.c	/^t_recbc_cfg g_cfg;$/;"	v
+g_config_file	recbc_srv.c	/^char *g_config_file = "configure\/config_file";$/;"	v
+g_forward_table	recbc_srv.c	/^t_forward_table g_forward_table;$/;"	v
+g_num_in_group	recbc_srv.c	/^int g_num_in_group = 0;$/;"	v
+g_reg_09	recbc_srv.c	/^int g_reg_09 = 0;$/;"	v
+g_vmap_file	recbc_srv.c	/^char *g_vmap_file = ".\/configure\/vmap_file";$/;"	v
+g_vmap_table	recbc_srv.c	/^t_video_map g_vmap_table[6]; \/\/VGA is not in this table because its map is fixed$/;"	v
+gamma	PC_CENTRIST/svm.h	/^	double gamma;	\/\/ parameter$/;"	m	struct:svm_model
+getMsg	client_emulator.c	/^int getMsg(int sock, char* buf, int *number_in_buf)$/;"	f
+getMsg	recbc_srv.c	/^int getMsg(int sock, char* buf)$/;"	f
+getMsg	server_emulator.c	/^int getMsg(int sock, char* buf)$/;"	f
+get_camholder_err	recbc_srv.c	/^int get_camholder_err(t_camera_holder *camera_holder)$/;"	f
+get_camholder_pending_state	recbc_srv.c	/^int get_camholder_pending_state(t_camera_holder *camera_holder)$/;"	f
+get_student_tracking_param	recbc_srv.c	/^void get_student_tracking_param(t_student_tracking_geometry *geometry, t_aux_result *result)$/;"	f
+h_samp_factor	jpeglib.h	/^  int h_samp_factor;		\/* horizontal sampling factor (1..4) *\/$/;"	m	struct:__anon5
+hasA	recbc_srv.h	/^	int hasA;$/;"	m	struct:s_recbc_cfg
+hasB	recbc_srv.h	/^	int hasB;$/;"	m	struct:s_recbc_cfg
+hasC	recbc_srv.h	/^	int hasC;$/;"	m	struct:s_recbc_cfg
+hasD	recbc_srv.h	/^	int hasD;$/;"	m	struct:s_recbc_cfg
+has_audio	recbc_srv.h	/^	int has_audio;$/;"	m	struct:s_mp4format
+has_object	PC_CENTRIST/CtImage.h	/^	int has_object;$/;"	m	struct:__anon12
+has_screen	recbc_srv.h	/^	int has_screen;$/;"	m	struct:s_screen_geometry
+height_in_blocks	jpeglib.h	/^  JDIMENSION height_in_blocks;$/;"	m	struct:__anon5
+horizontal	PC_CENTRIST/CtImage.h	/^	int horizontal[FRAME_HEIGHT];$/;"	m	struct:__anon12
+huffval	jpeglib.h	/^  UINT8 huffval[256];		\/* The symbols, in order of incr code length *\/$/;"	m	struct:__anon4
+i	jpeglib.h	/^    int i[8];$/;"	m	union:jpeg_error_mgr::__anon11
+idct	jpeglib.h	/^  struct jpeg_inverse_dct * idct;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_inverse_dct
+image_height	jpeglib.h	/^  JDIMENSION image_height;	\/* input image height *\/$/;"	m	struct:jpeg_compress_struct
+image_height	jpeglib.h	/^  JDIMENSION image_height;	\/* nominal image height *\/$/;"	m	struct:jpeg_decompress_struct
+image_width	jpeglib.h	/^  JDIMENSION image_width;	\/* input image width *\/$/;"	m	struct:jpeg_compress_struct
+image_width	jpeglib.h	/^  JDIMENSION image_width;	\/* nominal image width (from SOF marker) *\/$/;"	m	struct:jpeg_decompress_struct
+img1	recbc_srv.h	/^	t_datafifo *img1;$/;"	m	struct:s_img_thread_param
+img2	recbc_srv.h	/^	t_datafifo *img2;$/;"	m	struct:s_img_thread_param
+img3	recbc_srv.h	/^	t_datafifo *img3;$/;"	m	struct:s_img_thread_param
+img4	recbc_srv.h	/^	t_datafifo *img4;$/;"	m	struct:s_img_thread_param
+img5	recbc_srv.h	/^	t_datafifo *img5;$/;"	m	struct:s_img_thread_param
+img6	recbc_srv.h	/^	t_datafifo *img6;$/;"	m	struct:s_img_thread_param
+imgM	recbc_srv.h	/^	t_datafifo *imgM;$/;"	m	struct:s_img_thread_param
+imgV	recbc_srv.h	/^	t_datafifo *imgV;$/;"	m	struct:s_img_thread_param
+img_consumer_fifo	recbc_srv.h	/^	t_datafifo *img_consumer_fifo;$/;"	m	struct:s_img_thread_param
+in_color_space	jpeglib.h	/^  J_COLOR_SPACE in_color_space;	\/* colorspace of input image *\/$/;"	m	struct:jpeg_compress_struct
+index	recbc_srv.h	/^	int index; \/\/array index$/;"	m	struct:s_video_map
+initial_state	recbc_srv.h	/^	char initial_state;$/;"	m	struct:s_finite_state_machine
+input_components	jpeglib.h	/^  int input_components;		\/* # of color components in input image *\/$/;"	m	struct:jpeg_compress_struct
+input_gamma	jpeglib.h	/^  double input_gamma;		\/* image gamma of input image *\/$/;"	m	struct:jpeg_compress_struct
+input_iMCU_row	jpeglib.h	/^  JDIMENSION input_iMCU_row;	\/* Number of iMCU rows completed *\/$/;"	m	struct:jpeg_decompress_struct
+input_scan_number	jpeglib.h	/^  int input_scan_number;	\/* Number of SOS markers seen so far *\/$/;"	m	struct:jpeg_decompress_struct
+inputctl	jpeglib.h	/^  struct jpeg_input_controller * inputctl;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_input_controller
+integer	mxml.h	/^  int			integer;	\/* Integer number *\/$/;"	m	union:mxml_value_u
+intvalue	recbc_srv.h	/^	char intvalue[4];$/;"	m	struct:s_internal_abbr_cmd
+is_baseline	jpeglib.h	/^  boolean is_baseline;		\/* TRUE if Baseline SOF0 encountered *\/$/;"	m	struct:jpeg_decompress_struct
+item	recbc_srv.h	/^	char item[FSM_STATE_MAX][COND_MAX];$/;"	m	struct:s_transition_table
+item_cnt	datafifo.h	/^	unsigned int item_cnt; \/\/pool size$/;"	m	struct:s_datafifo
+item_num	recbc_srv.h	/^	int item_num;$/;"	m	struct:s_truth_table
+items	datafifo.h	/^	t_datafifo_item * items; \/\/all items pool, array.$/;"	m	struct:s_datafifo
+j_common_ptr	jpeglib.h	/^typedef struct jpeg_common_struct * j_common_ptr;$/;"	t	typeref:struct:jpeg_common_struct
+j_compress_ptr	jpeglib.h	/^typedef struct jpeg_compress_struct * j_compress_ptr;$/;"	t	typeref:struct:jpeg_compress_struct
+j_decompress_ptr	jpeglib.h	/^typedef struct jpeg_decompress_struct * j_decompress_ptr;$/;"	t	typeref:struct:jpeg_decompress_struct
+jpeg_CreateCompress	jpeglib.h	885;"	d
+jpeg_CreateDecompress	jpeglib.h	886;"	d
+jpeg_abort	jpeglib.h	934;"	d
+jpeg_abort_compress	jpeglib.h	932;"	d
+jpeg_abort_decompress	jpeglib.h	933;"	d
+jpeg_add_quant_table	jpeglib.h	899;"	d
+jpeg_alloc_huff_table	jpeglib.h	904;"	d
+jpeg_alloc_quant_table	jpeglib.h	903;"	d
+jpeg_c_coef_controller	jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	s
+jpeg_c_main_controller	jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	s
+jpeg_c_prep_controller	jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	s
+jpeg_calc_jpeg_dimensions	jpeglib.h	908;"	d
+jpeg_calc_output_dimensions	jpeglib.h	926;"	d
+jpeg_cnt	server_emulator.c	/^int jpeg_cnt = 0;$/;"	v
+jpeg_color_converter	jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	s
+jpeg_color_deconverter	jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	s
+jpeg_color_quantizer	jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	s
+jpeg_color_space	jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_compress_struct
+jpeg_color_space	jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_decompress_struct
+jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields common to both master struct types *\/$/;"	m	struct:jpeg_common_struct
+jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_compress_struct *\/$/;"	m	struct:jpeg_decompress_struct
+jpeg_common_fields	jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_decompress_struct *\/$/;"	m	struct:jpeg_compress_struct
+jpeg_common_fields	jpeglib.h	257;"	d
+jpeg_common_struct	jpeglib.h	/^struct jpeg_common_struct {$/;"	s
+jpeg_comp_master	jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	s
+jpeg_component_info	jpeglib.h	/^} jpeg_component_info;$/;"	t	typeref:struct:__anon5
+jpeg_compress_struct	jpeglib.h	/^struct jpeg_compress_struct {$/;"	s
+jpeg_consume_input	jpeglib.h	924;"	d
+jpeg_copy_critical_parameters	jpeglib.h	931;"	d
+jpeg_core_output_dimensions	jpeglib.h	925;"	d
+jpeg_create_compress	jpeglib.h	951;"	d
+jpeg_create_decompress	jpeglib.h	954;"	d
+jpeg_d_coef_controller	jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	s
+jpeg_d_main_controller	jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	s
+jpeg_d_post_controller	jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	s
+jpeg_decomp_master	jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	s
+jpeg_decompress_struct	jpeglib.h	/^struct jpeg_decompress_struct {$/;"	s
+jpeg_default_colorspace	jpeglib.h	895;"	d
+jpeg_default_qtables	jpeglib.h	898;"	d
+jpeg_destination_mgr	jpeglib.h	/^struct jpeg_destination_mgr {$/;"	s
+jpeg_destroy	jpeglib.h	935;"	d
+jpeg_destroy_compress	jpeglib.h	887;"	d
+jpeg_destroy_decompress	jpeglib.h	888;"	d
+jpeg_downsampler	jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	s
+jpeg_entropy_decoder	jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	s
+jpeg_entropy_encoder	jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	s
+jpeg_error_mgr	jpeglib.h	/^struct jpeg_error_mgr {$/;"	s
+jpeg_fd	server_emulator.c	/^FILE *jpeg_fd = NULL;$/;"	v
+jpeg_finish_compress	jpeglib.h	907;"	d
+jpeg_finish_decompress	jpeglib.h	917;"	d
+jpeg_finish_output	jpeglib.h	921;"	d
+jpeg_forward_dct	jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	s
+jpeg_has_multiple_scans	jpeglib.h	919;"	d
+jpeg_height	jpeglib.h	/^  JDIMENSION jpeg_height;	\/* scaled JPEG image height *\/$/;"	m	struct:jpeg_compress_struct
+jpeg_input_complete	jpeglib.h	922;"	d
+jpeg_input_controller	jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	s
+jpeg_inverse_dct	jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	s
+jpeg_marker_reader	jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	s
+jpeg_marker_struct	jpeglib.h	/^struct jpeg_marker_struct {$/;"	s
+jpeg_marker_writer	jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	s
+jpeg_mem_dest	jpeglib.h	891;"	d
+jpeg_mem_src	jpeglib.h	892;"	d
+jpeg_memory_mgr	jpeglib.h	/^struct jpeg_memory_mgr {$/;"	s
+jpeg_message_table	jpeglib.h	/^  const char * const * jpeg_message_table; \/* Library errors *\/$/;"	m	struct:jpeg_error_mgr
+jpeg_new_colormap	jpeglib.h	923;"	d
+jpeg_progress_mgr	jpeglib.h	/^struct jpeg_progress_mgr {$/;"	s
+jpeg_quality_scaling	jpeglib.h	900;"	d
+jpeg_read_coefficients	jpeglib.h	929;"	d
+jpeg_read_header	jpeglib.h	914;"	d
+jpeg_read_raw_data	jpeglib.h	918;"	d
+jpeg_read_scanlines	jpeglib.h	916;"	d
+jpeg_resync_to_restart	jpeglib.h	936;"	d
+jpeg_save_markers	jpeglib.h	927;"	d
+jpeg_saved_marker_ptr	jpeglib.h	/^typedef struct jpeg_marker_struct FAR * jpeg_saved_marker_ptr;$/;"	t	typeref:struct:FAR
+jpeg_scan_info	jpeglib.h	/^} jpeg_scan_info;$/;"	t	typeref:struct:__anon6
+jpeg_set_colorspace	jpeglib.h	894;"	d
+jpeg_set_defaults	jpeglib.h	893;"	d
+jpeg_set_linear_quality	jpeglib.h	897;"	d
+jpeg_set_marker_processor	jpeglib.h	928;"	d
+jpeg_set_quality	jpeglib.h	896;"	d
+jpeg_simple_progression	jpeglib.h	901;"	d
+jpeg_source_mgr	jpeglib.h	/^struct jpeg_source_mgr {$/;"	s
+jpeg_start_compress	jpeglib.h	905;"	d
+jpeg_start_decompress	jpeglib.h	915;"	d
+jpeg_start_output	jpeglib.h	920;"	d
+jpeg_std_error	jpeglib.h	884;"	d
+jpeg_stdio_dest	jpeglib.h	889;"	d
+jpeg_stdio_src	jpeglib.h	890;"	d
+jpeg_suppress_tables	jpeglib.h	902;"	d
+jpeg_upsampler	jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	s
+jpeg_width	jpeglib.h	/^  JDIMENSION jpeg_width;	\/* scaled JPEG image width *\/$/;"	m	struct:jpeg_compress_struct
+jpeg_write_coefficients	jpeglib.h	930;"	d
+jpeg_write_m_byte	jpeglib.h	912;"	d
+jpeg_write_m_header	jpeglib.h	911;"	d
+jpeg_write_marker	jpeglib.h	910;"	d
+jpeg_write_raw_data	jpeglib.h	909;"	d
+jpeg_write_scanlines	jpeglib.h	906;"	d
+jpeg_write_tables	jpeglib.h	913;"	d
+jvirt_barray_control	jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	s
+jvirt_barray_ptr	jpeglib.h	/^typedef struct jvirt_barray_control * jvirt_barray_ptr;$/;"	t	typeref:struct:jvirt_barray_control
+jvirt_sarray_control	jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	s
+jvirt_sarray_ptr	jpeglib.h	/^typedef struct jvirt_sarray_control * jvirt_sarray_ptr;$/;"	t	typeref:struct:jvirt_sarray_control
+k_function	PC_CENTRIST/svm.c	/^int k_function(const svm_node *x, const svm_node *y)$/;"	f
+l	PC_CENTRIST/svm.h	/^	int l;			\/\/ total #SV$/;"	m	struct:svm_model
+label	PC_CENTRIST/svm.h	/^	int *label;		\/\/ label of each class (label[k])$/;"	m	struct:svm_model
+lastImage	PC_CENTRIST/CtImage.h	/^	unsigned char lastImage[FRAME_WIDTH*FRAME_HEIGHT];$/;"	m	struct:__anon12
+last_addon_message	jpeglib.h	/^  int last_addon_message;	\/* code for last string in addon table *\/$/;"	m	struct:jpeg_error_mgr
+last_child	mxml.h	/^  struct mxml_node_s	*last_child;	\/* Last child node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+last_col_width	jpeglib.h	/^  int last_col_width;		\/* # of non-dummy blocks across in last MCU *\/$/;"	m	struct:__anon5
+last_jpeg_message	jpeglib.h	/^  int last_jpeg_message;    \/* Table contains strings 0..last_jpeg_message *\/$/;"	m	struct:jpeg_error_mgr
+last_location	recbc_srv.h	/^	t_location last_location;$/;"	m	struct:s_student_tracking_geometry
+last_row_height	jpeglib.h	/^  int last_row_height;		\/* # of non-dummy blocks down in last MCU *\/$/;"	m	struct:__anon5
+left	recbc_srv.h	/^	int left;$/;"	m	struct:s_area
+len	datafifo.h	/^		int len;$/;"	m	struct:s_datafifo_item::__anon1
+lim_Se	jpeglib.h	/^  int lim_Se;			\/* min( Se, DCTSIZE2-1 ) *\/$/;"	m	struct:jpeg_compress_struct
+lim_Se	jpeglib.h	/^  int lim_Se;			\/* min( Se, DCTSIZE2-1 ) for entropy decode *\/$/;"	m	struct:jpeg_decompress_struct
+listhead	datafifo.h	/^	t_datafifo_item * listhead; \/\/linklist, fifo.$/;"	m	struct:s_datafifo
+listtail	datafifo.h	/^	t_datafifo_item * listtail;$/;"	m	struct:s_datafifo
+live_bitrate	recbc_srv.h	/^	int live_bitrate;$/;"	m	struct:s_recbc_cfg
+loadFeature	PC_CENTRIST/svm.c	/^void loadFeature(const char *feature_file_name)$/;"	f
+m_scale_ratio	PC_CENTRIST/svm.c	/^const int m_scale_ratio = SCALE*SCALE;$/;"	v
+main	client_emulator.c	/^int main(int argc, char **argv)$/;"	f
+main	jpeglib.h	/^  struct jpeg_c_main_controller * main;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_main_controller
+main	jpeglib.h	/^  struct jpeg_d_main_controller * main;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_main_controller
+main	recbc_srv.c	/^int main(int argc, char **argv)$/;"	f
+main	server_emulator.c	/^int main(int argc, char **argv)$/;"	f
+make_reg09_int	recbc_srv.c	/^int make_reg09_int(t_video_map *vmap_table)$/;"	f
+marker	jpeglib.h	/^  UINT8 marker;			\/* marker code: JPEG_COM, or JPEG_APP0+n *\/$/;"	m	struct:jpeg_marker_struct
+marker	jpeglib.h	/^  struct jpeg_marker_reader * marker;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_marker_reader
+marker	jpeglib.h	/^  struct jpeg_marker_writer * marker;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_marker_writer
+marker_list	jpeglib.h	/^  jpeg_saved_marker_ptr marker_list; \/* Head of list of saved markers *\/$/;"	m	struct:jpeg_decompress_struct
+master	jpeglib.h	/^  struct jpeg_comp_master * master;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_comp_master
+master	jpeglib.h	/^  struct jpeg_decomp_master * master;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_decomp_master
+max_alloc_chunk	jpeglib.h	/^  long max_alloc_chunk;$/;"	m	struct:jpeg_memory_mgr
+max_bottom	recbc_srv.h	/^	int max_bottom;$/;"	m	struct:s_aux_camera_param
+max_bottom	recbc_srv.h	/^	unsigned int max_bottom;$/;"	m	struct:s_DetectResult
+max_fd	streaming_srv.h	/^	int max_fd;$/;"	m	struct:s_mainstreaming_ctx
+max_h_samp_factor	jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_compress_struct
+max_h_samp_factor	jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct
+max_left	recbc_srv.h	/^	int max_left;$/;"	m	struct:s_aux_camera_param
+max_left	recbc_srv.h	/^	unsigned int max_left;$/;"	m	struct:s_DetectResult
+max_memory_to_use	jpeglib.h	/^  long max_memory_to_use;$/;"	m	struct:jpeg_memory_mgr
+max_right	recbc_srv.h	/^	int max_right;$/;"	m	struct:s_aux_camera_param
+max_right	recbc_srv.h	/^	unsigned int max_right;$/;"	m	struct:s_DetectResult
+max_top	recbc_srv.h	/^	int max_top;$/;"	m	struct:s_aux_camera_param
+max_top	recbc_srv.h	/^	unsigned int max_top;$/;"	m	struct:s_DetectResult
+max_v_samp_factor	jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_compress_struct
+max_v_samp_factor	jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct
+min_DCT_h_scaled_size	jpeglib.h	/^  int min_DCT_h_scaled_size;	\/* smallest DCT_h_scaled_size of any component *\/$/;"	m	struct:jpeg_compress_struct
+min_DCT_h_scaled_size	jpeglib.h	/^  int min_DCT_h_scaled_size;	\/* smallest DCT_h_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct
+min_DCT_v_scaled_size	jpeglib.h	/^  int min_DCT_v_scaled_size;	\/* smallest DCT_v_scaled_size of any component *\/$/;"	m	struct:jpeg_compress_struct
+min_DCT_v_scaled_size	jpeglib.h	/^  int min_DCT_v_scaled_size;	\/* smallest DCT_v_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct
+model	recbc_srv.c	/^struct svm_model *model;$/;"	v	typeref:struct:svm_model
+msg_code	jpeglib.h	/^  int msg_code;$/;"	m	struct:jpeg_error_mgr
+msg_parm	jpeglib.h	/^  } msg_parm;$/;"	m	struct:jpeg_error_mgr	typeref:union:jpeg_error_mgr::__anon11
+mutex	datafifo.h	/^	pthread_mutex_t mutex;$/;"	m	struct:s_datafifo
+mutex	streaming_srv.h	/^	pthread_mutex_t mutex;$/;"	m	struct:s_datasrc_ctx_pool
+mutex	streaming_srv.h	/^	pthread_mutex_t mutex;$/;"	m	struct:s_fifopool
+mxml_attr_s	mxml.h	/^typedef struct mxml_attr_s		\/**** An XML element attribute value. @private@ ****\/$/;"	s
+mxml_attr_t	mxml.h	/^} mxml_attr_t;$/;"	t	typeref:struct:mxml_attr_s
+mxml_custom_destroy_cb_t	mxml.h	/^typedef void (*mxml_custom_destroy_cb_t)(void *);$/;"	t
+mxml_custom_load_cb_t	mxml.h	/^typedef int (*mxml_custom_load_cb_t)(mxml_node_t *, const char *);$/;"	t
+mxml_custom_s	mxml.h	/^typedef struct mxml_custom_s		\/**** An XML custom value. @private@ ****\/$/;"	s
+mxml_custom_save_cb_t	mxml.h	/^typedef char *(*mxml_custom_save_cb_t)(mxml_node_t *);  $/;"	t
+mxml_custom_t	mxml.h	/^} mxml_custom_t;$/;"	t	typeref:struct:mxml_custom_s
+mxml_element_s	mxml.h	/^typedef struct mxml_element_s		\/**** An XML element value. @private@ ****\/$/;"	s
+mxml_element_t	mxml.h	/^} mxml_element_t;$/;"	t	typeref:struct:mxml_element_s
+mxml_entity_cb_t	mxml.h	/^typedef int (*mxml_entity_cb_t)(const char *);$/;"	t
+mxml_error_cb_t	mxml.h	/^typedef void (*mxml_error_cb_t)(const char *);  $/;"	t
+mxml_index_s	mxml.h	/^struct mxml_index_s			 \/**** An XML node index. @private@ ****\/$/;"	s
+mxml_index_t	mxml.h	/^typedef struct mxml_index_s mxml_index_t;$/;"	t	typeref:struct:mxml_index_s
+mxml_load_cb_t	mxml.h	/^typedef mxml_type_t (*mxml_load_cb_t)(mxml_node_t *);$/;"	t
+mxml_node_s	mxml.h	/^struct mxml_node_s			\/**** An XML node. @private@ ****\/$/;"	s
+mxml_node_t	mxml.h	/^typedef struct mxml_node_s mxml_node_t;	\/**** An XML node. ****\/$/;"	t	typeref:struct:mxml_node_s
+mxml_save_cb_t	mxml.h	/^typedef const char *(*mxml_save_cb_t)(mxml_node_t *, int);$/;"	t
+mxml_sax_cb_t	mxml.h	/^typedef void (*mxml_sax_cb_t)(mxml_node_t *, mxml_sax_event_t, void *);  $/;"	t
+mxml_sax_event_e	mxml.h	/^typedef enum mxml_sax_event_e		\/**** SAX event type. ****\/$/;"	g
+mxml_sax_event_t	mxml.h	/^} mxml_sax_event_t;$/;"	t	typeref:enum:mxml_sax_event_e
+mxml_text_s	mxml.h	/^typedef struct mxml_text_s		\/**** An XML text value. @private@ ****\/$/;"	s
+mxml_text_t	mxml.h	/^} mxml_text_t;$/;"	t	typeref:struct:mxml_text_s
+mxml_type_e	mxml.h	/^typedef enum mxml_type_e		\/**** The XML node type. ****\/$/;"	g
+mxml_type_t	mxml.h	/^} mxml_type_t;$/;"	t	typeref:enum:mxml_type_e
+mxml_value_t	mxml.h	/^} mxml_value_t;$/;"	t	typeref:union:mxml_value_u
+mxml_value_u	mxml.h	/^typedef union mxml_value_u		\/**** An XML node value. @private@ ****\/$/;"	u
+nSV	PC_CENTRIST/svm.h	/^	int *nSV;		\/\/ number of SVs for each class (nSV[k])$/;"	m	struct:svm_model
+name	mxml.h	/^  char			*name;		\/* Attribute name *\/$/;"	m	struct:mxml_attr_s
+name	mxml.h	/^  char			*name;		\/* Name of element *\/$/;"	m	struct:mxml_element_s
+natural_order	jpeglib.h	/^  const int * natural_order;	\/* natural-order position array *\/$/;"	m	struct:jpeg_compress_struct
+natural_order	jpeglib.h	/^  const int * natural_order; \/* natural-order position array for entropy decode *\/$/;"	m	struct:jpeg_decompress_struct
+next	datafifo.h	/^	struct s_datafifo_con * next;$/;"	m	struct:s_datafifo_con	typeref:struct:s_datafifo_con::s_datafifo_con
+next	datafifo.h	/^	struct s_datafifo_item * next;$/;"	m	struct:s_datafifo_item	typeref:struct:s_datafifo_item::s_datafifo_item
+next	jpeglib.h	/^  jpeg_saved_marker_ptr next;	\/* next in list, or NULL *\/$/;"	m	struct:jpeg_marker_struct
+next	mxml.h	/^  struct mxml_node_s	*next;		\/* Next node under same parent *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+next_input_byte	jpeglib.h	/^  const JOCTET * next_input_byte; \/* => next byte to read from buffer *\/$/;"	m	struct:jpeg_source_mgr
+next_output_byte	jpeglib.h	/^  JOCTET * next_output_byte;	\/* => next byte to write in buffer *\/$/;"	m	struct:jpeg_destination_mgr
+next_scanline	jpeglib.h	/^  JDIMENSION next_scanline;	\/* 0 .. image_height-1  *\/$/;"	m	struct:jpeg_compress_struct
+nodes	mxml.h	/^  mxml_node_t		**nodes;	\/* Node array *\/$/;"	m	struct:mxml_index_s
+noreturn_t	jmorecfg.h	/^typedef void noreturn_t;$/;"	t
+nr_class	PC_CENTRIST/svm.h	/^	int nr_class;		\/\/ number of classes, = 2 in regression\/one class svm$/;"	m	struct:svm_model
+num_attrs	mxml.h	/^  int			num_attrs;	\/* Number of attributes *\/$/;"	m	struct:mxml_element_s
+num_components	jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_compress_struct
+num_components	jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_decompress_struct
+num_nodes	mxml.h	/^  int			num_nodes;	\/* Number of nodes in index *\/$/;"	m	struct:mxml_index_s
+num_of_CoreBoard	recbc_srv.h	/^	int num_of_CoreBoard;$/;"	m	struct:s_recbc_cfg
+num_of_combined_element	recbc_srv.h	/^	int num_of_combined_element; \/\/only for combined type conditions$/;"	m	struct:s_cond_item
+num_scans	jpeglib.h	/^  int num_scans;		\/* # of entries in scan_info array *\/$/;"	m	struct:jpeg_compress_struct
+num_warnings	jpeglib.h	/^  long num_warnings;		\/* number of corrupt-data warnings *\/$/;"	m	struct:jpeg_error_mgr
+opaque	mxml.h	/^  char			*opaque;	\/* Opaque string *\/$/;"	m	union:mxml_value_u
+optimize_coding	jpeglib.h	/^  boolean optimize_coding;	\/* TRUE=optimize entropy encoding parms *\/$/;"	m	struct:jpeg_compress_struct
+original_length	jpeglib.h	/^  unsigned int original_length;	\/* # bytes of data in the file *\/$/;"	m	struct:jpeg_marker_struct
+out_color_components	jpeglib.h	/^  int out_color_components;	\/* # of color components in out_color_space *\/$/;"	m	struct:jpeg_decompress_struct
+out_color_space	jpeglib.h	/^  J_COLOR_SPACE out_color_space; \/* colorspace for output *\/$/;"	m	struct:jpeg_decompress_struct
+output_components	jpeglib.h	/^  int output_components;	\/* # of color components returned *\/$/;"	m	struct:jpeg_decompress_struct
+output_gamma	jpeglib.h	/^  double output_gamma;		\/* image gamma wanted in output *\/$/;"	m	struct:jpeg_decompress_struct
+output_height	jpeglib.h	/^  JDIMENSION output_height;	\/* scaled image height *\/$/;"	m	struct:jpeg_decompress_struct
+output_iMCU_row	jpeglib.h	/^  JDIMENSION output_iMCU_row;	\/* Number of iMCU rows read *\/$/;"	m	struct:jpeg_decompress_struct
+output_scan_number	jpeglib.h	/^  int output_scan_number;	\/* Nominal scan number being displayed *\/$/;"	m	struct:jpeg_decompress_struct
+output_scanline	jpeglib.h	/^  JDIMENSION output_scanline;	\/* 0 .. output_height-1  *\/$/;"	m	struct:jpeg_decompress_struct
+output_width	jpeglib.h	/^  JDIMENSION output_width;	\/* scaled image width *\/$/;"	m	struct:jpeg_decompress_struct
+p_consumer_fifo	streaming_srv.h	/^	t_datafifo *p_consumer_fifo;$/;"	m	struct:s_clientstreaming
+p_datasink	streaming_srv.h	/^	t_datasink *p_datasink;$/;"	m	struct:s_clientstreaming
+p_datasrc_ctx	streaming_srv.h	/^	void * p_datasrc_ctx;$/;"	m	struct:s_datasink
+p_mainstreaming_ctx	streaming_srv.h	/^	void * p_mainstreaming_ctx;$/;"	m	struct:s_clientstreaming
+p_mainstreaming_ctx	streaming_srv.h	/^	void * p_mainstreaming_ctx;$/;"	m	struct:s_datasink
+packet_num	recbc_srv.h	/^	unsigned int packet_num;$/;"	m	struct:s_frame_info
+pan_angle_left	recbc_srv.h	/^	float pan_angle_left;$/;"	m	struct:s_camera_holder
+pan_angle_right	recbc_srv.h	/^	float pan_angle_right;$/;"	m	struct:s_camera_holder
+pan_max	recbc_srv.h	/^	int pan_max;$/;"	m	struct:s_camera_holder
+pan_min	recbc_srv.h	/^	int pan_min;$/;"	m	struct:s_camera_holder
+pan_pos	recbc_srv.h	/^	int pan_pos;$/;"	m	struct:s_preset_pos
+panspeed_use	recbc_srv.h	/^	int panspeed_use;$/;"	m	struct:s_camera_holder
+para1	recbc_srv.h	/^	char para1[2];$/;"	m	struct:s_internal_abbr_cmd
+para2	recbc_srv.h	/^	char para2[2];$/;"	m	struct:s_internal_abbr_cmd
+para3	recbc_srv.h	/^	char para3[2];$/;"	m	struct:s_internal_abbr_cmd
+para4	recbc_srv.h	/^	char para4[2];$/;"	m	struct:s_internal_abbr_cmd
+parent	mxml.h	/^  struct mxml_node_s	*parent;	\/* Parent node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+pass_counter	jpeglib.h	/^  long pass_counter;		\/* work units completed in this pass *\/$/;"	m	struct:jpeg_progress_mgr
+pass_limit	jpeglib.h	/^  long pass_limit;		\/* total number of work units in this pass *\/$/;"	m	struct:jpeg_progress_mgr
+pauseRecord	server_emulator.c	/^void pauseRecord(int sock)$/;"	f
+pip	recbc_srv.h	/^	int pip; \/\/0:not used by PIP; 1:used by PIP$/;"	m	struct:s_video_map
+pkts_in_frame	recbc_srv.h	/^	unsigned int pkts_in_frame;$/;"	m	struct:s_frame_info
+port	recbc_srv.h	/^	unsigned short port;$/;"	m	struct:s_listen_thread_param
+post	jpeglib.h	/^  struct jpeg_d_post_controller * post;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_post_controller
+prep	jpeglib.h	/^  struct jpeg_c_prep_controller * prep;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_prep_controller
+preset	recbc_srv.h	/^	t_preset_pos preset[16];$/;"	m	struct:s_camera_holder
+prev	datafifo.h	/^	struct s_datafifo_con * prev;$/;"	m	struct:s_datafifo_con	typeref:struct:s_datafifo_con::s_datafifo_con
+prev	datafifo.h	/^	struct s_datafifo_item * prev;$/;"	m	struct:s_datafifo_item	typeref:struct:s_datafifo_item::s_datafifo_item
+prev	mxml.h	/^  struct mxml_node_s	*prev;		\/* Previous node under same parent *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+producer_fifo	recbc_srv.h	/^	t_datafifo *producer_fifo;$/;"	m	struct:s_instructor_tread_param
+producer_fifo	recbc_srv.h	/^	t_datafifo *producer_fifo;$/;"	m	struct:s_videoanalyze_thread_param
+producer_fifo	streaming_srv.h	/^	t_datafifo producer_fifo;$/;"	m	struct:s_datasrc_ctx
+progressive_mode	jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if SOFn specifies progressive mode *\/$/;"	m	struct:jpeg_decompress_struct
+progressive_mode	jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if scan script uses progressive mode *\/$/;"	m	struct:jpeg_compress_struct
+q_scale_factor	jpeglib.h	/^  int q_scale_factor[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct
+quant_table	jpeglib.h	/^  JQUANT_TBL * quant_table;$/;"	m	struct:__anon5
+quant_tbl_no	jpeglib.h	/^  int quant_tbl_no;		\/* quantization table selector (0..3) *\/$/;"	m	struct:__anon5
+quant_tbl_ptrs	jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct
+quant_tbl_ptrs	jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_decompress_struct
+quantize_colors	jpeglib.h	/^  boolean quantize_colors;	\/* TRUE=colormapped output wanted *\/$/;"	m	struct:jpeg_decompress_struct
+quantval	jpeglib.h	/^  UINT16 quantval[DCTSIZE2];	\/* quantization step for each coefficient *\/$/;"	m	struct:__anon3
+raw_data_in	jpeglib.h	/^  boolean raw_data_in;		\/* TRUE=caller supplies downsampled data *\/$/;"	m	struct:jpeg_compress_struct
+raw_data_out	jpeglib.h	/^  boolean raw_data_out;		\/* TRUE=downsampled data wanted *\/$/;"	m	struct:jpeg_decompress_struct
+real	mxml.h	/^  double		real;		\/* Real number *\/$/;"	m	union:mxml_value_u
+rear	recbc_srv.h	/^	int rear;$/;"	m	struct:s_area
+recNum	PC_CENTRIST/CtImage.h	/^	int recNum;$/;"	m	struct:__anon12
+rec_outbuf_height	jpeglib.h	/^  int rec_outbuf_height;	\/* min recommended height of scanline buffer *\/$/;"	m	struct:jpeg_decompress_struct
+rect	PC_CENTRIST/CtImage.h	/^typedef struct rect$/;"	s
+rect	PC_CENTRIST/CtImage.h	/^}rect;$/;"	t	typeref:struct:rect
+recverr	recbc_srv.h	/^	int recverr;$/;"	m	struct:s_listen_thread_param
+ref	datafifo.h	/^	struct s_datafifo_item * ref; \/\/ref to producer's item, used by consumer only$/;"	m	struct:s_datafifo_item	typeref:struct:s_datafifo_item::s_datafifo_item
+ref_count	mxml.h	/^  int			ref_count;	\/* Use count *\/$/;"	m	struct:mxml_node_s
+refcnt	datafifo.h	/^	int refcnt; \/\/be referenced count, used in producer only.$/;"	m	struct:s_datafifo_item
+refcnt	streaming_srv.h	/^	int refcnt;$/;"	m	struct:s_datasrc_ctx
+restart_in_rows	jpeglib.h	/^  int restart_in_rows;		\/* if > 0, MCU rows per restart interval *\/$/;"	m	struct:jpeg_compress_struct
+restart_interval	jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart interval, or 0 for no restart *\/$/;"	m	struct:jpeg_decompress_struct
+restart_interval	jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart, or 0 for no restart *\/$/;"	m	struct:jpeg_compress_struct
+resumeRecord	server_emulator.c	/^void resumeRecord(int sock)$/;"	f
+rho	PC_CENTRIST/svm.h	/^	double *rho;		\/\/ constants in decision functions (rho[k*(k-1)\/2])$/;"	m	struct:svm_model
+right	recbc_srv.h	/^	int right;$/;"	m	struct:s_area
+s	jpeglib.h	/^    char s[JMSG_STR_PARM_MAX];$/;"	m	union:jpeg_error_mgr::__anon11
+s16	rt_generic.h	/^typedef signed   short      s16;$/;"	t
+s32	rt_generic.h	/^typedef signed   int        s32;$/;"	t
+s64	rt_generic.h	/^typedef signed   long long  s64;$/;"	t
+s8	rt_generic.h	/^typedef signed   char       s8;$/;"	t
+s_DetectResult	recbc_srv.h	/^typedef struct s_DetectResult$/;"	s
+s_SwitchTracking_thread_param	recbc_srv.h	/^typedef struct s_SwitchTracking_thread_param$/;"	s
+s_VGA_result	recbc_srv.h	/^typedef struct s_VGA_result$/;"	s
+s_area	recbc_srv.h	/^typedef struct s_area$/;"	s
+s_aux_camera_param	recbc_srv.h	/^typedef struct s_aux_camera_param$/;"	s
+s_aux_result	recbc_srv.h	/^typedef struct s_aux_result$/;"	s
+s_camera_geometry	recbc_srv.h	/^typedef struct s_camera_geometry$/;"	s
+s_camera_holder	recbc_srv.h	/^typedef struct s_camera_holder$/;"	s
+s_clientstreaming	streaming_srv.h	/^typedef struct s_clientstreaming$/;"	s
+s_cond_item	recbc_srv.h	/^typedef struct s_cond_item$/;"	s
+s_coreA_thread_param	recbc_srv.h	/^typedef struct s_coreA_thread_param$/;"	s
+s_coreBC_thread_param	recbc_srv.h	/^typedef struct s_coreBC_thread_param$/;"	s
+s_coreD_thread_param	recbc_srv.h	/^typedef struct s_coreD_thread_param$/;"	s
+s_datafifo	datafifo.h	/^typedef struct s_datafifo$/;"	s
+s_datafifo_con	datafifo.h	/^typedef struct s_datafifo_con$/;"	s
+s_datafifo_item	datafifo.h	/^typedef struct s_datafifo_item$/;"	s
+s_datasink	streaming_srv.h	/^typedef struct s_datasink$/;"	s
+s_datasrc_ctx	streaming_srv.h	/^typedef struct s_datasrc_ctx$/;"	s
+s_datasrc_ctx_pool	streaming_srv.h	/^typedef struct s_datasrc_ctx_pool$/;"	s
+s_dev_cfg	recbc_srv.h	/^typedef struct s_dev_cfg$/;"	s
+s_dfpool_item	streaming_srv.h	/^typedef struct s_dfpool_item$/;"	s
+s_fifopool	streaming_srv.h	/^typedef struct s_fifopool$/;"	s
+s_finite_state_machine	recbc_srv.h	/^typedef struct s_finite_state_machine$/;"	s
+s_forward_table	recbc_srv.h	/^typedef struct s_forward_table$/;"	s
+s_frame_info	recbc_srv.h	/^typedef struct s_frame_info$/;"	s
+s_hello_attr	recbc_srv.h	/^typedef struct s_hello_attr$/;"	s
+s_hello_attrs	recbc_srv.h	/^typedef struct s_hello_attrs$/;"	s
+s_idx_id_map	recbc_srv.h	/^typedef struct s_idx_id_map$/;"	s
+s_img_thread_param	recbc_srv.h	/^typedef struct s_img_thread_param$/;"	s
+s_instructor_tread_param	recbc_srv.h	/^typedef struct s_instructor_tread_param$/;"	s
+s_internal_abbr_cmd	recbc_srv.h	/^typedef struct s_internal_abbr_cmd$/;"	s
+s_listen_thread_param	recbc_srv.h	/^typedef struct s_listen_thread_param$/;"	s
+s_localsave_thread_param	recbc_srv.h	/^typedef struct s_localsave_thread_param$/;"	s
+s_location	recbc_srv.h	/^typedef struct s_location$/;"	s
+s_mainstreaming_ctx	streaming_srv.h	/^typedef struct s_mainstreaming_ctx$/;"	s
+s_mp4format	recbc_srv.h	/^typedef struct s_mp4format$/;"	s
+s_preset_pos	recbc_srv.h	/^typedef struct s_preset_pos$/;"	s
+s_recbc_cfg	recbc_srv.h	/^typedef struct s_recbc_cfg$/;"	s
+s_screen_geometry	recbc_srv.h	/^typedef struct s_screen_geometry$/;"	s
+s_sock_id_map	recbc_srv.h	/^typedef struct s_sock_id_map$/;"	s
+s_streaming_packet_header	streaming_srv.h	/^typedef struct s_streaming_packet_header$/;"	s
+s_student_tracking_geometry	recbc_srv.h	/^typedef struct s_student_tracking_geometry$/;"	s
+s_transition_table	recbc_srv.h	/^typedef struct s_transition_table$/;"	s
+s_truth_table	recbc_srv.h	/^typedef struct s_truth_table$/;"	s
+s_video_map	recbc_srv.h	/^typedef struct s_video_map$/;"	s
+s_videoanalyze_thread_param	recbc_srv.h	/^typedef struct s_videoanalyze_thread_param$/;"	s
+s_videoconfig	recbc_srv.h	/^typedef struct s_videoconfig$/;"	s
+sample_range_limit	jpeglib.h	/^  JSAMPLE * sample_range_limit; \/* table for fast range-limiting *\/$/;"	m	struct:jpeg_decompress_struct
+save_camholder_preset	recbc_srv.c	/^void save_camholder_preset(t_camera_holder *camera_holder, int num)$/;"	f
+saw_Adobe_marker	jpeglib.h	/^  boolean saw_Adobe_marker;	\/* TRUE iff an Adobe APP14 marker was found *\/$/;"	m	struct:jpeg_decompress_struct
+saw_JFIF_marker	jpeglib.h	/^  boolean saw_JFIF_marker;	\/* TRUE iff a JFIF APP0 marker was found *\/$/;"	m	struct:jpeg_decompress_struct
+scaleFeature	PC_CENTRIST/CtImage.c	/^double* scaleFeature;$/;"	v
+scale_denom	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_compress_struct
+scale_denom	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct
+scale_num	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_compress_struct
+scale_num	jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct
+scan_info	jpeglib.h	/^  const jpeg_scan_info * scan_info; \/* script for multi-scan file, or NULL *\/$/;"	m	struct:jpeg_compress_struct
+screen_geometry_load	xmlparser.c	/^int screen_geometry_load(char *filename, t_screen_geometry *screen_geometry)$/;"	f
+script_space	jpeglib.h	/^  jpeg_scan_info * script_space; \/* workspace for jpeg_simple_progression *\/$/;"	m	struct:jpeg_compress_struct
+script_space_size	jpeglib.h	/^  int script_space_size;$/;"	m	struct:jpeg_compress_struct
+senderr	recbc_srv.h	/^	int senderr;$/;"	m	struct:s_listen_thread_param
+sent_table	jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon3
+sent_table	jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon4
+size	streaming_srv.h	/^	unsigned int size;$/;"	m	struct:s_streaming_packet_header
+smoothing_factor	jpeglib.h	/^  int smoothing_factor;		\/* 1..100, or 0 for no input smoothing *\/$/;"	m	struct:jpeg_compress_struct
+sock	recbc_srv.h	/^	int sock;$/;"	m	struct:s_localsave_thread_param
+sock	streaming_srv.h	/^	int sock;$/;"	m	struct:s_clientstreaming
+sock_client_listen	streaming_srv.h	/^	int sock_client_listen;$/;"	m	struct:s_mainstreaming_ctx
+sock_datasrc	streaming_srv.h	/^	int sock_datasrc;	\/\/this should be valid before starting any other handling related to this context.$/;"	m	struct:s_datasrc_ctx
+sock_src_listen	streaming_srv.h	/^	int sock_src_listen;$/;"	m	struct:s_mainstreaming_ctx
+socket	recbc_srv.h	/^	int socket;$/;"	m	struct:s_listen_thread_param
+socket	recbc_srv.h	/^	int socket;$/;"	m	struct:s_sock_id_map
+sockfd	recbc_srv.h	/^	int sockfd;$/;"	m	struct:s_videoconfig
+src	jpeglib.h	/^  struct jpeg_source_mgr * src;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_source_mgr
+src_id	streaming_srv.h	/^	char src_id[16];$/;"	m	struct:s_datasrc_ctx
+start	server_emulator.c	/^void start(int sock)$/;"	f
+status	datafifo.h	/^	int status;$/;"	m	struct:s_datafifo_item
+status	recbc_srv.h	/^	int status;$/;"	m	struct:s_instructor_tread_param
+stop	server_emulator.c	/^void stop(int sock)$/;"	f
+str2state	xmlparser.c	/^int str2state(const char *state_str){$/;"	f
+streamframe	recbc_srv.c	/^int streamframe(t_localsave_thread_param *p_localsave, int flag, unsigned int *frame_num)$/;"	f
+string	mxml.h	/^  char			*string;	\/* Fragment string *\/$/;"	m	struct:mxml_text_s
+student_area	recbc_srv.h	/^	t_area student_area;$/;"	m	struct:s_student_tracking_geometry
+student_in_standing	recbc_srv.h	/^	int student_in_standing;$/;"	m	struct:s_aux_result
+student_location	recbc_srv.h	/^	t_location student_location;$/;"	m	struct:s_student_tracking_geometry
+student_pt_speed_load	xmlparser.c	/^int student_pt_speed_load(char *filename, t_camera_holder *camera_holder)$/;"	f
+student_status	recbc_srv.h	/^	int student_status;$/;"	m	struct:s_SwitchTracking_thread_param
+student_tracking_geometry_init	recbc_srv.c	/^void student_tracking_geometry_init(t_student_tracking_geometry *geometry)$/;"	f
+student_tracking_geometry_load	xmlparser.c	/^int student_tracking_geometry_load(char *filename, t_student_tracking_geometry *student_tracking_geometry)$/;"	f
+studentfull	recbc_srv.h	/^	int studentfull;$/;"	m	struct:s_forward_table
+studentspecial	recbc_srv.h	/^	int studentspecial;$/;"	m	struct:s_forward_table
+sv_coef	PC_CENTRIST/svm.h	/^	double **sv_coef;	\/\/ coefficients for SVs in decision functions (sv_coef[k-1][l])$/;"	m	struct:svm_model
+svm_destroy_model	PC_CENTRIST/svm.c	/^void svm_destroy_model(svm_model* model)$/;"	f
+svm_load_model	PC_CENTRIST/svm.c	/^svm_model *svm_load_model(const char *model_file_name)$/;"	f
+svm_model	PC_CENTRIST/svm.h	/^typedef struct svm_model$/;"	s
+svm_model	PC_CENTRIST/svm.h	/^}svm_model;$/;"	t	typeref:struct:svm_model
+svm_node	PC_CENTRIST/svm.h	/^typedef short svm_node;$/;"	t
+svm_predict	PC_CENTRIST/svm.c	/^double svm_predict(const svm_model *model, const svm_node *x)$/;"	f
+svm_predict_values	PC_CENTRIST/svm.c	/^void svm_predict_values(const svm_model *model, const svm_node *x, double* dec_values)$/;"	f
+switch_policy_load	xmlparser.c	/^int switch_policy_load(char *filename, t_finite_state_machine *fsm)$/;"	f
+switchtoBlackboard_closeup	server_emulator.c	/^void switchtoBlackboard_closeup(int sock)$/;"	f
+switchtoStudent_closeup	server_emulator.c	/^void switchtoStudent_closeup(int sock)$/;"	f
+switchtoStudent_panorama	server_emulator.c	/^void switchtoStudent_panorama(int sock)$/;"	f
+switchtoTeacherSpecialwithStudentSpecial	server_emulator.c	/^void switchtoTeacherSpecialwithStudentSpecial(int sock)$/;"	f
+switchtoTeacher_closeup	server_emulator.c	/^void switchtoTeacher_closeup(int sock)$/;"	f
+switchtoTeacher_panorama	server_emulator.c	/^void switchtoTeacher_panorama(int sock)$/;"	f
+switchtoVGA	server_emulator.c	/^void switchtoVGA(int sock)$/;"	f
+switchtoVGAwithTeacher_closeup	server_emulator.c	/^void switchtoVGAwithTeacher_closeup(int sock)$/;"	f
+t_DetectResult	recbc_srv.h	/^}t_DetectResult;$/;"	t	typeref:struct:s_DetectResult
+t_SwitchTracking_thread_param	recbc_srv.h	/^}t_SwitchTracking_thread_param;$/;"	t	typeref:struct:s_SwitchTracking_thread_param
+t_VGA_result	recbc_srv.h	/^}t_VGA_result;$/;"	t	typeref:struct:s_VGA_result
+t_area	recbc_srv.h	/^}t_area;$/;"	t	typeref:struct:s_area
+t_aux_camera_param	recbc_srv.h	/^}t_aux_camera_param;$/;"	t	typeref:struct:s_aux_camera_param
+t_aux_result	recbc_srv.h	/^}t_aux_result;$/;"	t	typeref:struct:s_aux_result
+t_camera_geometry	recbc_srv.h	/^}t_camera_geometry;$/;"	t	typeref:struct:s_camera_geometry
+t_camera_holder	recbc_srv.h	/^}t_camera_holder;$/;"	t	typeref:struct:s_camera_holder
+t_clientstreaming	streaming_srv.h	/^}t_clientstreaming;$/;"	t	typeref:struct:s_clientstreaming
+t_cmd	recbc_srv.h	/^}t_cmd;$/;"	t	typeref:struct:w_cmd
+t_cond_item	recbc_srv.h	/^}t_cond_item;$/;"	t	typeref:struct:s_cond_item
+t_coreA_thread_param	recbc_srv.h	/^}t_coreA_thread_param;$/;"	t	typeref:struct:s_coreA_thread_param
+t_coreBC_thread_param	recbc_srv.h	/^}t_coreBC_thread_param;$/;"	t	typeref:struct:s_coreBC_thread_param
+t_coreD_thread_param	recbc_srv.h	/^}t_coreD_thread_param;$/;"	t	typeref:struct:s_coreD_thread_param
+t_datafifo	datafifo.h	/^}t_datafifo;$/;"	t	typeref:struct:s_datafifo
+t_datafifo_con	datafifo.h	/^}t_datafifo_con;$/;"	t	typeref:struct:s_datafifo_con
+t_datafifo_item	datafifo.h	/^}t_datafifo_item;$/;"	t	typeref:struct:s_datafifo_item
+t_datasink	streaming_srv.h	/^}t_datasink;$/;"	t	typeref:struct:s_datasink
+t_datasrc_ctx	streaming_srv.h	/^}t_datasrc_ctx;$/;"	t	typeref:struct:s_datasrc_ctx
+t_datasrc_ctx_pool	streaming_srv.h	/^}t_datasrc_ctx_pool;$/;"	t	typeref:struct:s_datasrc_ctx_pool
+t_dev_cfg	recbc_srv.h	/^}t_dev_cfg;$/;"	t	typeref:struct:s_dev_cfg
+t_fifopool	streaming_srv.h	/^}t_fifopool;$/;"	t	typeref:struct:s_fifopool
+t_fifopool_item	streaming_srv.h	/^}t_fifopool_item;$/;"	t	typeref:struct:s_dfpool_item
+t_finite_state_machine	recbc_srv.h	/^}t_finite_state_machine;$/;"	t	typeref:struct:s_finite_state_machine
+t_forward_table	recbc_srv.h	/^}t_forward_table;$/;"	t	typeref:struct:s_forward_table
+t_frame_info	recbc_srv.h	/^}t_frame_info;$/;"	t	typeref:struct:s_frame_info
+t_hello_attr	recbc_srv.h	/^}t_hello_attr;$/;"	t	typeref:struct:s_hello_attr
+t_hello_attrs	recbc_srv.h	/^}t_hello_attrs;$/;"	t	typeref:struct:s_hello_attrs
+t_idx_id_map	recbc_srv.h	/^}t_idx_id_map;$/;"	t	typeref:struct:s_idx_id_map
+t_img_thread_param	recbc_srv.h	/^}t_img_thread_param;$/;"	t	typeref:struct:s_img_thread_param
+t_instructor_thread_param	recbc_srv.h	/^}t_instructor_thread_param;$/;"	t	typeref:struct:s_instructor_tread_param
+t_internal_abbr_cmd	recbc_srv.h	/^}t_internal_abbr_cmd;$/;"	t	typeref:struct:s_internal_abbr_cmd
+t_listen_thread_param	recbc_srv.h	/^}t_listen_thread_param;$/;"	t	typeref:struct:s_listen_thread_param
+t_localsave_thread_param	recbc_srv.h	/^}t_localsave_thread_param;$/;"	t	typeref:struct:s_localsave_thread_param
+t_location	recbc_srv.h	/^}t_location;$/;"	t	typeref:struct:s_location
+t_mainstreaming_ctx	streaming_srv.h	/^}t_mainstreaming_ctx;$/;"	t	typeref:struct:s_mainstreaming_ctx
+t_mp4format	recbc_srv.h	/^}t_mp4format;$/;"	t	typeref:struct:s_mp4format
+t_preset_pos	recbc_srv.h	/^}t_preset_pos;$/;"	t	typeref:struct:s_preset_pos
+t_recbc_cfg	recbc_srv.h	/^}t_recbc_cfg;$/;"	t	typeref:struct:s_recbc_cfg
+t_screen_geometry	recbc_srv.h	/^}t_screen_geometry;$/;"	t	typeref:struct:s_screen_geometry
+t_sock_id_map	recbc_srv.h	/^}t_sock_id_map;$/;"	t	typeref:struct:s_sock_id_map
+t_streaming_packet_header	streaming_srv.h	/^}t_streaming_packet_header;$/;"	t	typeref:struct:s_streaming_packet_header
+t_student_tracking_geometry	recbc_srv.h	/^}t_student_tracking_geometry;$/;"	t	typeref:struct:s_student_tracking_geometry
+t_transition_table	recbc_srv.h	/^}t_transition_table;$/;"	t	typeref:struct:s_transition_table
+t_truth_table	recbc_srv.h	/^}t_truth_table;$/;"	t	typeref:struct:s_truth_table
+t_video_map	recbc_srv.h	/^}t_video_map;$/;"	t	typeref:struct:s_video_map
+t_videoanalyze_thread_param	recbc_srv.h	/^}t_videoanalyze_thread_param;$/;"	t	typeref:struct:s_videoanalyze_thread_param
+t_videoconfig	recbc_srv.h	/^} t_videoconfig;$/;"	t	typeref:struct:s_videoconfig
+target_PanPos	recbc_srv.h	/^	int target_PanPos;$/;"	m	struct:s_camera_holder
+target_TiltPos	recbc_srv.h	/^	int target_TiltPos;$/;"	m	struct:s_camera_holder
+target_ZoomPos	recbc_srv.h	/^	int target_ZoomPos;$/;"	m	struct:s_camera_holder
+target_num	recbc_srv.h	/^	unsigned int target_num;$/;"	m	struct:s_aux_camera_param
+target_pan_angle	recbc_srv.h	/^	float target_pan_angle;$/;"	m	struct:s_student_tracking_geometry
+target_tilt_angle	recbc_srv.h	/^	float target_tilt_angle;$/;"	m	struct:s_student_tracking_geometry
+target_view_angle	recbc_srv.h	/^	float target_view_angle;$/;"	m	struct:s_student_tracking_geometry
+teacher_exclude_load	xmlparser.c	/^int teacher_exclude_load(char *filename, int *IsExclude)$/;"	f
+teacher_pt_speed_load	xmlparser.c	/^int teacher_pt_speed_load(char *filename, t_camera_holder *camera_holder)$/;"	f
+teacher_status	recbc_srv.h	/^	int teacher_status;$/;"	m	struct:s_SwitchTracking_thread_param
+teacherfull	recbc_srv.h	/^	int teacherfull;$/;"	m	struct:s_forward_table
+teacherspecial	recbc_srv.h	/^	int teacherspecial;$/;"	m	struct:s_forward_table
+testSV	PC_CENTRIST/CtImage.c	/^short * testSV;$/;"	v
+text	mxml.h	/^  mxml_text_t		text;		\/* Text fragment *\/$/;"	m	union:mxml_value_u
+thread_SwitchTracking	recbc_srv.c	/^void * thread_SwitchTracking(void * param)$/;"	f
+thread_SwitchTracking_askexit	recbc_srv.c	/^void thread_SwitchTracking_askexit(t_SwitchTracking_thread_param *ptr)$/;"	f
+thread_SwitchTracking_exited	recbc_srv.c	/^int thread_SwitchTracking_exited(t_SwitchTracking_thread_param *ptr)$/;"	f
+thread_analyze	recbc_srv.c	/^void * thread_analyze(void *param)$/;"	f
+thread_analyze_askexit	recbc_srv.c	/^void thread_analyze_askexit(t_videoanalyze_thread_param *ptr)$/;"	f
+thread_analyze_exited	recbc_srv.c	/^int thread_analyze_exited(t_coreD_thread_param *p_core)$/;"	f
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_SwitchTracking_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_coreA_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_coreBC_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_coreD_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_img_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_listen_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_localsave_thread_param
+thread_canceled	recbc_srv.h	/^	int thread_canceled;$/;"	m	struct:s_videoanalyze_thread_param
+thread_connect_liveserver	recbc_srv.c	/^void * thread_connect_liveserver(void *param)$/;"	f
+thread_coreA	recbc_srv.c	/^void * thread_coreA(void * param)$/;"	f
+thread_coreA_askexit	recbc_srv.c	/^void thread_coreA_askexit(t_coreA_thread_param *ptr)$/;"	f
+thread_coreA_exited	recbc_srv.c	/^int thread_coreA_exited(t_coreA_thread_param *ptr)$/;"	f
+thread_coreA_send	recbc_srv.c	/^void * thread_coreA_send(void *param)$/;"	f
+thread_coreB	recbc_srv.c	/^void * thread_coreB(void * param)$/;"	f
+thread_coreB_askexit	recbc_srv.c	/^void thread_coreB_askexit(t_coreBC_thread_param *ptr)$/;"	f
+thread_coreB_exited	recbc_srv.c	/^int thread_coreB_exited(t_coreBC_thread_param *ptr)$/;"	f
+thread_coreC	recbc_srv.c	/^void * thread_coreC(void * param)$/;"	f
+thread_coreC_askexit	recbc_srv.c	/^void thread_coreC_askexit(t_coreBC_thread_param *ptr)$/;"	f
+thread_coreC_exited	recbc_srv.c	/^int thread_coreC_exited(t_coreBC_thread_param *ptr)$/;"	f
+thread_coreD	recbc_srv.c	/^void * thread_coreD(void * param)$/;"	f
+thread_coreD_askexit	recbc_srv.c	/^void thread_coreD_askexit(t_coreD_thread_param *ptr)$/;"	f
+thread_coreD_exited	recbc_srv.c	/^int thread_coreD_exited(t_coreD_thread_param *ptr)$/;"	f
+thread_img	recbc_srv.c	/^void * thread_img(void * param)$/;"	f
+thread_img_askexit	recbc_srv.c	/^void thread_img_askexit(t_img_thread_param *ptr)$/;"	f
+thread_img_exited	recbc_srv.c	/^int thread_img_exited(t_img_thread_param *ptr)$/;"	f
+thread_listen	recbc_srv.c	/^void * thread_listen(void *param)$/;"	f
+thread_listen_askexit	recbc_srv.c	/^void thread_listen_askexit(t_listen_thread_param *ptr)$/;"	f
+thread_listen_exited	recbc_srv.c	/^int thread_listen_exited(t_listen_thread_param *ptr)$/;"	f
+thread_listen_param	recbc_srv.h	/^	t_listen_thread_param thread_listen_param;$/;"	m	struct:s_coreA_thread_param
+thread_listen_param	recbc_srv.h	/^	t_listen_thread_param thread_listen_param;$/;"	m	struct:s_coreBC_thread_param
+thread_listen_param	recbc_srv.h	/^	t_listen_thread_param thread_listen_param;$/;"	m	struct:s_coreD_thread_param
+thread_listen_param	recbc_srv.h	/^	t_listen_thread_param thread_listen_param;$/;"	m	struct:s_instructor_tread_param
+thread_localsave	recbc_srv.c	/^void * thread_localsave(void * param)$/;"	f
+thread_localsave_askexit	recbc_srv.c	/^void thread_localsave_askexit(t_localsave_thread_param *ptr)$/;"	f
+thread_localsave_exited	recbc_srv.c	/^int thread_localsave_exited(t_localsave_thread_param *ptr)$/;"	f
+thread_mp4format	recbc_srv.c	/^void * thread_mp4format(void *arg)$/;"	f
+thread_videotracking_setmode	recbc_srv.c	/^void thread_videotracking_setmode(t_SwitchTracking_thread_param *p_camhldctrl, int mode)$/;"	f
+tilt_angle_down	recbc_srv.h	/^	float tilt_angle_down;$/;"	m	struct:s_camera_holder
+tilt_angle_up	recbc_srv.h	/^	float tilt_angle_up;$/;"	m	struct:s_camera_holder
+tilt_max	recbc_srv.h	/^	int tilt_max;$/;"	m	struct:s_camera_holder
+tilt_min	recbc_srv.h	/^	int tilt_min;$/;"	m	struct:s_camera_holder
+tilt_pos	recbc_srv.h	/^	int tilt_pos;$/;"	m	struct:s_preset_pos
+tiltspeed_use	recbc_srv.h	/^	int tiltspeed_use;$/;"	m	struct:s_camera_holder
+time_stamp	recbc_srv.h	/^	unsigned int time_stamp;$/;"	m	struct:s_frame_info
+timestamp	datafifo.h	/^		int timestamp;$/;"	m	struct:s_datafifo_item::__anon1
+timestamp	streaming_srv.h	/^	unsigned int timestamp;$/;"	m	struct:s_datasink
+timestamp	streaming_srv.h	/^	unsigned int timestamp;$/;"	m	struct:s_streaming_packet_header
+total_iMCU_rows	jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows in image *\/$/;"	m	struct:jpeg_decompress_struct
+total_iMCU_rows	jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows to be input to coef ctlr *\/$/;"	m	struct:jpeg_compress_struct
+total_passes	jpeglib.h	/^  int total_passes;		\/* total number of passes expected *\/$/;"	m	struct:jpeg_progress_mgr
+trace_level	jpeglib.h	/^  int trace_level;		\/* max msg_level that will be displayed *\/$/;"	m	struct:jpeg_error_mgr
+transition_table	recbc_srv.h	/^	t_transition_table *transition_table;$/;"	m	struct:s_finite_state_machine
+transition_table_init	recbc_srv.c	/^void transition_table_init(t_transition_table *transition_table)$/;"	f
+true	PC_CENTRIST/param.h	19;"	d
+truth_table	recbc_srv.h	/^	t_truth_table *truth_table;$/;"	m	struct:s_finite_state_machine
+truth_table_add_combination_condition	recbc_srv.c	/^t_cond_item * truth_table_add_combination_condition(int cond_idx, int element_num, int *element, t_truth_table * truth_table)$/;"	f
+truth_table_add_element_condition	recbc_srv.c	/^t_cond_item * truth_table_add_element_condition(int cond_idx, t_truth_table * truth_table)$/;"	f
+truth_table_alloc_conditon_item	recbc_srv.c	/^t_cond_item * truth_table_alloc_conditon_item(t_truth_table *truth_table)$/;"	f
+truth_table_condition_test	recbc_srv.c	/^int truth_table_condition_test(int cond_idx, t_truth_table * truth_table)$/;"	f
+truth_table_element_condition_reset	recbc_srv.c	/^int truth_table_element_condition_reset(int cond_idx, t_truth_table * truth_table)$/;"	f
+truth_table_element_condition_set	recbc_srv.c	/^int truth_table_element_condition_set(int cond_idx, t_truth_table * truth_table)$/;"	f
+truth_table_find_condition	recbc_srv.c	/^t_cond_item * truth_table_find_condition(int cond_idx, t_truth_table * truth_table)$/;"	f
+truth_table_init	recbc_srv.c	/^int truth_table_init(int item_num, t_truth_table * truth_table)$/;"	f
+truth_table_update_combination_condition	recbc_srv.c	/^void truth_table_update_combination_condition(t_truth_table * truth_table)$/;"	f
+tv	recbc_srv.h	/^	struct timeval tv;$/;"	m	struct:s_camera_holder	typeref:struct:s_camera_holder::timeval
+two_pass_quantize	jpeglib.h	/^  boolean two_pass_quantize;	\/* TRUE=use two-pass color quantization *\/$/;"	m	struct:jpeg_decompress_struct
+type	mxml.h	/^  mxml_type_t		type;		\/* Node type *\/$/;"	m	struct:mxml_node_s
+type	streaming_srv.h	/^	unsigned int type;$/;"	m	struct:s_streaming_packet_header
+u16	rt_generic.h	/^typedef unsigned short      u16;$/;"	t
+u32	rt_generic.h	/^typedef unsigned int        u32;$/;"	t
+u64	rt_generic.h	/^typedef unsigned long long  u64;$/;"	t
+u8	rt_generic.h	/^typedef unsigned char       u8;$/;"	t
+uart_channel	recbc_srv.h	/^	int uart_channel; \/\/1:A1; 2:A2; 3:B1; 4:B2; 5:C1; 6:C2$/;"	m	struct:s_video_map
+uart_channel	recbc_srv.h	/^	int uart_channel;$/;"	m	struct:s_camera_holder
+uchar	PC_CENTRIST/CtImage.h	/^typedef unsigned char uchar;$/;"	t
+unread_marker	jpeglib.h	/^  int unread_marker;$/;"	m	struct:jpeg_decompress_struct
+update_camholder_ctx	recbc_srv.c	/^void update_camholder_ctx(t_camera_holder *camera_holder)$/;"	f
+upsample	jpeglib.h	/^  struct jpeg_upsampler * upsample;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_upsampler
+user_data	mxml.h	/^  void			*user_data;	\/* User data *\/$/;"	m	struct:mxml_node_s
+v_samp_factor	jpeglib.h	/^  int v_samp_factor;		\/* vertical sampling factor (1..4) *\/$/;"	m	struct:__anon5
+valid	recbc_srv.h	/^	int valid;$/;"	m	struct:s_cond_item
+valid	recbc_srv.h	/^	int valid;$/;"	m	struct:s_dev_cfg
+valid	streaming_srv.h	/^	int valid;$/;"	m	struct:s_datasrc_ctx
+value	mxml.h	/^  char			*value;		\/* Attribute value *\/$/;"	m	struct:mxml_attr_s
+value	mxml.h	/^  mxml_value_t		value;		\/* Node value *\/$/;"	m	struct:mxml_node_s
+value	recbc_srv.h	/^	int value;$/;"	m	struct:s_cond_item
+version	recbc_srv.h	/^	char *version;$/;"	m	struct:w_cmd
+vertical	PC_CENTRIST/CtImage.h	/^	int vertical[FRAME_WIDTH];$/;"	m	struct:__anon12
+view_angle	recbc_srv.h	/^	float view_angle;$/;"	m	struct:s_camera_geometry
+view_angle_max	recbc_srv.h	/^	float view_angle_max;$/;"	m	struct:s_camera_holder
+view_angle_min	recbc_srv.h	/^	float view_angle_min;$/;"	m	struct:s_camera_holder
+vmap_table_get_capid_by_function	recbc_srv.c	/^int vmap_table_get_capid_by_function(int function)$/;"	f
+vmap_table_get_index_by_function	recbc_srv.c	/^int vmap_table_get_index_by_function(int function)$/;"	f
+vmap_table_init	recbc_srv.c	/^int vmap_table_init(char *vmap_file)$/;"	f
+vmap_table_load	xmlparser.c	/^int vmap_table_load(char * filename, t_video_map *vmap_table)$/;"	f
+vmap_table_reset_pip	recbc_srv.c	/^void vmap_table_reset_pip()$/;"	f
+vmap_table_set_pip_by_function	recbc_srv.c	/^void vmap_table_set_pip_by_function(int function)$/;"	f
+vsrc	recbc_srv.h	/^	enum e_VideoSrc vsrc;$/;"	m	struct:s_videoconfig	typeref:enum:s_videoconfig::e_VideoSrc
+w_cmd	recbc_srv.h	/^typedef struct w_cmd$/;"	s
+whitespace	mxml.h	/^  int			whitespace;	\/* Leading whitespace? *\/$/;"	m	struct:mxml_text_s
+width_in_blocks	jpeglib.h	/^  JDIMENSION width_in_blocks;$/;"	m	struct:__anon5
+write_Adobe_marker	jpeglib.h	/^  boolean write_Adobe_marker;	\/* should an Adobe marker be written? *\/$/;"	m	struct:jpeg_compress_struct
+write_JFIF_header	jpeglib.h	/^  boolean write_JFIF_header;	\/* should a JFIF marker be written? *\/$/;"	m	struct:jpeg_compress_struct
+x	recbc_srv.h	/^	int x;$/;"	m	struct:s_camera_geometry
+x	recbc_srv.h	/^	int x;$/;"	m	struct:s_location
+x1	PC_CENTRIST/CtImage.h	/^	int x1;$/;"	m	struct:rect
+x2	PC_CENTRIST/CtImage.h	/^	int x2;$/;"	m	struct:rect
+x_left	recbc_srv.h	/^	int x_left;$/;"	m	struct:s_screen_geometry
+x_right	recbc_srv.h	/^	int x_right;$/;"	m	struct:s_screen_geometry
+y	recbc_srv.h	/^	int y;$/;"	m	struct:s_camera_geometry
+y	recbc_srv.h	/^	int y;$/;"	m	struct:s_location
+y	recbc_srv.h	/^	int y;$/;"	m	struct:s_screen_geometry
+y1	PC_CENTRIST/CtImage.h	/^	int y1;$/;"	m	struct:rect
+y2	PC_CENTRIST/CtImage.h	/^	int y2;$/;"	m	struct:rect
+yuv422_to_jpeg	recbc_srv.c	/^int yuv422_to_jpeg(unsigned char *src, unsigned char* dst, int image_width, int image_height, FILE *tmpfile, int quality)$/;"	f
+yuv422_to_planner	recbc_srv.c	/^int yuv422_to_planner(unsigned char *src, unsigned char *dest, int image_width, int image_height)$/;"	f
+yuv422_to_y	recbc_srv.c	/^int yuv422_to_y(unsigned char *src, unsigned char *dest, int image_width, int image_height)$/;"	f
+yuv422_to_yuv420	recbc_srv.c	/^int yuv422_to_yuv420(unsigned char *src, unsigned char *dest, int image_width, int image_height)$/;"	f
+z	recbc_srv.h	/^	int z;$/;"	m	struct:s_camera_geometry
+zoom_max	recbc_srv.h	/^	int zoom_max;$/;"	m	struct:s_camera_holder
+zoom_min	recbc_srv.h	/^	int zoom_min;$/;"	m	struct:s_camera_holder
+zoom_pos	recbc_srv.h	/^	int zoom_pos;$/;"	m	struct:s_preset_pos

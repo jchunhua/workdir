@@ -1,0 +1,367 @@
+libopts_la-libopts.lo: libopts.c autoopts/project.h ../config.h \
+  compat/compat.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/mman.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mman.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/param.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/limits.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/syslimits.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/param.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/param.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/stat.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stat.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/wait.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/signal.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/signum.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/siginfo.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigaction.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigcontext.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/sigcontext.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigstack.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/ucontext.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/procfs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/time.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/user.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigthread.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/resource.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/resource.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/ctype.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/dirent.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/dirent.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/fcntl.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/uio.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/memory.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/utime.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/environments.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/getopt.h \
+  autoopts/options.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sysexits.h \
+  autoopts/usage-txt.h genshell.h autoopts/options.h xat-attribute.h \
+  value-type.h ag-char-map.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/inttypes.h \
+  autoopts.h proto.h parse-duration.h parse-duration.c value-type.c \
+  xat-attribute.c autoopts.c compat/pathfind.c compat/compat.h boolean.c \
+  configfile.c cook.c enumeration.c environment.c file.c genshell.c \
+  load.c makeshell.c nested.c numeric.c pgusage.c putshell.c reset.c \
+  restore.c save.c sort.c stack.c streqvcmp.c text_mmap.c tokenize.c \
+  time.c usage.c version.c
+
+autoopts/project.h:
+
+../config.h:
+
+compat/compat.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/mman.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mman.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/param.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/limits.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/syslimits.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/param.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/param.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/stat.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stat.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/wait.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/signal.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/signum.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/siginfo.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigaction.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigcontext.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/sigcontext.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigstack.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/ucontext.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/procfs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/time.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/user.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigthread.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/resource.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/resource.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/ctype.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/dirent.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/dirent.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/fcntl.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/uio.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/memory.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/setjmp.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/setjmp.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/utime.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/environments.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/getopt.h:
+
+autoopts/options.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sysexits.h:
+
+autoopts/usage-txt.h:
+
+genshell.h:
+
+autoopts/options.h:
+
+xat-attribute.h:
+
+value-type.h:
+
+ag-char-map.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/inttypes.h:
+
+autoopts.h:
+
+proto.h:
+
+parse-duration.h:
+
+parse-duration.c:
+
+value-type.c:
+
+xat-attribute.c:
+
+autoopts.c:
+
+compat/pathfind.c:
+
+compat/compat.h:
+
+boolean.c:
+
+configfile.c:
+
+cook.c:
+
+enumeration.c:
+
+environment.c:
+
+file.c:
+
+genshell.c:
+
+load.c:
+
+makeshell.c:
+
+nested.c:
+
+numeric.c:
+
+pgusage.c:
+
+putshell.c:
+
+reset.c:
+
+restore.c:
+
+save.c:
+
+sort.c:
+
+stack.c:
+
+streqvcmp.c:
+
+text_mmap.c:
+
+tokenize.c:
+
+time.c:
+
+usage.c:
+
+version.c:

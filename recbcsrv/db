@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "输入要调试的源文件"
+read   line 
+clewn -va $line

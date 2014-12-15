@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUDIO_BUFFER_A	xmltmp.c	6;"	d	file:
+AUDIO_BUFFER_B	xmltmp.c	7;"	d	file:
+MXML_ADD_AFTER	mxml.h	64;"	d
+MXML_ADD_BEFORE	mxml.h	63;"	d
+MXML_ADD_TO_PARENT	mxml.h	65;"	d
+MXML_CUSTOM	mxml.h	/^  MXML_CUSTOM				\/* Custom data @since Mini-XML 2.1@ *\/$/;"	e	enum:mxml_type_e
+MXML_DESCEND	mxml.h	54;"	d
+MXML_DESCEND_FIRST	mxml.h	56;"	d
+MXML_ELEMENT	mxml.h	/^  MXML_ELEMENT,				\/* XML element with attributes *\/$/;"	e	enum:mxml_type_e
+MXML_IGNORE	mxml.h	/^  MXML_IGNORE = -1,			\/* Ignore\/throw away node @since Mini-XML 2.3@ *\/$/;"	e	enum:mxml_type_e
+MXML_IGNORE_CALLBACK	mxml.h	49;"	d
+MXML_INTEGER	mxml.h	/^  MXML_INTEGER,				\/* Integer value *\/$/;"	e	enum:mxml_type_e
+MXML_INTEGER_CALLBACK	mxml.h	42;"	d
+MXML_NO_CALLBACK	mxml.h	41;"	d
+MXML_NO_DESCEND	mxml.h	55;"	d
+MXML_NO_PARENT	mxml.h	52;"	d
+MXML_OPAQUE	mxml.h	/^  MXML_OPAQUE,				\/* Opaque string *\/$/;"	e	enum:mxml_type_e
+MXML_OPAQUE_CALLBACK	mxml.h	44;"	d
+MXML_REAL	mxml.h	/^  MXML_REAL,				\/* Real value *\/$/;"	e	enum:mxml_type_e
+MXML_REAL_CALLBACK	mxml.h	46;"	d
+MXML_SAX_CDATA	mxml.h	/^  MXML_SAX_CDATA,			\/* CDATA node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_COMMENT	mxml.h	/^  MXML_SAX_COMMENT,			\/* Comment node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_DATA	mxml.h	/^  MXML_SAX_DATA,			\/* Data node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_DIRECTIVE	mxml.h	/^  MXML_SAX_DIRECTIVE,			\/* Processing directive node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_ELEMENT_CLOSE	mxml.h	/^  MXML_SAX_ELEMENT_CLOSE,		\/* Element closed *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_ELEMENT_OPEN	mxml.h	/^  MXML_SAX_ELEMENT_OPEN			\/* Element opened *\/$/;"	e	enum:mxml_sax_event_e
+MXML_TAB	mxml.h	39;"	d
+MXML_TEXT	mxml.h	/^  MXML_TEXT,				\/* Text fragment *\/$/;"	e	enum:mxml_type_e
+MXML_TEXT_CALLBACK	mxml.h	48;"	d
+MXML_WS_AFTER_CLOSE	mxml.h	61;"	d
+MXML_WS_AFTER_OPEN	mxml.h	59;"	d
+MXML_WS_BEFORE_CLOSE	mxml.h	60;"	d
+MXML_WS_BEFORE_OPEN	mxml.h	58;"	d
+REGISTER_ADDRESS	xmltmp.c	72;"	d	file:
+SYS_CONFIG_FILE_NAME	xmltmp.c	4;"	d	file:
+_mxml_h_	mxml.h	22;"	d
+alloc_nodes	mxml.h	/^  int			alloc_nodes;	\/* Allocated nodes in index *\/$/;"	m	struct:mxml_index_s
+attr	mxml.h	/^  char			*attr;		\/* Attribute used for indexing or NULL *\/$/;"	m	struct:mxml_index_s
+attrs	mxml.h	/^  mxml_attr_t		*attrs;		\/* Attributes *\/$/;"	m	struct:mxml_element_s
+audio_equalizer_deal	xmltmp.c	/^void audio_equalizer_deal(t_reg_value *cfg_A, t_reg_value *cfg_B)$/;"	f
+audio_equalizer_init	xmltmp.c	/^void audio_equalizer_init(t_reg_value *cfg, char audio_buffer_type)$/;"	f
+audio_equalizer_load	xmltmp.c	/^int audio_equalizer_load(char *filename, t_reg_value *cfg, char flag)$/;"	f
+child	mxml.h	/^  struct mxml_node_s	*child;		\/* First child node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+cur_node	mxml.h	/^  int			cur_node;	\/* Current node *\/$/;"	m	struct:mxml_index_s
+custom	mxml.h	/^  mxml_custom_t		custom;		\/* Custom data @since Mini-XML 2.1@ *\/$/;"	m	union:mxml_value_u
+data	mxml.h	/^  void			*data;		\/* Pointer to (allocated) custom data *\/$/;"	m	struct:mxml_custom_s
+destroy	mxml.h	/^  mxml_custom_destroy_cb_t destroy;	\/* Pointer to destructor function *\/$/;"	m	struct:mxml_custom_s
+element	mxml.h	/^  mxml_element_t	element;	\/* Element *\/$/;"	m	union:mxml_value_u
+integer	mxml.h	/^  int			integer;	\/* Integer number *\/$/;"	m	union:mxml_value_u
+last_child	mxml.h	/^  struct mxml_node_s	*last_child;	\/* Last child node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+main	xmltmp.c	/^int main(int argc, char *argv[])$/;"	f
+mxml_attr_s	mxml.h	/^typedef struct mxml_attr_s		\/**** An XML element attribute value. @private@ ****\/$/;"	s
+mxml_attr_t	mxml.h	/^} mxml_attr_t;$/;"	t	typeref:struct:mxml_attr_s
+mxml_custom_destroy_cb_t	mxml.h	/^typedef void (*mxml_custom_destroy_cb_t)(void *);$/;"	t
+mxml_custom_load_cb_t	mxml.h	/^typedef int (*mxml_custom_load_cb_t)(mxml_node_t *, const char *);$/;"	t
+mxml_custom_s	mxml.h	/^typedef struct mxml_custom_s		\/**** An XML custom value. @private@ ****\/$/;"	s
+mxml_custom_save_cb_t	mxml.h	/^typedef char *(*mxml_custom_save_cb_t)(mxml_node_t *);  $/;"	t
+mxml_custom_t	mxml.h	/^} mxml_custom_t;$/;"	t	typeref:struct:mxml_custom_s
+mxml_element_s	mxml.h	/^typedef struct mxml_element_s		\/**** An XML element value. @private@ ****\/$/;"	s
+mxml_element_t	mxml.h	/^} mxml_element_t;$/;"	t	typeref:struct:mxml_element_s
+mxml_entity_cb_t	mxml.h	/^typedef int (*mxml_entity_cb_t)(const char *);$/;"	t
+mxml_error_cb_t	mxml.h	/^typedef void (*mxml_error_cb_t)(const char *);  $/;"	t
+mxml_index_s	mxml.h	/^struct mxml_index_s			 \/**** An XML node index. @private@ ****\/$/;"	s
+mxml_index_t	mxml.h	/^typedef struct mxml_index_s mxml_index_t;$/;"	t	typeref:struct:mxml_index_s
+mxml_load_cb_t	mxml.h	/^typedef mxml_type_t (*mxml_load_cb_t)(mxml_node_t *);$/;"	t
+mxml_node_s	mxml.h	/^struct mxml_node_s			\/**** An XML node. @private@ ****\/$/;"	s
+mxml_node_t	mxml.h	/^typedef struct mxml_node_s mxml_node_t;	\/**** An XML node. ****\/$/;"	t	typeref:struct:mxml_node_s
+mxml_save_cb_t	mxml.h	/^typedef const char *(*mxml_save_cb_t)(mxml_node_t *, int);$/;"	t
+mxml_sax_cb_t	mxml.h	/^typedef void (*mxml_sax_cb_t)(mxml_node_t *, mxml_sax_event_t, void *);  $/;"	t
+mxml_sax_event_e	mxml.h	/^typedef enum mxml_sax_event_e		\/**** SAX event type. ****\/$/;"	g
+mxml_sax_event_t	mxml.h	/^} mxml_sax_event_t;$/;"	t	typeref:enum:mxml_sax_event_e
+mxml_text_s	mxml.h	/^typedef struct mxml_text_s		\/**** An XML text value. @private@ ****\/$/;"	s
+mxml_text_t	mxml.h	/^} mxml_text_t;$/;"	t	typeref:struct:mxml_text_s
+mxml_type_e	mxml.h	/^typedef enum mxml_type_e		\/**** The XML node type. ****\/$/;"	g
+mxml_type_t	mxml.h	/^} mxml_type_t;$/;"	t	typeref:enum:mxml_type_e
+mxml_value_t	mxml.h	/^} mxml_value_t;$/;"	t	typeref:union:mxml_value_u
+mxml_value_u	mxml.h	/^typedef union mxml_value_u		\/**** An XML node value. @private@ ****\/$/;"	u
+name	mxml.h	/^  char			*name;		\/* Attribute name *\/$/;"	m	struct:mxml_attr_s
+name	mxml.h	/^  char			*name;		\/* Name of element *\/$/;"	m	struct:mxml_element_s
+next	mxml.h	/^  struct mxml_node_s	*next;		\/* Next node under same parent *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+nodes	mxml.h	/^  mxml_node_t		**nodes;	\/* Node array *\/$/;"	m	struct:mxml_index_s
+num_attrs	mxml.h	/^  int			num_attrs;	\/* Number of attributes *\/$/;"	m	struct:mxml_element_s
+num_nodes	mxml.h	/^  int			num_nodes;	\/* Number of nodes in index *\/$/;"	m	struct:mxml_index_s
+opaque	mxml.h	/^  char			*opaque;	\/* Opaque string *\/$/;"	m	union:mxml_value_u
+parent	mxml.h	/^  struct mxml_node_s	*parent;	\/* Parent node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+prev	mxml.h	/^  struct mxml_node_s	*prev;		\/* Previous node under same parent *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+real	mxml.h	/^  double		real;		\/* Real number *\/$/;"	m	union:mxml_value_u
+ref_count	mxml.h	/^  int			ref_count;	\/* Use count *\/$/;"	m	struct:mxml_node_s
+reg	xmltmp.c	/^	unsigned char reg;$/;"	m	struct:s_reg_value	file:
+s_reg_value	xmltmp.c	/^typedef struct s_reg_value{$/;"	s	file:
+string	mxml.h	/^  char			*string;	\/* Fragment string *\/$/;"	m	struct:mxml_text_s
+t_reg_value	xmltmp.c	/^}t_reg_value;$/;"	t	typeref:struct:s_reg_value	file:
+text	mxml.h	/^  mxml_text_t		text;		\/* Text fragment *\/$/;"	m	union:mxml_value_u
+type	mxml.h	/^  mxml_type_t		type;		\/* Node type *\/$/;"	m	struct:mxml_node_s
+user_data	mxml.h	/^  void			*user_data;	\/* User data *\/$/;"	m	struct:mxml_node_s
+value	mxml.h	/^  char			*value;		\/* Attribute value *\/$/;"	m	struct:mxml_attr_s
+value	mxml.h	/^  mxml_value_t		value;		\/* Node value *\/$/;"	m	struct:mxml_node_s
+value	xmltmp.c	/^	unsigned char value;$/;"	m	struct:s_reg_value	file:
+whitespace	mxml.h	/^  int			whitespace;	\/* Leading whitespace? *\/$/;"	m	struct:mxml_text_s

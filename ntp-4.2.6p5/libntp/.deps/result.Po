@@ -1,0 +1,149 @@
+result.o: ../lib/isc/result.c ../config.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+  ../lib/isc/include/isc/lib.h ../lib/isc/include/isc/types.h \
+  ../lib/isc/unix/include/isc/int.h ../lib/isc/unix/include/isc/offset.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/limits.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/syslimits.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h \
+  /opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+  ../lib/isc/include/isc/boolean.h ../lib/isc/include/isc/list.h \
+  ../lib/isc/include/isc/assertions.h ../lib/isc/include/isc/lang.h \
+  ../lib/isc/include/isc/platform.h ../lib/isc/include/isc/msgs.h \
+  ../lib/isc/include/isc/msgcat.h \
+  ../lib/isc/nothreads/include/isc/mutex.h \
+  ../lib/isc/include/isc/result.h ../lib/isc/nothreads/include/isc/once.h \
+  ../lib/isc/include/isc/resultclass.h ../lib/isc/include/isc/util.h \
+  ../lib/isc/include/isc/error.h \
+  /opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h \
+  ../lib/isc/include/isc/formatcheck.h
+
+../config.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+../lib/isc/include/isc/lib.h:
+
+../lib/isc/include/isc/types.h:
+
+../lib/isc/unix/include/isc/int.h:
+
+../lib/isc/unix/include/isc/offset.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/limits.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/syslimits.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h:
+
+/opt/arm-2009q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+../lib/isc/include/isc/boolean.h:
+
+../lib/isc/include/isc/list.h:
+
+../lib/isc/include/isc/assertions.h:
+
+../lib/isc/include/isc/lang.h:
+
+../lib/isc/include/isc/platform.h:
+
+../lib/isc/include/isc/msgs.h:
+
+../lib/isc/include/isc/msgcat.h:
+
+../lib/isc/nothreads/include/isc/mutex.h:
+
+../lib/isc/include/isc/result.h:
+
+../lib/isc/nothreads/include/isc/once.h:
+
+../lib/isc/include/isc/resultclass.h:
+
+../lib/isc/include/isc/util.h:
+
+../lib/isc/include/isc/error.h:
+
+/opt/arm-2009q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h:
+
+../lib/isc/include/isc/formatcheck.h:
